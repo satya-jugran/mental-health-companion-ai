@@ -1,10 +1,10 @@
-from google.labs.adk import Agent
-from google.labs.adk.model import Model
+from google.adk import Agent
+from google.adk.models import Model
 from ..tools.mood_tools import log_mood_tool
 
 # Define the Mood Tracker Agent
 mood_tracker_agent = Agent(
-    model=Model(model_name="gemini-2.0-flash-exp"),
+    model=Model(model_name="gemini-2.0-flash"),
     tools=[log_mood_tool],
     instruction="""
     You are a compassionate mood tracking assistant. Your goal is to gently ask the user about their day, 

@@ -1,5 +1,5 @@
 from typing import List, Dict, Any
-from google.labs.adk.tools import FunctionTool
+from google.adk.tools import FunctionTool
 from ..utils.database import DatabaseManager
 
 def retrieve_strategy(emotion: str, intensity: int = 5) -> str:

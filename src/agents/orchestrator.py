@@ -1,12 +1,12 @@
-from google.labs.adk import Agent
-from google.labs.adk.model import Model
+from google.adk import Agent
+from google.adk.models import Model
 from .mood_agent import mood_tracker_agent
 from .support_agent import support_agent
 
 # Define the Orchestrator Agent
 # This agent analyzes the user's intent and routes to the appropriate specialist.
 orchestrator_agent = Agent(
-    model=Model(model_name="gemini-2.0-flash-exp"),
+    model=Model(model_name="gemini-2.0-flash"),
     # We provide the other agents as tools/delegates
     # Note: In a full ADK implementation, we might use a specific Router class,
     # but for this MVP, we'll use a standard agent that can call others.
