@@ -1,0 +1,6881 @@
+
+
+==================================================
+SOURCE: https://google.github.io/adk-docs/tools/built-in-tools/
+==================================================
+
+
+
+    adk-python
+
+    adk-go
+
+    adk-java
+
+- 
+
+    Home
+
+            Home
+
+- 
+
+    Build Agents
+
+            Build Agents
+
+- 
+
+    Get Started
+
+            Get Started
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Java
+
+- 
+
+    Build your Agent
+
+            Build your Agent
+
+- 
+
+    Multi-tool agent
+
+- 
+
+    Agent team
+
+- 
+
+    Streaming agent
+
+            Streaming agent
+
+- 
+
+    Python
+
+- 
+
+    Java
+
+- 
+
+    Visual Builder
+
+- 
+
+    Advanced setup
+
+- 
+
+    Agents
+
+            Agents
+
+- 
+
+    LLM agents
+
+- 
+
+    Workflow agents
+
+            Workflow agents
+
+- 
+
+    Sequential agents
+
+- 
+
+    Loop agents
+
+- 
+
+    Parallel agents
+
+- 
+
+    Custom agents
+
+- 
+
+    Multi-agent systems
+
+- 
+
+    Agent Config
+
+- 
+
+    Models & Authentication
+
+- 
+
+    Tools for Agents
+
+            Tools for Agents
+
+- 
+
+    Built-in tools
+
+    Built-in tools
+
+      Table of contents
+
+- 
+
+      How to Use
+
+- 
+
+      Available Built-in tools
+
+- 
+
+      Google Search
+
+- 
+
+      Code Execution
+
+- 
+
+      GKE Code Executor
+
+- 
+
+      How it Works
+
+- 
+
+      Key Benefits
+
+- 
+
+      System requirements
+
+- 
+
+      Configuration parameters
+
+- 
+
+      Vertex AI RAG Engine
+
+- 
+
+      Vertex AI Search
+
+- 
+
+      BigQuery
+
+- 
+
+      Spanner
+
+- 
+
+      Bigtable
+
+- 
+
+      Use Built-in tools with other tools
+
+- 
+
+      Limitations
+
+- 
+
+    Gemini API tools
+
+            Gemini API tools
+
+- 
+
+    Computer use
+
+- 
+
+    Google Cloud tools
+
+            Google Cloud tools
+
+- 
+
+    Overview
+
+- 
+
+    MCP Toolbox for Databases
+
+- 
+
+    BigQuery Agent Analytics
+
+- 
+
+    Code Execution with Agent Engine
+
+- 
+
+    Third-party tools
+
+            Third-party tools
+
+- 
+
+    AgentQL
+
+- 
+
+    Bright Data
+
+- 
+
+    Browserbase
+
+- 
+
+    Exa
+
+- 
+
+    Firecrawl
+
+- 
+
+    GitHub
+
+- 
+
+    GitLab
+
+- 
+
+    Hugging Face
+
+- 
+
+    Notion
+
+- 
+
+    ScrapeGraphAI
+
+- 
+
+    Tavily
+
+- 
+
+    Agentic UI (AG-UI)
+
+- 
+
+    Custom Tools
+
+            Custom Tools
+
+- 
+
+    Function tools
+
+            Function tools
+
+- 
+
+    Overview
+
+- 
+
+    Tool performance
+
+- 
+
+    Action confirmations
+
+- 
+
+    MCP tools
+
+- 
+
+    OpenAPI tools
+
+- 
+
+    Authentication
+
+- 
+
+    Run Agents
+
+            Run Agents
+
+- 
+
+    Agent Runtime
+
+            Agent Runtime
+
+- 
+
+    Runtime Config
+
+- 
+
+    API Server
+
+- 
+
+    Resume Agents
+
+- 
+
+    Deployment
+
+            Deployment
+
+- 
+
+    Agent Engine
+
+- 
+
+    Cloud Run
+
+- 
+
+    GKE
+
+- 
+
+    Observability
+
+            Observability
+
+- 
+
+    Logging
+
+- 
+
+    Cloud Trace
+
+- 
+
+    AgentOps
+
+- 
+
+    Arize AX
+
+- 
+
+    Freeplay
+
+- 
+
+    Monocle
+
+- 
+
+    Phoenix
+
+- 
+
+    W&B Weave
+
+- 
+
+    Evaluation
+
+            Evaluation
+
+- 
+
+    Criteria
+
+- 
+
+    User Simulation
+
+- 
+
+    Safety and Security
+
+            Safety and Security
+
+- 
+
+    Components
+
+            Components
+
+- 
+
+    Technical Overview
+
+- 
+
+    Context
+
+            Context
+
+- 
+
+    Context caching
+
+- 
+
+    Context compression
+
+- 
+
+    Sessions & Memory
+
+            Sessions & Memory
+
+- 
+
+    Session
+
+- 
+
+    State
+
+- 
+
+    Memory
+
+- 
+
+    Vertex AI Express Mode
+
+- 
+
+    Callbacks
+
+            Callbacks
+
+- 
+
+    Types of callbacks
+
+- 
+
+    Callback patterns
+
+- 
+
+    Artifacts
+
+            Artifacts
+
+- 
+
+    Events
+
+            Events
+
+- 
+
+    Apps
+
+            Apps
+
+- 
+
+    Plugins
+
+            Plugins
+
+- 
+
+    Reflect and retry
+
+- 
+
+    MCP
+
+            MCP
+
+- 
+
+    A2A Protocol
+
+            A2A Protocol
+
+- 
+
+    Introduction to A2A
+
+- 
+
+    A2A Quickstart (Exposing)
+
+            A2A Quickstart (Exposing)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    A2A Quickstart (Consuming)
+
+            A2A Quickstart (Consuming)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Bidi-streaming (live)
+
+            Bidi-streaming (live)
+
+- 
+
+    Custom Audio Bidi-streaming app sample (WebSockets)
+
+- 
+
+    Bidi-streaming development guide series
+
+            Bidi-streaming development guide series
+
+- 
+
+    Part 1, Intro to streaming
+
+- 
+
+    Part 2, Sending messages
+
+- 
+
+    Part 3, Event handling
+
+- 
+
+    Part 4, Run configuration
+
+- 
+
+    Part 5, Audio, Images, and Video
+
+- 
+
+    Streaming Tools
+
+- 
+
+    Configurating Bidi-streaming behaviour
+
+- 
+
+    Grounding
+
+            Grounding
+
+- 
+
+    Understanding Google Search Grounding
+
+- 
+
+    Understanding Vertex AI Search Grounding
+
+- 
+
+    Reference
+
+            Reference
+
+- 
+
+    Release Notes
+
+- 
+
+    API Reference
+
+            API Reference
+
+- 
+
+    Python ADK
+
+- 
+
+    Go ADK
+
+- 
+
+    Java ADK
+
+- 
+
+    CLI Reference
+
+- 
+
+    Agent Config Reference
+
+- 
+
+    REST API
+
+- 
+
+    Community Resources
+
+- 
+
+    Contributing Guide
+
+      Table of contents
+
+- 
+
+      How to Use
+
+- 
+
+      Available Built-in tools
+
+- 
+
+      Google Search
+
+- 
+
+      Code Execution
+
+- 
+
+      GKE Code Executor
+
+- 
+
+      How it Works
+
+- 
+
+      Key Benefits
+
+- 
+
+      System requirements
+
+- 
+
+      Configuration parameters
+
+- 
+
+      Vertex AI RAG Engine
+
+- 
+
+      Vertex AI Search
+
+- 
+
+      BigQuery
+
+- 
+
+      Spanner
+
+- 
+
+      Bigtable
+
+- 
+
+      Use Built-in tools with other tools
+
+- 
+
+      Limitations
+
+# H1: Built-in tools¶
+
+These built-in tools provide ready-to-use functionality such as Google Search or
+code executors that provide agents with common capabilities. For instance, an
+agent that needs to retrieve information from the web can directly use the
+google_search tool without any additional setup.
+
+# H2: How to Use¶
+
+- Import: Import the desired tool from the tools module. This is `agents.tools` in Python, `google.golang.org/adk/tool/geminitool` in Go, or `com.google.adk.tools` in Java.
+
+- Configure: Initialize the tool, providing required parameters if any.
+
+- Register: Add the initialized tool to the tools list of your Agent.
+
+Once added to an agent, the agent can decide to use the tool based on the user
+prompt and its instructions. The framework handles the execution of the
+tool when the agent calls it. Important: check the Limitations section of this page.
+
+# H2: Available Built-in tools¶
+
+Note: Go supports the Google Search tool and other built-in tools via the `geminitool` package.
+Note: Java only supports Google Search and Code Execution tools currently.
+
+# H3: Google Search¶
+
+  Supported in ADKPython v0.1.0Go v0.1.0Java v0.2.0
+
+The `google_search` tool allows the agent to perform web searches using Google Search. The `google_search` tool is only compatible with Gemini 2 models. For further details of the tool, see Understanding Google Search grounding.
+
+Additional requirements when using the `google_search` tool
+
+When you use grounding with Google Search, and you receive Search suggestions in your response, you must display the Search suggestions in production and in your applications.
+For more information on grounding with Google Search, see Grounding with Google Search documentation for Google AI Studio or Vertex AI. The UI code (HTML) is returned in the Gemini response as `renderedContent`, and you will need to show the HTML in your app, in accordance with the policy.
+
+PythonGoJava
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+from google.adk.agents import Agent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.tools import google_search
+from google.genai import types
+
+APP_NAME="google_search_agent"
+USER_ID="user1234"
+SESSION_ID="1234"
+
+root_agent = Agent(
+    name="basic_search_agent",
+    model="gemini-2.0-flash",
+    description="Agent to answer questions using Google Search.",
+    instruction="I can answer your questions by searching the internet. Just ask me anything!",
+    # google_search is a pre-built tool which allows the agent to perform Google searches.
+    tools=[google_search]
+)
+
+# Session and Runner
+async def setup_session_and_runner():
+    session_service = InMemorySessionService()
+    session = await session_service.create_session(app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID)
+    runner = Runner(agent=root_agent, app_name=APP_NAME, session_service=session_service)
+    return session, runner
+
+# Agent Interaction
+async def call_agent_async(query):
+    content = types.Content(role='user', parts=[types.Part(text=query)])
+    session, runner = await setup_session_and_runner()
+    events = runner.run_async(user_id=USER_ID, session_id=SESSION_ID, new_message=content)
+
+    async for event in events:
+        if event.is_final_response():
+            final_response = event.content.parts[0].text
+            print("Agent Response: ", final_response)
+
+# Note: In Colab, you can directly use 'await' at the top level.
+# If running this code as a standalone Python script, you'll need to use asyncio.run() or manage the event loop.
+await call_agent_async("what's the latest ai news?")
+
+```
+
+```
+// Copyright 2025 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package main
+
+import (
+    "context"
+    "fmt"
+    "log"
+
+    "google.golang.org/adk/agent"
+    "google.golang.org/adk/agent/llmagent"
+    "google.golang.org/adk/model/gemini"
+    "google.golang.org/adk/runner"
+    "google.golang.org/adk/session"
+    "google.golang.org/adk/tool"
+    "google.golang.org/adk/tool/geminitool"
+    "google.golang.org/genai"
+)
+
+func createSearchAgent(ctx context.Context) (agent.Agent, error) {
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+    if err != nil {
+        return nil, fmt.Errorf("failed to create model: %v", err)
+    }
+
+    return llmagent.New(llmagent.Config{
+        Name:        "basic_search_agent",
+        Model:       model,
+        Description: "Agent to answer questions using Google Search.",
+        Instruction: "I can answer your questions by searching the web. Just ask me anything!",
+        Tools:       []tool.Tool{geminitool.GoogleSearch{}},
+    })
+}
+
+const (
+    userID  = "user1234"
+    appName = "Google Search_agent"
+)
+
+func callAgent(ctx context.Context, a agent.Agent, prompt string) error {
+    sessionService := session.InMemoryService()
+    session, err := sessionService.Create(ctx, &session.CreateRequest{
+        AppName: appName,
+        UserID:  userID,
+    })
+    if err != nil {
+        return fmt.Errorf("failed to create the session service: %v", err)
+    }
+
+    config := runner.Config{
+        AppName:        appName,
+        Agent:          a,
+        SessionService: sessionService,
+    }
+    r, err := runner.New(config)
+    if err != nil {
+        return fmt.Errorf("failed to create the runner: %v", err)
+    }
+
+    sessionID := session.Session.ID()
+    userMsg := &genai.Content{
+        Parts: []*genai.Part{{Text: prompt}},
+        Role:  string(genai.RoleUser),
+    }
+
+    // The r.Run method streams events and errors.
+    // The loop iterates over the results, handling them as they arrive.
+    for event, err := range r.Run(ctx, userID, sessionID, userMsg, agent.RunConfig{
+        StreamingMode: agent.StreamingModeSSE,
+    }) {
+        if err != nil {
+            fmt.Printf("\nAGENT_ERROR: %v\n", err)
+        } else if event.Partial {
+            for _, p := range event.LLMResponse.Content.Parts {
+                fmt.Print(p.Text)
+            }
+        }
+    }
+    return nil
+}
+
+func main() {
+    agent, err := createSearchAgent(context.Background())
+    if err != nil {
+        log.Fatalf("Failed to create agent: %v", err)
+    }
+    fmt.Println("Agent created:", agent.Name())
+    prompt := "what's the latest ai news?"
+    fmt.Printf("\nPrompt: %s\nResponse: ", prompt)
+    if err := callAgent(context.Background(), agent, prompt); err != nil {
+        log.Fatalf("Error calling agent: %v", err)
+    }
+    fmt.Println("\n---")
+}
+
+```
+
+```
+import com.google.adk.agents.BaseAgent;
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.runner.Runner;
+import com.google.adk.sessions.InMemorySessionService;
+import com.google.adk.sessions.Session;
+import com.google.adk.tools.GoogleSearchTool;
+import com.google.common.collect.ImmutableList;
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+
+public class GoogleSearchAgentApp {
+
+  private static final String APP_NAME = "Google Search_agent";
+  private static final String USER_ID = "user1234";
+  private static final String SESSION_ID = "1234";
+
+  /**
+   * Calls the agent with the given query and prints the final response.
+   *
+   * @param runner The runner to use.
+   * @param query The query to send to the agent.
+   */
+  public static void callAgent(Runner runner, String query) {
+    Content content =
+        Content.fromParts(Part.fromText(query));
+
+    InMemorySessionService sessionService = (InMemorySessionService) runner.sessionService();
+    Session session =
+        sessionService
+            .createSession(APP_NAME, USER_ID, /* state= */ null, SESSION_ID)
+            .blockingGet();
+
+    runner
+        .runAsync(session.userId(), session.id(), content)
+        .forEach(
+            event -> {
+              if (event.finalResponse()
+                  && event.content().isPresent()
+                  && event.content().get().parts().isPresent()
+                  && !event.content().get().parts().get().isEmpty()
+                  && event.content().get().parts().get().get(0).text().isPresent()) {
+                String finalResponse = event.content().get().parts().get().get(0).text().get();
+                System.out.println("Agent Response: " + finalResponse);
+              }
+            });
+  }
+
+  public static void main(String[] args) {
+    // Google Search is a pre-built tool which allows the agent to perform Google searches.
+    GoogleSearchTool googleSearchTool = new GoogleSearchTool();
+
+    BaseAgent rootAgent =
+        LlmAgent.builder()
+            .name("basic_search_agent")
+            .model("gemini-2.0-flash") // Ensure to use a Gemini 2.0 model for Google Search Tool
+            .description("Agent to answer questions using Google Search.")
+            .instruction(
+                "I can answer your questions by searching the internet. Just ask me anything!")
+            .tools(ImmutableList.of(googleSearchTool))
+            .build();
+
+    // Session and Runner
+    InMemorySessionService sessionService = new InMemorySessionService();
+    Runner runner = new Runner(rootAgent, APP_NAME, null, sessionService);
+
+    // Agent Interaction
+    callAgent(runner, "what's the latest ai news?");
+  }
+}
+
+```
+
+# H3: Code Execution¶
+
+  Supported in ADKPython v0.1.0Java v0.2.0
+
+The `built_in_code_execution` tool enables the agent to execute code,
+specifically when using Gemini 2 models. This allows the model to perform tasks
+like calculations, data manipulation, or running small scripts.
+PythonJava
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import asyncio
+from google.adk.agents import LlmAgent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.code_executors import BuiltInCodeExecutor
+from google.genai import types
+
+AGENT_NAME = "calculator_agent"
+APP_NAME = "calculator"
+USER_ID = "user1234"
+SESSION_ID = "session_code_exec_async"
+GEMINI_MODEL = "gemini-2.0-flash"
+
+# Agent Definition
+code_agent = LlmAgent(
+    name=AGENT_NAME,
+    model=GEMINI_MODEL,
+    code_executor=BuiltInCodeExecutor(),
+    instruction="""You are a calculator agent.
+    When given a mathematical expression, write and execute Python code to calculate the result.
+    Return only the final numerical result as plain text, without markdown or code blocks.
+    """,
+    description="Executes Python code to perform calculations.",
+)
+
+# Session and Runner
+session_service = InMemorySessionService()
+session = asyncio.run(session_service.create_session(
+    app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID
+))
+runner = Runner(agent=code_agent, app_name=APP_NAME,
+                session_service=session_service)
+
+# Agent Interaction (Async)
+async def call_agent_async(query):
+    content = types.Content(role="user", parts=[types.Part(text=query)])
+    print(f"\n--- Running Query: {query} ---")
+    final_response_text = "No final text response captured."
+    try:
+        # Use run_async
+        async for event in runner.run_async(
+            user_id=USER_ID, session_id=SESSION_ID, new_message=content
+        ):
+            print(f"Event ID: {event.id}, Author: {event.author}")
+
+            # --- Check for specific parts FIRST ---
+            has_specific_part = False
+            if event.content and event.content.parts:
+                for part in event.content.parts:  # Iterate through all parts
+                    if part.executable_code:
+                        # Access the actual code string via .code
+                        print(
+                            f"  Debug: Agent generated code:\n```python\n{part.executable_code.code}\n```"
+                        )
+                        has_specific_part = True
+                    elif part.code_execution_result:
+                        # Access outcome and output correctly
+                        print(
+                            f"  Debug: Code Execution Result: {part.code_execution_result.outcome} - Output:\n{part.code_execution_result.output}"
+                        )
+                        has_specific_part = True
+                    # Also print any text parts found in any event for debugging
+                    elif part.text and not part.text.isspace():
+                        print(f"  Text: '{part.text.strip()}'")
+                        # Do not set has_specific_part=True here, as we want the final response logic below
+
+            # --- Check for final response AFTER specific parts ---
+            # Only consider it final if it doesn't have the specific code parts we just handled
+            if not has_specific_part and event.is_final_response():
+                if (
+                    event.content
+                    and event.content.parts
+                    and event.content.parts[0].text
+                ):
+                    final_response_text = event.content.parts[0].text.strip()
+                    print(f"==> Final Agent Response: {final_response_text}")
+                else:
+                    print(
+                        "==> Final Agent Response: [No text content in final event]")
+
+    except Exception as e:
+        print(f"ERROR during agent run: {e}")
+    print("-" * 30)
+
+# Main async function to run the examples
+async def main():
+    await call_agent_async("Calculate the value of (5 + 7) * 3")
+    await call_agent_async("What is 10 factorial?")
+
+# Execute the main async function
+try:
+    asyncio.run(main())
+except RuntimeError as e:
+    # Handle specific error when running asyncio.run in an already running loop (like Jupyter/Colab)
+    if "cannot be called from a running event loop" in str(e):
+        print("\nRunning in an existing event loop (like Colab/Jupyter).")
+        print("Please run `await main()` in a notebook cell instead.")
+        # If in an interactive environment like a notebook, you might need to run:
+        # await main()
+    else:
+        raise e  # Re-raise other runtime errors
+
+```
+
+```
+import com.google.adk.agents.BaseAgent;
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.runner.Runner;
+import com.google.adk.sessions.InMemorySessionService;
+import com.google.adk.sessions.Session;
+import com.google.adk.tools.BuiltInCodeExecutionTool;
+import com.google.common.collect.ImmutableList;
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+
+public class CodeExecutionAgentApp {
+
+  private static final String AGENT_NAME = "calculator_agent";
+  private static final String APP_NAME = "calculator";
+  private static final String USER_ID = "user1234";
+  private static final String SESSION_ID = "session_code_exec_sync";
+  private static final String GEMINI_MODEL = "gemini-2.0-flash";
+
+  /**
+   * Calls the agent with a query and prints the interaction events and final response.
+   *
+   * @param runner The runner instance for the agent.
+   * @param query The query to send to the agent.
+   */
+  public static void callAgent(Runner runner, String query) {
+    Content content =
+        Content.builder().role("user").parts(ImmutableList.of(Part.fromText(query))).build();
+
+    InMemorySessionService sessionService = (InMemorySessionService) runner.sessionService();
+    Session session =
+        sessionService
+            .createSession(APP_NAME, USER_ID, /* state= */ null, SESSION_ID)
+            .blockingGet();
+
+    System.out.println("\n--- Running Query: " + query + " ---");
+    final String[] finalResponseText = {"No final text response captured."};
+
+    try {
+      runner
+          .runAsync(session.userId(), session.id(), content)
+          .forEach(
+              event -> {
+                System.out.println("Event ID: " + event.id() + ", Author: " + event.author());
+
+                boolean hasSpecificPart = false;
+                if (event.content().isPresent() && event.content().get().parts().isPresent()) {
+                  for (Part part : event.content().get().parts().get()) {
+                    if (part.executableCode().isPresent()) {
+                      System.out.println(
+                          "  Debug: Agent generated code:\n```python\n"
+                              + part.executableCode().get().code()
+                              + "\n```");
+                      hasSpecificPart = true;
+                    } else if (part.codeExecutionResult().isPresent()) {
+                      System.out.println(
+                          "  Debug: Code Execution Result: "
+                              + part.codeExecutionResult().get().outcome()
+                              + " - Output:\n"
+                              + part.codeExecutionResult().get().output());
+                      hasSpecificPart = true;
+                    } else if (part.text().isPresent() && !part.text().get().trim().isEmpty()) {
+                      System.out.println("  Text: '" + part.text().get().trim() + "'");
+                    }
+                  }
+                }
+
+                if (!hasSpecificPart && event.finalResponse()) {
+                  if (event.content().isPresent()
+                      && event.content().get().parts().isPresent()
+                      && !event.content().get().parts().get().isEmpty()
+                      && event.content().get().parts().get().get(0).text().isPresent()) {
+                    finalResponseText[0] =
+                        event.content().get().parts().get().get(0).text().get().trim();
+                    System.out.println("==> Final Agent Response: " + finalResponseText[0]);
+                  } else {
+                    System.out.println(
+                        "==> Final Agent Response: [No text content in final event]");
+                  }
+                }
+              });
+    } catch (Exception e) {
+      System.err.println("ERROR during agent run: " + e.getMessage());
+      e.printStackTrace();
+    }
+    System.out.println("------------------------------");
+  }
+
+  public static void main(String[] args) {
+    BuiltInCodeExecutionTool codeExecutionTool = new BuiltInCodeExecutionTool();
+
+    BaseAgent codeAgent =
+        LlmAgent.builder()
+            .name(AGENT_NAME)
+            .model(GEMINI_MODEL)
+            .tools(ImmutableList.of(codeExecutionTool))
+            .instruction(
+                """
+                                You are a calculator agent.
+                                When given a mathematical expression, write and execute Python code to calculate the result.
+                                Return only the final numerical result as plain text, without markdown or code blocks.
+                                """)
+            .description("Executes Python code to perform calculations.")
+            .build();
+
+    InMemorySessionService sessionService = new InMemorySessionService();
+    Runner runner = new Runner(codeAgent, APP_NAME, null, sessionService);
+
+    callAgent(runner, "Calculate the value of (5 + 7) * 3");
+    callAgent(runner, "What is 10 factorial?");
+  }
+}
+
+```
+
+# H3: GKE Code Executor¶
+
+  Supported in ADKPython v1.14.0
+
+The GKE Code Executor (`GkeCodeExecutor`) provides a secure and scalable method
+for running LLM-generated code by leveraging the GKE (Google Kubernetes Engine)
+Sandbox environment, which uses gVisor for workload isolation. For each code
+execution request, it dynamically creates an ephemeral, sandboxed Kubernetes Job
+with a hardened Pod configuration. You should use this executor for production
+environments on GKE where security and isolation are critical.
+
+# H4: How it Works¶
+
+When a request to execute code is made, the `GkeCodeExecutor` performs the following steps:
+
+- Creates a ConfigMap: A Kubernetes ConfigMap is created to store the Python code that needs to be executed.
+
+- Creates a Sandboxed Pod: A new Kubernetes Job is created, which in turn creates a Pod with a hardened security context and the gVisor runtime enabled. The code from the ConfigMap is mounted into this Pod.
+
+- Executes the Code: The code is executed within the sandboxed Pod, isolated from the underlying node and other workloads.
+
+- Retrieves the Result: The standard output and error streams from the execution are captured from the Pod's logs.
+
+- Cleans Up Resources: Once the execution is complete, the Job and the associated ConfigMap are automatically deleted, ensuring that no artifacts are left behind.
+
+# H4: Key Benefits¶
+
+- Enhanced Security: Code is executed in a gVisor-sandboxed environment with kernel-level isolation.
+
+- Ephemeral Environments: Each code execution runs in its own ephemeral Pod, to prevent state transfer between executions.
+
+- Resource Control: You can configure CPU and memory limits for the execution Pods to prevent resource abuse.
+
+- Scalability: Allows you to run a large number of code executions in parallel, with GKE handling the scheduling and scaling of the underlying nodes.
+
+# H4: System requirements¶
+
+The following requirements must be met to successfully deploy your ADK project
+with the GKE Code Executor tool:
+
+- GKE cluster with a gVisor-enabled node pool.
+
+- Agent's service account requires specific RBAC permissions, which allow it to:
+
+- Create, watch, and delete Jobs for each execution request.
+
+- Manage ConfigMaps to inject code into the Job's pod.
+
+- List Pods and read their logs to retrieve the execution result
+
+- Install the client library with GKE extras: `pip install google-adk[gke]`
+
+For a complete, ready-to-use configuration, see the 
+deployment_rbac.yaml
+sample. For more information on deploying ADK workflows to GKE, see
+Deploy to Google Kubernetes Engine (GKE).
+Python
+
+```
+from google.adk.agents import LlmAgent
+from google.adk.code_executors import GkeCodeExecutor
+
+# Initialize the executor, targeting the namespace where its ServiceAccount
+# has the required RBAC permissions.
+# This example also sets a custom timeout and resource limits.
+gke_executor = GkeCodeExecutor(
+    namespace="agent-sandbox",
+    timeout_seconds=600,
+    cpu_limit="1000m",  # 1 CPU core
+    mem_limit="1Gi",
+)
+
+# The agent now uses this executor for any code it generates.
+gke_agent = LlmAgent(
+    name="gke_coding_agent",
+    model="gemini-2.0-flash",
+    instruction="You are a helpful AI agent that writes and executes Python code.",
+    code_executor=gke_executor,
+)
+
+```
+
+# H4: Configuration parameters¶
+
+The `GkeCodeExecutor` can be configured with the following parameters:
+
+Parameter
+Type
+Description
+
+`namespace`
+`str`
+Kubernetes namespace where the execution Jobs will be created. Defaults to `"default"`.
+
+`image`
+`str`
+Container image to use for the execution Pod. Defaults to `"python:3.11-slim"`.
+
+`timeout_seconds`
+`int`
+Timeout in seconds for the code execution. Defaults to `300`.
+
+`cpu_requested`
+`str`
+Amount of CPU to request for the execution Pod. Defaults to `"200m"`.
+
+`mem_requested`
+`str`
+Amount of memory to request for the execution Pod. Defaults to `"256Mi"`.
+
+`cpu_limit`
+`str`
+Maximum amount of CPU the execution Pod can use. Defaults to `"500m"`.
+
+`mem_limit`
+`str`
+Maximum amount of memory the execution Pod can use. Defaults to `"512Mi"`.
+
+`kubeconfig_path`
+`str`
+Path to a kubeconfig file to use for authentication. Falls back to in-cluster config or the default local kubeconfig.
+
+`kubeconfig_context`
+`str`
+The `kubeconfig` context to use.
+
+# H3: Vertex AI RAG Engine¶
+
+  Supported in ADKPython v0.1.0Java v0.2.0
+
+The `vertex_ai_rag_retrieval` tool allows the agent to perform private data retrieval using Vertex
+AI RAG Engine.
+
+When you use grounding with Vertex AI RAG Engine, you need to prepare a RAG corpus before hand.
+Please refer to the RAG ADK agent sample or Vertex AI RAG Engine page for setting it up.
+Python
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import os
+
+from google.adk.agents import Agent
+from google.adk.tools.retrieval.vertex_ai_rag_retrieval import VertexAiRagRetrieval
+from vertexai.preview import rag
+
+from dotenv import load_dotenv
+from .prompts import return_instructions_root
+
+load_dotenv()
+
+ask_vertex_retrieval = VertexAiRagRetrieval(
+    name='retrieve_rag_documentation',
+    description=(
+        'Use this tool to retrieve documentation and reference materials for the question from the RAG corpus,'
+    ),
+    rag_resources=[
+        rag.RagResource(
+            # please fill in your own rag corpus
+            # here is a sample rag corpus for testing purpose
+            # e.g. projects/123/locations/us-central1/ragCorpora/456
+            rag_corpus=os.environ.get("RAG_CORPUS")
+        )
+    ],
+    similarity_top_k=10,
+    vector_distance_threshold=0.6,
+)
+
+root_agent = Agent(
+    model='gemini-2.0-flash-001',
+    name='ask_rag_agent',
+    instruction=return_instructions_root(),
+    tools=[
+        ask_vertex_retrieval,
+    ]
+)
+
+```
+
+# H3: Vertex AI Search¶
+
+  Supported in ADKPython v0.1.0
+
+The `vertex_ai_search_tool` uses Google Cloud Vertex AI Search, enabling the
+agent to search across your private, configured data stores (e.g., internal
+documents, company policies, knowledge bases). This built-in tool requires you
+to provide the specific data store ID during configuration. For further details of the tool, see Understanding Vertex AI Search grounding.
+
+```
+# Copyright 2024 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import asyncio
+
+from google.adk.agents import LlmAgent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.genai import types
+from google.adk.tools import VertexAiSearchTool
+
+# Replace with your Vertex AI Search Datastore ID, and respective region (e.g. us-central1 or global).
+# Format: projects/<PROJECT_ID>/locations/<REGION>/collections/default_collection/dataStores/<DATASTORE_ID>
+DATASTORE_PATH = "DATASTORE_PATH_HERE"
+
+# Constants
+APP_NAME_VSEARCH = "vertex_search_app"
+USER_ID_VSEARCH = "user_vsearch_1"
+SESSION_ID_VSEARCH = "session_vsearch_1"
+AGENT_NAME_VSEARCH = "doc_qa_agent"
+GEMINI_2_FLASH = "gemini-2.0-flash"
+
+# Tool Instantiation
+# You MUST provide your datastore ID here.
+vertex_search_tool = VertexAiSearchTool(data_store_id=DATASTORE_PATH)
+
+# Agent Definition
+doc_qa_agent = LlmAgent(
+    name=AGENT_NAME_VSEARCH,
+    model=GEMINI_2_FLASH, # Requires Gemini model
+    tools=[vertex_search_tool],
+    instruction=f"""You are a helpful assistant that answers questions based on information found in the document store: {DATASTORE_PATH}.
+    Use the search tool to find relevant information before answering.
+    If the answer isn't in the documents, say that you couldn't find the information.
+    """,
+    description="Answers questions using a specific Vertex AI Search datastore.",
+)
+
+# Session and Runner Setup
+session_service_vsearch = InMemorySessionService()
+runner_vsearch = Runner(
+    agent=doc_qa_agent, app_name=APP_NAME_VSEARCH, session_service=session_service_vsearch
+)
+session_vsearch = session_service_vsearch.create_session(
+    app_name=APP_NAME_VSEARCH, user_id=USER_ID_VSEARCH, session_id=SESSION_ID_VSEARCH
+)
+
+# Agent Interaction Function
+async def call_vsearch_agent_async(query):
+    print("\n--- Running Vertex AI Search Agent ---")
+    print(f"Query: {query}")
+    if "DATASTORE_PATH_HERE" in DATASTORE_PATH:
+        print("Skipping execution: Please replace DATASTORE_PATH_HERE with your actual datastore ID.")
+        print("-" * 30)
+        return
+
+    content = types.Content(role='user', parts=[types.Part(text=query)])
+    final_response_text = "No response received."
+    try:
+        async for event in runner_vsearch.run_async(
+            user_id=USER_ID_VSEARCH, session_id=SESSION_ID_VSEARCH, new_message=content
+        ):
+            # Like Google Search, results are often embedded in the model's response.
+            if event.is_final_response() and event.content and event.content.parts:
+                final_response_text = event.content.parts[0].text.strip()
+                print(f"Agent Response: {final_response_text}")
+                # You can inspect event.grounding_metadata for source citations
+                if event.grounding_metadata:
+                    print(f"  (Grounding metadata found with {len(event.grounding_metadata.grounding_attributions)} attributions)")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        print("Ensure your datastore ID is correct and the service account has permissions.")
+    print("-" * 30)
+
+# --- Run Example ---
+async def run_vsearch_example():
+    # Replace with a question relevant to YOUR datastore content
+    await call_vsearch_agent_async("Summarize the main points about the Q2 strategy document.")
+    await call_vsearch_agent_async("What safety procedures are mentioned for lab X?")
+
+# Execute the example
+# await run_vsearch_example()
+
+# Running locally due to potential colab asyncio issues with multiple awaits
+try:
+    asyncio.run(run_vsearch_example())
+except RuntimeError as e:
+    if "cannot be called from a running event loop" in str(e):
+        print("Skipping execution in running event loop (like Colab/Jupyter). Run locally.")
+    else:
+        raise e
+
+```
+
+# H3: BigQuery¶
+
+  Supported in ADKPython v1.1.0
+
+These are a set of tools aimed to provide integration with BigQuery, namely:
+
+- `list_dataset_ids`: Fetches BigQuery dataset ids present in a GCP project.
+
+- `get_dataset_info`: Fetches metadata about a BigQuery dataset.
+
+- `list_table_ids`: Fetches table ids present in a BigQuery dataset.
+
+- `get_table_info`: Fetches metadata about a BigQuery table.
+
+- `execute_sql`: Runs a SQL query in BigQuery and fetch the result.
+
+- `forecast`: Runs a BigQuery AI time series forecast using the `AI.FORECAST` function.
+
+- `ask_data_insights`: Answers questions about data in BigQuery tables using natural language.
+
+They are packaged in the toolset `BigQueryToolset`.
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import asyncio
+
+from google.adk.agents import Agent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.tools.bigquery import BigQueryCredentialsConfig
+from google.adk.tools.bigquery import BigQueryToolset
+from google.adk.tools.bigquery.config import BigQueryToolConfig
+from google.adk.tools.bigquery.config import WriteMode
+from google.genai import types
+import google.auth
+
+# Define constants for this example agent
+AGENT_NAME = "bigquery_agent"
+APP_NAME = "bigquery_app"
+USER_ID = "user1234"
+SESSION_ID = "1234"
+GEMINI_MODEL = "gemini-2.0-flash"
+
+# Define a tool configuration to block any write operations
+tool_config = BigQueryToolConfig(write_mode=WriteMode.BLOCKED)
+
+# Uses externally-managed Application Default Credentials (ADC) by default.
+# This decouples authentication from the agent / tool lifecycle.
+# https://cloud.google.com/docs/authentication/provide-credentials-adc
+credentials_config = BigQueryCredentialsConfig()
+
+# Instantiate a BigQuery toolset
+bigquery_toolset = BigQueryToolset(
+    credentials_config=credentials_config, bigquery_tool_config=tool_config
+)
+
+# Agent Definition
+bigquery_agent = Agent(
+    model=GEMINI_MODEL,
+    name=AGENT_NAME,
+    description=(
+        "Agent to answer questions about BigQuery data and models and execute"
+        " SQL queries."
+    ),
+    instruction="""\
+        You are a data science agent with access to several BigQuery tools.
+        Make use of those tools to answer the user's questions.
+    """,
+    tools=[bigquery_toolset],
+)
+
+# Session and Runner
+session_service = InMemorySessionService()
+session = asyncio.run(
+    session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID
+    )
+)
+runner = Runner(
+    agent=bigquery_agent, app_name=APP_NAME, session_service=session_service
+)
+
+# Agent Interaction
+def call_agent(query):
+    """
+    Helper function to call the agent with a query.
+    """
+    content = types.Content(role="user", parts=[types.Part(text=query)])
+    events = runner.run(user_id=USER_ID, session_id=SESSION_ID, new_message=content)
+
+    print("USER:", query)
+    for event in events:
+        if event.is_final_response():
+            final_response = event.content.parts[0].text
+            print("AGENT:", final_response)
+
+call_agent("Are there any ml datasets in bigquery-public-data project?")
+call_agent("Tell me more about ml_datasets.")
+call_agent("Which all tables does it have?")
+call_agent("Tell me more about the census_adult_income table.")
+call_agent("How many rows are there per income bracket?")
+call_agent(
+    "What is the statistical correlation between education_num, age, and the income_bracket?"
+)
+
+```
+
+# H3: Spanner¶
+
+  Supported in ADKPython v1.11.0
+
+These are a set of tools aimed to provide integration with Spanner, namely:
+
+- `list_table_names`: Fetches table names present in a GCP Spanner database.
+
+- `list_table_indexes`: Fetches table indexes present in a GCP Spanner database.
+
+- `list_table_index_columns`: Fetches table index columns present in a GCP Spanner database.
+
+- `list_named_schemas`: Fetches named schema for a Spanner database.
+
+- `get_table_schema`: Fetches Spanner database table schema and metadata information.
+
+- `execute_sql`: Runs a SQL query in Spanner database and fetch the result.
+
+- `similarity_search`: Similarity search in Spanner using a text query.
+
+They are packaged in the toolset `SpannerToolset`.
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import asyncio
+
+from google.adk.agents import Agent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+# from google.adk.sessions import DatabaseSessionService
+from google.adk.tools.google_tool import GoogleTool
+from google.adk.tools.spanner import query_tool
+from google.adk.tools.spanner.settings import SpannerToolSettings
+from google.adk.tools.spanner.settings import Capabilities
+from google.adk.tools.spanner.spanner_credentials import SpannerCredentialsConfig
+from google.adk.tools.spanner.spanner_toolset import SpannerToolset
+from google.genai import types
+from google.adk.tools.tool_context import ToolContext
+import google.auth
+from google.auth.credentials import Credentials
+
+# Define constants for this example agent
+AGENT_NAME = "spanner_agent"
+APP_NAME = "spanner_app"
+USER_ID = "user1234"
+SESSION_ID = "1234"
+GEMINI_MODEL = "gemini-2.5-flash"
+
+# Define Spanner tool config with read capability set to allowed.
+tool_settings = SpannerToolSettings(capabilities=[Capabilities.DATA_READ])
+
+# Define a credentials config - in this example we are using application default
+# credentials
+# https://cloud.google.com/docs/authentication/provide-credentials-adc
+application_default_credentials, _ = google.auth.default()
+credentials_config = SpannerCredentialsConfig(
+    credentials=application_default_credentials
+)
+
+# Instantiate a Spanner toolset
+spanner_toolset = SpannerToolset(
+    credentials_config=credentials_config, spanner_tool_settings=tool_settings
+)
+
+# Optional
+# Create a wrapped function tool for the agent on top of the built-in
+# `execute_sql` tool in the Spanner toolset.
+# For example, this customized tool can perform a dynamically-built query.
+def count_rows_tool(
+    table_name: str,
+    credentials: Credentials,  # GoogleTool handles `credentials`
+    settings: SpannerToolSettings,  # GoogleTool handles `settings`
+    tool_context: ToolContext,  # GoogleTool handles `tool_context`
+):
+  """Counts the total number of rows for a specified table.
+
+  Args:
+    table_name: The name of the table for which to count rows.
+
+  Returns:
+      The total number of rows in the table.
+  """
+
+  # Replace the following settings for a specific Spanner database.
+  PROJECT_ID = "<PROJECT_ID>"
+  INSTANCE_ID = "<INSTANCE_ID>"
+  DATABASE_ID = "<DATABASE_ID>"
+
+  query = f"""
+  SELECT count(*) FROM {table_name}
+    """
+
+  return query_tool.execute_sql(
+      project_id=PROJECT_ID,
+      instance_id=INSTANCE_ID,
+      database_id=DATABASE_ID,
+      query=query,
+      credentials=credentials,
+      settings=settings,
+      tool_context=tool_context,
+  )
+
+# Agent Definition
+spanner_agent = Agent(
+    model=GEMINI_MODEL,
+    name=AGENT_NAME,
+    description=(
+        "Agent to answer questions about Spanner database and execute SQL queries."
+    ),
+    instruction="""\
+        You are a data assistant agent with access to several Spanner tools.
+        Make use of those tools to answer the user's questions.
+    """,
+    tools=[
+        spanner_toolset,
+        # Add customized Spanner tool based on the built-in Spanner toolset.
+        GoogleTool(
+            func=count_rows_tool,
+            credentials_config=credentials_config,
+            tool_settings=tool_settings,
+        ),
+    ],
+)
+
+# Session and Runner
+session_service = InMemorySessionService()
+
+# Optionally, Spanner can be used as the Database Session Service for production.
+# Note that it's suggested to use a dedicated instance/database for storing sessions.
+# session_service_spanner_db_url = "spanner+spanner:///projects/PROJECT_ID/instances/INSTANCE_ID/databases/my-adk-session"
+# session_service = DatabaseSessionService(db_url=session_service_spanner_db_url)
+
+session = asyncio.run(
+    session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID
+    )
+)
+runner = Runner(
+    agent=spanner_agent, app_name=APP_NAME, session_service=session_service
+)
+
+# Agent Interaction
+def call_agent(query):
+    """
+    Helper function to call the agent with a query.
+    """
+    content = types.Content(role="user", parts=[types.Part(text=query)])
+    events = runner.run(user_id=USER_ID, session_id=SESSION_ID, new_message=content)
+
+    print("USER:", query)
+    for event in events:
+        if event.is_final_response():
+            final_response = event.content.parts[0].text
+            print("AGENT:", final_response)
+
+# Replace the Spanner database and table names below with your own.
+call_agent("List all tables in projects/<PROJECT_ID>/instances/<INSTANCE_ID>/databases/<DATABASE_ID>")
+call_agent("Describe the schema of <TABLE_NAME>")
+call_agent("List the top 5 rows in <TABLE_NAME>")
+
+```
+
+# H3: Bigtable¶
+
+  Supported in ADKPython v1.12.0
+
+These are a set of tools aimed to provide integration with Bigtable, namely:
+
+- `list_instances`: Fetches Bigtable instances in a Google Cloud project.
+
+- `get_instance_info`: Fetches metadata instance information in a Google Cloud project.
+
+- `list_tables`: Fetches tables in a GCP Bigtable instance.
+
+- `get_table_info`: Fetches metadata table information in a GCP Bigtable.
+
+- `execute_sql`: Runs a SQL query in Bigtable table and fetch the result.
+
+They are packaged in the toolset `BigtableToolset`.
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import asyncio
+
+from google.adk.agents import Agent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.tools.google_tool import GoogleTool
+from google.adk.tools.bigtable import query_tool
+from google.adk.tools.bigtable.settings import BigtableToolSettings
+from google.adk.tools.bigtable.bigtable_credentials import BigtableCredentialsConfig
+from google.adk.tools.bigtable.bigtable_toolset import BigtableToolset
+from google.genai import types
+from google.adk.tools.tool_context import ToolContext
+import google.auth
+from google.auth.credentials import Credentials
+
+# Define constants for this example agent
+AGENT_NAME = "bigtable_agent"
+APP_NAME = "bigtable_app"
+USER_ID = "user1234"
+SESSION_ID = "1234"
+GEMINI_MODEL = "gemini-2.5-flash"
+
+# Define Bigtable tool config with read capability set to allowed.
+tool_settings = BigtableToolSettings()
+
+# Define a credentials config - in this example we are using application default
+# credentials
+# https://cloud.google.com/docs/authentication/provide-credentials-adc
+application_default_credentials, _ = google.auth.default()
+credentials_config = BigtableCredentialsConfig(
+    credentials=application_default_credentials
+)
+
+# Instantiate a Bigtable toolset
+bigtable_toolset = BigtableToolset(
+    credentials_config=credentials_config, bigtable_tool_settings=tool_settings
+)
+
+# Optional
+# Create a wrapped function tool for the agent on top of the built-in
+# `execute_sql` tool in the bigtable toolset.
+# For example, this customized tool can perform a dynamically-built query.
+def count_rows_tool(
+    table_name: str,
+    credentials: Credentials,  # GoogleTool handles `credentials`
+    settings: BigtableToolSettings,  # GoogleTool handles `settings`
+    tool_context: ToolContext,  # GoogleTool handles `tool_context`
+):
+  """Counts the total number of rows for a specified table.
+
+  Args:
+    table_name: The name of the table for which to count rows.
+
+  Returns:
+      The total number of rows in the table.
+  """
+
+  # Replace the following settings for a specific bigtable database.
+  PROJECT_ID = "<PROJECT_ID>"
+  INSTANCE_ID = "<INSTANCE_ID>"
+
+  query = f"""
+  SELECT count(*) FROM {table_name}
+    """
+
+  return query_tool.execute_sql(
+      project_id=PROJECT_ID,
+      instance_id=INSTANCE_ID,
+      query=query,
+      credentials=credentials,
+      settings=settings,
+      tool_context=tool_context,
+  )
+
+# Agent Definition
+bigtable_agent = Agent(
+    model=GEMINI_MODEL,
+    name=AGENT_NAME,
+    description=(
+        "Agent to answer questions about bigtable database and execute SQL queries."
+    ),
+    instruction="""\
+        You are a data assistant agent with access to several bigtable tools.
+        Make use of those tools to answer the user's questions.
+    """,
+    tools=[
+        bigtable_toolset,
+        # Add customized bigtable tool based on the built-in bigtable toolset.
+        GoogleTool(
+            func=count_rows_tool,
+            credentials_config=credentials_config,
+            tool_settings=tool_settings,
+        ),
+    ],
+)
+
+# Session and Runner
+session_service = InMemorySessionService()
+
+session = asyncio.run(
+    session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID
+    )
+)
+runner = Runner(
+    agent=bigtable_agent, app_name=APP_NAME, session_service=session_service
+)
+
+# Agent Interaction
+def call_agent(query):
+    """
+    Helper function to call the agent with a query.
+    """
+    content = types.Content(role="user", parts=[types.Part(text=query)])
+    events = runner.run(user_id=USER_ID, session_id=SESSION_ID, new_message=content)
+
+    print("USER:", query)
+    for event in events:
+        if event.is_final_response():
+            final_response = event.content.parts[0].text
+            print("AGENT:", final_response)
+
+# Replace the bigtable instance and table names below with your own.
+call_agent("List all tables in projects/<PROJECT_ID>/instances/<INSTANCE_ID>")
+call_agent("List the top 5 rows in <TABLE_NAME>")
+
+```
+
+# H2: Use Built-in tools with other tools¶
+
+  Supported in ADKPythonJava
+
+The following code sample demonstrates how to use multiple built-in tools or how
+to use built-in tools with other tools by using multiple agents:
+PythonJava
+
+```
+from google.adk.tools.agent_tool import AgentTool
+from google.adk.agents import Agent
+from google.adk.tools import google_search
+from google.adk.code_executors import BuiltInCodeExecutor
+
+search_agent = Agent(
+    model='gemini-2.0-flash',
+    name='SearchAgent',
+    instruction="""
+    You're a specialist in Google Search
+    """,
+    tools=[google_search],
+)
+coding_agent = Agent(
+    model='gemini-2.0-flash',
+    name='CodeAgent',
+    instruction="""
+    You're a specialist in Code Execution
+    """,
+    code_executor=BuiltInCodeExecutor(),
+)
+root_agent = Agent(
+    name="RootAgent",
+    model="gemini-2.0-flash",
+    description="Root Agent",
+    tools=[AgentTool(agent=search_agent), AgentTool(agent=coding_agent)],
+)
+
+```
+
+```
+import com.google.adk.agents.BaseAgent;
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.tools.AgentTool;
+import com.google.adk.tools.BuiltInCodeExecutionTool;
+import com.google.adk.tools.GoogleSearchTool;
+import com.google.common.collect.ImmutableList;
+
+public class NestedAgentApp {
+
+  private static final String MODEL_ID = "gemini-2.0-flash";
+
+  public static void main(String[] args) {
+
+    // Define the SearchAgent
+    LlmAgent searchAgent =
+        LlmAgent.builder()
+            .model(MODEL_ID)
+            .name("SearchAgent")
+            .instruction("You're a specialist in Google Search")
+            .tools(new GoogleSearchTool()) // Instantiate GoogleSearchTool
+            .build();
+
+    // Define the CodingAgent
+    LlmAgent codingAgent =
+        LlmAgent.builder()
+            .model(MODEL_ID)
+            .name("CodeAgent")
+            .instruction("You're a specialist in Code Execution")
+            .tools(new BuiltInCodeExecutionTool()) // Instantiate BuiltInCodeExecutionTool
+            .build();
+
+    // Define the RootAgent, which uses AgentTool.create() to wrap SearchAgent and CodingAgent
+    BaseAgent rootAgent =
+        LlmAgent.builder()
+            .name("RootAgent")
+            .model(MODEL_ID)
+            .description("Root Agent")
+            .tools(
+                AgentTool.create(searchAgent), // Use create method
+                AgentTool.create(codingAgent)   // Use create method
+             )
+            .build();
+
+    // Note: This sample only demonstrates the agent definitions.
+    // To run these agents, you'd need to integrate them with a Runner and SessionService,
+    // similar to the previous examples.
+    System.out.println("Agents defined successfully:");
+    System.out.println("  Root Agent: " + rootAgent.name());
+    System.out.println("  Search Agent (nested): " + searchAgent.name());
+    System.out.println("  Code Agent (nested): " + codingAgent.name());
+  }
+}
+
+```
+
+# H3: Limitations¶
+
+Warning
+
+Currently, for each root agent or single agent, only one built-in tool is
+supported. No other tools of any type can be used in the same agent.
+
+For example, the following approach that uses a built-in tool along with
+ other tools within a single agent is not currently supported:
+PythonJava
+
+```
+root_agent = Agent(
+    name="RootAgent",
+    model="gemini-2.0-flash",
+    description="Root Agent",
+    tools=[custom_function], 
+    code_executor=BuiltInCodeExecutor() # <-- not supported when used with tools
+)
+
+```
+
+```
+ LlmAgent searchAgent =
+        LlmAgent.builder()
+            .model(MODEL_ID)
+            .name("SearchAgent")
+            .instruction("You're a specialist in Google Search")
+            .tools(new GoogleSearchTool(), new YourCustomTool()) // <-- not supported
+            .build();
+
+```
+
+ADK Python has a built-in workaroud which bypasses this limitation for 
+`GoogleSearchTool` and `VertexAiSearchTool` (use `bypass_multi_tools_limit=True` to enable it), e.g.
+sample agent.
+
+Warning
+
+Built-in tools cannot be used within a sub-agent, with the exception of
+`GoogleSearchTool` and `VertexAiSearchTool` in ADK Python because of the
+workaround mentioned above.
+
+For example, the following approach that uses built-in tools within sub-agents
+is not currently supported:
+PythonJava
+
+```
+url_context_agent = Agent(
+    model='gemini-2.0-flash',
+    name='UrlContextAgent',
+    instruction="""
+    You're a specialist in URL Context
+    """,
+    tools=[url_context],
+)
+coding_agent = Agent(
+    model='gemini-2.0-flash',
+    name='CodeAgent',
+    instruction="""
+    You're a specialist in Code Execution
+    """,
+    code_executor=BuiltInCodeExecutor(),
+)
+root_agent = Agent(
+    name="RootAgent",
+    model="gemini-2.0-flash",
+    description="Root Agent",
+    sub_agents=[
+        url_context_agent,
+        coding_agent
+    ],
+)
+
+```
+
+```
+LlmAgent searchAgent =
+    LlmAgent.builder()
+        .model("gemini-2.0-flash")
+        .name("SearchAgent")
+        .instruction("You're a specialist in Google Search")
+        .tools(new GoogleSearchTool())
+        .build();
+
+LlmAgent codingAgent =
+    LlmAgent.builder()
+        .model("gemini-2.0-flash")
+        .name("CodeAgent")
+        .instruction("You're a specialist in Code Execution")
+        .tools(new BuiltInCodeExecutionTool())
+        .build();
+
+LlmAgent rootAgent =
+    LlmAgent.builder()
+        .name("RootAgent")
+        .model("gemini-2.0-flash")
+        .description("Root Agent")
+        .subAgents(searchAgent, codingAgent) // Not supported, as the sub agents use built in tools.
+        .build();
+
+```
+
+              
+
+==================================================
+SOURCE: https://google.github.io/adk-docs/tools-custom/function-tools/
+==================================================
+
+
+
+    adk-python
+
+    adk-go
+
+    adk-java
+
+- 
+
+    Home
+
+            Home
+
+- 
+
+    Build Agents
+
+            Build Agents
+
+- 
+
+    Get Started
+
+            Get Started
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Java
+
+- 
+
+    Build your Agent
+
+            Build your Agent
+
+- 
+
+    Multi-tool agent
+
+- 
+
+    Agent team
+
+- 
+
+    Streaming agent
+
+            Streaming agent
+
+- 
+
+    Python
+
+- 
+
+    Java
+
+- 
+
+    Visual Builder
+
+- 
+
+    Advanced setup
+
+- 
+
+    Agents
+
+            Agents
+
+- 
+
+    LLM agents
+
+- 
+
+    Workflow agents
+
+            Workflow agents
+
+- 
+
+    Sequential agents
+
+- 
+
+    Loop agents
+
+- 
+
+    Parallel agents
+
+- 
+
+    Custom agents
+
+- 
+
+    Multi-agent systems
+
+- 
+
+    Agent Config
+
+- 
+
+    Models & Authentication
+
+- 
+
+    Tools for Agents
+
+            Tools for Agents
+
+- 
+
+    Built-in tools
+
+- 
+
+    Gemini API tools
+
+            Gemini API tools
+
+- 
+
+    Computer use
+
+- 
+
+    Google Cloud tools
+
+            Google Cloud tools
+
+- 
+
+    Overview
+
+- 
+
+    MCP Toolbox for Databases
+
+- 
+
+    BigQuery Agent Analytics
+
+- 
+
+    Code Execution with Agent Engine
+
+- 
+
+    Third-party tools
+
+            Third-party tools
+
+- 
+
+    AgentQL
+
+- 
+
+    Bright Data
+
+- 
+
+    Browserbase
+
+- 
+
+    Exa
+
+- 
+
+    Firecrawl
+
+- 
+
+    GitHub
+
+- 
+
+    GitLab
+
+- 
+
+    Hugging Face
+
+- 
+
+    Notion
+
+- 
+
+    ScrapeGraphAI
+
+- 
+
+    Tavily
+
+- 
+
+    Agentic UI (AG-UI)
+
+- 
+
+    Custom Tools
+
+            Custom Tools
+
+- 
+
+    Function tools
+
+            Function tools
+
+- 
+
+    Overview
+
+    Overview
+
+      Table of contents
+
+- 
+
+      Function Tools
+
+- 
+
+      How it Works
+
+- 
+
+      Defining Function Signatures
+
+- 
+
+      Parameters
+
+- 
+
+      Required Parameters
+
+- 
+
+      Optional Parameters
+
+- 
+
+      Optional Parameters with typing.Optional
+
+- 
+
+      Variadic Parameters (*args and **kwargs)
+
+- 
+
+      Return Type
+
+- 
+
+      Docstrings
+
+- 
+
+      Passing Data Between Tools
+
+- 
+
+      Example
+
+- 
+
+      Best Practices
+
+- 
+
+      Long Running Function Tools
+
+- 
+
+      How it Works
+
+- 
+
+      Creating the Tool
+
+- 
+
+      Intermediate / Final result Updates
+
+- 
+
+      Key aspects of this example
+
+- 
+
+      Agent-as-a-Tool
+
+- 
+
+      Key difference from sub-agents
+
+- 
+
+      Usage
+
+- 
+
+      Customization
+
+- 
+
+      How it works
+
+- 
+
+    Tool performance
+
+- 
+
+    Action confirmations
+
+- 
+
+    MCP tools
+
+- 
+
+    OpenAPI tools
+
+- 
+
+    Authentication
+
+- 
+
+    Run Agents
+
+            Run Agents
+
+- 
+
+    Agent Runtime
+
+            Agent Runtime
+
+- 
+
+    Runtime Config
+
+- 
+
+    API Server
+
+- 
+
+    Resume Agents
+
+- 
+
+    Deployment
+
+            Deployment
+
+- 
+
+    Agent Engine
+
+- 
+
+    Cloud Run
+
+- 
+
+    GKE
+
+- 
+
+    Observability
+
+            Observability
+
+- 
+
+    Logging
+
+- 
+
+    Cloud Trace
+
+- 
+
+    AgentOps
+
+- 
+
+    Arize AX
+
+- 
+
+    Freeplay
+
+- 
+
+    Monocle
+
+- 
+
+    Phoenix
+
+- 
+
+    W&B Weave
+
+- 
+
+    Evaluation
+
+            Evaluation
+
+- 
+
+    Criteria
+
+- 
+
+    User Simulation
+
+- 
+
+    Safety and Security
+
+            Safety and Security
+
+- 
+
+    Components
+
+            Components
+
+- 
+
+    Technical Overview
+
+- 
+
+    Context
+
+            Context
+
+- 
+
+    Context caching
+
+- 
+
+    Context compression
+
+- 
+
+    Sessions & Memory
+
+            Sessions & Memory
+
+- 
+
+    Session
+
+- 
+
+    State
+
+- 
+
+    Memory
+
+- 
+
+    Vertex AI Express Mode
+
+- 
+
+    Callbacks
+
+            Callbacks
+
+- 
+
+    Types of callbacks
+
+- 
+
+    Callback patterns
+
+- 
+
+    Artifacts
+
+            Artifacts
+
+- 
+
+    Events
+
+            Events
+
+- 
+
+    Apps
+
+            Apps
+
+- 
+
+    Plugins
+
+            Plugins
+
+- 
+
+    Reflect and retry
+
+- 
+
+    MCP
+
+            MCP
+
+- 
+
+    A2A Protocol
+
+            A2A Protocol
+
+- 
+
+    Introduction to A2A
+
+- 
+
+    A2A Quickstart (Exposing)
+
+            A2A Quickstart (Exposing)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    A2A Quickstart (Consuming)
+
+            A2A Quickstart (Consuming)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Bidi-streaming (live)
+
+            Bidi-streaming (live)
+
+- 
+
+    Custom Audio Bidi-streaming app sample (WebSockets)
+
+- 
+
+    Bidi-streaming development guide series
+
+            Bidi-streaming development guide series
+
+- 
+
+    Part 1, Intro to streaming
+
+- 
+
+    Part 2, Sending messages
+
+- 
+
+    Part 3, Event handling
+
+- 
+
+    Part 4, Run configuration
+
+- 
+
+    Part 5, Audio, Images, and Video
+
+- 
+
+    Streaming Tools
+
+- 
+
+    Configurating Bidi-streaming behaviour
+
+- 
+
+    Grounding
+
+            Grounding
+
+- 
+
+    Understanding Google Search Grounding
+
+- 
+
+    Understanding Vertex AI Search Grounding
+
+- 
+
+    Reference
+
+            Reference
+
+- 
+
+    Release Notes
+
+- 
+
+    API Reference
+
+            API Reference
+
+- 
+
+    Python ADK
+
+- 
+
+    Go ADK
+
+- 
+
+    Java ADK
+
+- 
+
+    CLI Reference
+
+- 
+
+    Agent Config Reference
+
+- 
+
+    REST API
+
+- 
+
+    Community Resources
+
+- 
+
+    Contributing Guide
+
+      Table of contents
+
+- 
+
+      Function Tools
+
+- 
+
+      How it Works
+
+- 
+
+      Defining Function Signatures
+
+- 
+
+      Parameters
+
+- 
+
+      Required Parameters
+
+- 
+
+      Optional Parameters
+
+- 
+
+      Optional Parameters with typing.Optional
+
+- 
+
+      Variadic Parameters (*args and **kwargs)
+
+- 
+
+      Return Type
+
+- 
+
+      Docstrings
+
+- 
+
+      Passing Data Between Tools
+
+- 
+
+      Example
+
+- 
+
+      Best Practices
+
+- 
+
+      Long Running Function Tools
+
+- 
+
+      How it Works
+
+- 
+
+      Creating the Tool
+
+- 
+
+      Intermediate / Final result Updates
+
+- 
+
+      Key aspects of this example
+
+- 
+
+      Agent-as-a-Tool
+
+- 
+
+      Key difference from sub-agents
+
+- 
+
+      Usage
+
+- 
+
+      Customization
+
+- 
+
+      How it works
+
+# H1: Function tools¶
+
+  Supported in ADKPython v0.1.0Go v0.1.0Java v0.1.0
+
+When pre-built ADK tools don't meet your requirements, you can create custom function tools. Building function tools allows you to create tailored functionality, such as connecting to proprietary databases or implementing unique algorithms.
+For example, a function tool, `myfinancetool`, might be a function that calculates a specific financial metric. ADK also supports long running functions, so if that calculation takes a while, the agent can continue working on other tasks.
+
+ADK offers several ways to create functions tools, each suited to different levels of complexity and control:
+
+- Function Tools
+
+- Long Running Function Tools
+
+- Agents-as-a-Tool
+
+# H2: Function Tools¶
+
+Transforming a Python function into a tool is a straightforward way to integrate custom logic into your agents. When you assign a function to an agent’s `tools` list, the framework automatically wraps it as a `FunctionTool`.
+
+# H3: How it Works¶
+
+The ADK framework automatically inspects your Python function's signature—including its name, docstring, parameters, type hints, and default values—to generate a schema. This schema is what the LLM uses to understand the tool's purpose, when to use it, and what arguments it requires.
+
+# H3: Defining Function Signatures¶
+
+A well-defined function signature is crucial for the LLM to use your tool correctly.
+
+# H4: Parameters¶
+
+# H5: Required Parameters¶
+PythonGo
+
+A parameter is considered required if it has a type hint but no default value. The LLM must provide a value for this argument when it calls the tool. The parameter's description is taken from the function's docstring.
+
+Example: Required Parameters
+
+```
+def get_weather(city: str, unit: str):
+    """
+    Retrieves the weather for a city in the specified unit.
+
+    Args:
+        city (str): The city name.
+        unit (str): The temperature unit, either 'Celsius' or 'Fahrenheit'.
+    """
+    # ... function logic ...
+    return {"status": "success", "report": f"Weather for {city} is sunny."}
+
+```
+
+In this example, both `city` and `unit` are mandatory. If the LLM tries to call `get_weather` without one of them, the ADK will return an error to the LLM, prompting it to correct the call.
+
+In Go, you use struct tags to control the JSON schema. The two primary tags are `json` and `jsonschema`.
+
+A parameter is considered required if its struct field does not have the `omitempty` or `omitzero` option in its `json` tag.
+
+The `jsonschema` tag is used to provide the argument's description. This is crucial for the LLM to understand what the argument is for.
+
+Example: Required Parameters
+
+```
+// GetWeatherParams defines the arguments for the getWeather tool.
+type GetWeatherParams struct {
+    // This field is REQUIRED (no "omitempty").
+    // The jsonschema tag provides the description.
+    Location string `json:"location" jsonschema:"The city and state, e.g., San Francisco, CA"`
+
+    // This field is also REQUIRED.
+    Unit     string `json:"unit" jsonschema:"The temperature unit, either 'celsius' or 'fahrenheit'"`
+}
+
+```
+
+In this example, both `location` and `unit` are mandatory.
+
+# H5: Optional Parameters¶
+PythonGo
+
+A parameter is considered optional if you provide a default value. This is the standard Python way to define optional arguments. You can also mark a parameter as optional using `typing.Optional[SomeType]` or the `| None` syntax (Python 3.10+).
+
+Example: Optional Parameters
+
+```
+def search_flights(destination: str, departure_date: str, flexible_days: int = 0):
+    """
+    Searches for flights.
+
+    Args:
+        destination (str): The destination city.
+        departure_date (str): The desired departure date.
+        flexible_days (int, optional): Number of flexible days for the search. Defaults to 0.
+    """
+    # ... function logic ...
+    if flexible_days > 0:
+        return {"status": "success", "report": f"Found flexible flights to {destination}."}
+    return {"status": "success", "report": f"Found flights to {destination} on {departure_date}."}
+
+```
+
+Here, `flexible_days` is optional. The LLM can choose to provide it, but it's not required.
+
+A parameter is considered optional if its struct field has the `omitempty` or `omitzero` option in its `json` tag.
+
+Example: Optional Parameters
+
+```
+// GetWeatherParams defines the arguments for the getWeather tool.
+type GetWeatherParams struct {
+    // Location is required.
+    Location string `json:"location" jsonschema:"The city and state, e.g., San Francisco, CA"`
+
+    // Unit is optional.
+    Unit string `json:"unit,omitempty" jsonschema:"The temperature unit, either 'celsius' or 'fahrenheit'"`
+
+    // Days is optional.
+    Days int `json:"days,omitzero" jsonschema:"The number of forecast days to return (defaults to 1)"`
+}
+
+```
+
+Here, `unit` and `days` are optional. The LLM can choose to provide them, but they are not required.
+
+# H5: Optional Parameters with `typing.Optional`¶
+
+You can also mark a parameter as optional using `typing.Optional[SomeType]` or the `| None` syntax (Python 3.10+). This signals that the parameter can be `None`. When combined with a default value of `None`, it behaves as a standard optional parameter.
+
+Example: `typing.Optional`
+Python
+
+```
+from typing import Optional
+
+def create_user_profile(username: str, bio: Optional[str] = None):
+    """
+    Creates a new user profile.
+
+    Args:
+        username (str): The user's unique username.
+        bio (str, optional): A short biography for the user. Defaults to None.
+    """
+    # ... function logic ...
+    if bio:
+        return {"status": "success", "message": f"Profile for {username} created with a bio."}
+    return {"status": "success", "message": f"Profile for {username} created."}
+
+```
+
+# H5: Variadic Parameters (`*args` and `**kwargs`)¶
+
+While you can include `*args` (variable positional arguments) and `**kwargs` (variable keyword arguments) in your function signature for other purposes, they are ignored by the ADK framework when generating the tool schema for the LLM. The LLM will not be aware of them and cannot pass arguments to them. It's best to rely on explicitly defined parameters for all data you expect from the LLM.
+
+# H4: Return Type¶
+
+The preferred return type for a Function Tool is a dictionary in Python or Map in Java. This allows you to structure the response with key-value pairs, providing context and clarity to the LLM. If your function returns a type other than a dictionary, the framework automatically wraps it into a dictionary with a single key named "result".
+
+Strive to make your return values as descriptive as possible. For example, instead of returning a numeric error code, return a dictionary with an "error_message" key containing a human-readable explanation. Remember that the LLM, not a piece of code, needs to understand the result. As a best practice, include a "status" key in your return dictionary to indicate the overall outcome (e.g., "success", "error", "pending"), providing the LLM with a clear signal about the operation's state.
+
+# H4: Docstrings¶
+
+The docstring of your function serves as the tool's description and is sent to the LLM. Therefore, a well-written and comprehensive docstring is crucial for the LLM to understand how to use the tool effectively. Clearly explain the purpose of the function, the meaning of its parameters, and the expected return values.
+
+# H3: Passing Data Between Tools¶
+
+When an agent calls multiple tools in a sequence, you might need to pass data from one tool to another. The recommended way to do this is by using the `temp:` prefix in the session state.
+
+A tool can write data to a `temp:` variable, and a subsequent tool can read it. This data is only available for the current invocation and is discarded afterwards.
+
+Shared Invocation Context
+
+All tool calls within a single agent turn share the same `InvocationContext`. This means they also share the same temporary (`temp:`) state, which is how data can be passed between them.
+
+# H3: Example¶
+
+Example
+PythonGoJava
+
+This tool is a python function which obtains the Stock price of a given Stock ticker/ symbol.
+
+Note: You need to `pip install yfinance` library before using this tool.
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+from google.adk.agents import Agent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.genai import types
+
+import yfinance as yf
+
+APP_NAME = "stock_app"
+USER_ID = "1234"
+SESSION_ID = "session1234"
+
+def get_stock_price(symbol: str):
+    """
+    Retrieves the current stock price for a given symbol.
+
+    Args:
+        symbol (str): The stock symbol (e.g., "AAPL", "GOOG").
+
+    Returns:
+        float: The current stock price, or None if an error occurs.
+    """
+    try:
+        stock = yf.Ticker(symbol)
+        historical_data = stock.history(period="1d")
+        if not historical_data.empty:
+            current_price = historical_data['Close'].iloc[-1]
+            return current_price
+        else:
+            return None
+    except Exception as e:
+        print(f"Error retrieving stock price for {symbol}: {e}")
+        return None
+
+stock_price_agent = Agent(
+    model='gemini-2.0-flash',
+    name='stock_agent',
+    instruction= 'You are an agent who retrieves stock prices. If a ticker symbol is provided, fetch the current price. If only a company name is given, first perform a Google search to find the correct ticker symbol before retrieving the stock price. If the provided ticker symbol is invalid or data cannot be retrieved, inform the user that the stock price could not be found.',
+    description='This agent specializes in retrieving real-time stock prices. Given a stock ticker symbol (e.g., AAPL, GOOG, MSFT) or the stock name, use the tools and reliable data sources to provide the most up-to-date price.',
+    tools=[get_stock_price], # You can add Python functions directly to the tools list; they will be automatically wrapped as FunctionTools.
+)
+
+# Session and Runner
+async def setup_session_and_runner():
+    session_service = InMemorySessionService()
+    session = await session_service.create_session(app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID)
+    runner = Runner(agent=stock_price_agent, app_name=APP_NAME, session_service=session_service)
+    return session, runner
+
+# Agent Interaction
+async def call_agent_async(query):
+    content = types.Content(role='user', parts=[types.Part(text=query)])
+    session, runner = await setup_session_and_runner()
+    events = runner.run_async(user_id=USER_ID, session_id=SESSION_ID, new_message=content)
+
+    async for event in events:
+        if event.is_final_response():
+            final_response = event.content.parts[0].text
+            print("Agent Response: ", final_response)
+
+# Note: In Colab, you can directly use 'await' at the top level.
+# If running this code as a standalone Python script, you'll need to use asyncio.run() or manage the event loop.
+await call_agent_async("stock price of GOOG")
+
+```
+
+The return value from this tool will be wrapped into a dictionary.
+
+```
+{"result": "$123"}
+
+```
+
+This tool retrieves the mocked value of a stock price.
+
+```
+import (
+    "google.golang.org/adk/agent"
+    "google.golang.org/adk/agent/llmagent"
+    "google.golang.org/adk/model/gemini"
+    "google.golang.org/adk/runner"
+    "google.golang.org/adk/session"
+    "google.golang.org/adk/tool"
+    "google.golang.org/adk/tool/functiontool"
+    "google.golang.org/genai"
+)
+
+// Copyright 2025 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package main
+
+import (
+    "context"
+    "fmt"
+    "log"
+    "strings"
+
+    "google.golang.org/adk/agent"
+    "google.golang.org/adk/agent/llmagent"
+    "google.golang.org/adk/model/gemini"
+    "google.golang.org/adk/runner"
+    "google.golang.org/adk/session"
+    "google.golang.org/adk/tool"
+    "google.golang.org/adk/tool/agenttool"
+    "google.golang.org/adk/tool/functiontool"
+
+    "google.golang.org/genai"
+)
+
+// mockStockPrices provides a simple in-memory database of stock prices
+// to simulate a real-world stock data API. This allows the example to
+// demonstrate tool functionality without making external network calls.
+var mockStockPrices = map[string]float64{
+    "GOOG": 300.6,
+    "AAPL": 123.4,
+    "MSFT": 234.5,
+}
+
+// getStockPriceArgs defines the schema for the arguments passed to the getStockPrice tool.
+// Using a struct is the recommended approach in the Go ADK as it provides strong
+// typing and clear validation for the expected inputs.
+type getStockPriceArgs struct {
+    Symbol string `json:"symbol" jsonschema:"The stock ticker symbol, e.g., GOOG"`
+}
+
+// getStockPriceResults defines the output schema for the getStockPrice tool.
+type getStockPriceResults struct {
+    Symbol string  `json:"symbol"`
+    Price  float64 `json:"price,omitempty"`
+    Error  string  `json:"error,omitempty"`
+}
+
+// getStockPrice is a tool that retrieves the stock price for a given ticker symbol
+// from the mockStockPrices map. It demonstrates how a function can be used as a
+// tool by an agent. If the symbol is found, it returns a struct containing the
+// symbol and its price. Otherwise, it returns a struct with an error message.
+func getStockPrice(ctx tool.Context, input getStockPriceArgs) (getStockPriceResults, error) {
+    symbolUpper := strings.ToUpper(input.Symbol)
+    if price, ok := mockStockPrices[symbolUpper]; ok {
+        fmt.Printf("Tool: Found price for %s: %f\n", input.Symbol, price)
+        return getStockPriceResults{Symbol: input.Symbol, Price: price}, nil
+    }
+    return getStockPriceResults{}, fmt.Errorf("no data found for symbol")
+}
+
+// createStockAgent initializes and configures an LlmAgent.
+// This agent is equipped with the getStockPrice tool and is instructed
+// on how to respond to user queries about stock prices. It uses the
+// Gemini model to understand user intent and decide when to use its tools.
+func createStockAgent(ctx context.Context) (agent.Agent, error) {
+    stockPriceTool, err := functiontool.New(
+        functiontool.Config{
+            Name:        "get_stock_price",
+            Description: "Retrieves the current stock price for a given symbol.",
+        },
+        getStockPrice)
+    if err != nil {
+        return nil, err
+    }
+
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+
+    if err != nil {
+        log.Fatalf("Failed to create model: %v", err)
+    }
+
+    return llmagent.New(llmagent.Config{
+        Name:        "stock_agent",
+        Model:       model,
+        Instruction: "You are an agent who retrieves stock prices. If a ticker symbol is provided, fetch the current price. If only a company name is given, first perform a Google search to find the correct ticker symbol before retrieving the stock price. If the provided ticker symbol is invalid or data cannot be retrieved, inform the user that the stock price could not be found.",
+        Description: "This agent specializes in retrieving real-time stock prices. Given a stock ticker symbol (e.g., AAPL, GOOG, MSFT) or the stock name, use the tools and reliable data sources to provide the most up-to-date price.",
+        Tools: []tool.Tool{
+            stockPriceTool,
+        },
+    })
+}
+
+// userID and appName are constants used to identify the user and application
+// throughout the session. These values are important for logging, tracking,
+// and managing state across different agent interactions.
+const (
+    userID  = "example_user_id"
+    appName = "example_app"
+)
+
+// callAgent orchestrates the execution of the agent for a given prompt.
+// It sets up the necessary services, creates a session, and uses a runner
+// to manage the agent's lifecycle. It streams the agent's responses and
+// prints them to the console, handling any potential errors during the run.
+func callAgent(ctx context.Context, a agent.Agent, prompt string) {
+    sessionService := session.InMemoryService()
+    // Create a new session for the agent interactions.
+    session, err := sessionService.Create(ctx, &session.CreateRequest{
+        AppName: appName,
+        UserID:  userID,
+    })
+    if err != nil {
+        log.Fatalf("Failed to create the session service: %v", err)
+    }
+    config := runner.Config{
+        AppName:        appName,
+        Agent:          a,
+        SessionService: sessionService,
+    }
+
+    // Create the runner to manage the agent execution.
+    r, err := runner.New(config)
+
+    if err != nil {
+        log.Fatalf("Failed to create the runner: %v", err)
+    }
+
+    sessionID := session.Session.ID()
+
+    userMsg := &genai.Content{
+        Parts: []*genai.Part{
+            genai.NewPartFromText(prompt),
+        },
+        Role: string(genai.RoleUser),
+    }
+
+    for event, err := range r.Run(ctx, userID, sessionID, userMsg, agent.RunConfig{
+        StreamingMode: agent.StreamingModeNone,
+    }) {
+        if err != nil {
+            fmt.Printf("\nAGENT_ERROR: %v\n", err)
+        } else {
+            for _, p := range event.Content.Parts {
+                fmt.Print(p.Text)
+            }
+        }
+    }
+}
+
+// RunAgentSimulation serves as the entry point for this example.
+// It creates the stock agent and then simulates a series of user interactions
+// by sending different prompts to the agent. This function showcases how the
+// agent responds to various queries, including both successful and unsuccessful
+// attempts to retrieve stock prices.
+func RunAgentSimulation() {
+    // Create the stock agent
+    agent, err := createStockAgent(context.Background())
+    if err != nil {
+        panic(err)
+    }
+
+    fmt.Println("Agent created:", agent.Name())
+
+    prompts := []string{
+        "stock price of GOOG",
+        "What's the price of MSFT?",
+        "Can you find the stock price for an unknown company XYZ?",
+    }
+
+    // Simulate running the agent with different prompts
+    for _, prompt := range prompts {
+        fmt.Printf("\nPrompt: %s\nResponse: ", prompt)
+        callAgent(context.Background(), agent, prompt)
+        fmt.Println("\n---")
+    }
+}
+
+// createSummarizerAgent creates an agent whose sole purpose is to summarize text.
+func createSummarizerAgent(ctx context.Context) (agent.Agent, error) {
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+    if err != nil {
+        return nil, err
+    }
+    return llmagent.New(llmagent.Config{
+        Name:        "SummarizerAgent",
+        Model:       model,
+        Instruction: "You are an expert at summarizing text. Take the user's input and provide a concise summary.",
+        Description: "An agent that summarizes text.",
+    })
+}
+
+// createMainAgent creates the primary agent that will use the summarizer agent as a tool.
+func createMainAgent(ctx context.Context, tools ...tool.Tool) (agent.Agent, error) {
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+    if err != nil {
+        return nil, err
+    }
+    return llmagent.New(llmagent.Config{
+        Name:  "MainAgent",
+        Model: model,
+        Instruction: "You are a helpful assistant. If you are asked to summarize a long text, use the 'summarize' tool. " +
+            "After getting the summary, present it to the user by saying 'Here is a summary of the text:'.",
+        Description: "The main agent that can delegate tasks.",
+        Tools:       tools,
+    })
+}
+
+func RunAgentAsToolSimulation() {
+    ctx := context.Background()
+
+    // 1. Create the Tool Agent (Summarizer)
+    summarizerAgent, err := createSummarizerAgent(ctx)
+    if err != nil {
+        log.Fatalf("Failed to create summarizer agent: %v", err)
+    }
+
+    // 2. Wrap the Tool Agent in an AgentTool
+    summarizeTool := agenttool.New(summarizerAgent, &agenttool.Config{
+        SkipSummarization: true,
+    })
+
+    // 3. Create the Main Agent and provide it with the AgentTool
+    mainAgent, err := createMainAgent(ctx, summarizeTool)
+    if err != nil {
+        log.Fatalf("Failed to create main agent: %v", err)
+    }
+
+    // 4. Run the main agent
+    prompt := `
+        Please summarize this text for me:
+        Quantum computing represents a fundamentally different approach to computation,
+        leveraging the bizarre principles of quantum mechanics to process information. Unlike classical computers
+        that rely on bits representing either 0 or 1, quantum computers use qubits which can exist in a state of superposition - effectively
+        being 0, 1, or a combination of both simultaneously. Furthermore, qubits can become entangled,
+        meaning their fates are intertwined regardless of distance, allowing for complex correlations. This parallelism and
+        interconnectedness grant quantum computers the potential to solve specific types of incredibly complex problems - such
+        as drug discovery, materials science, complex system optimization, and breaking certain types of cryptography - far
+        faster than even the most powerful classical supercomputers could ever achieve, although the technology is still largely in its developmental stages.
+    `
+    fmt.Printf("\nPrompt: %s\nResponse: ", prompt)
+    callAgent(context.Background(), mainAgent, prompt)
+    fmt.Println("\n---")
+}
+
+func main() {
+    fmt.Println("Attempting to run the agent simulation...")
+    RunAgentSimulation()
+    fmt.Println("\nAttempting to run the agent-as-a-tool simulation...")
+    RunAgentAsToolSimulation()
+}
+
+```
+
+The return value from this tool will be a `getStockPriceResults` instance.
+
+```
+For input `{"symbol": "GOOG"}`: {"price":300.6,"symbol":"GOOG"}
+
+```
+
+This tool retrieves the mocked value of a stock price.
+
+```
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.events.Event;
+import com.google.adk.runner.InMemoryRunner;
+import com.google.adk.sessions.Session;
+import com.google.adk.tools.Annotations.Schema;
+import com.google.adk.tools.FunctionTool;
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+import io.reactivex.rxjava3.core.Flowable;
+import java.util.HashMap;
+import java.util.Map;
+
+public class StockPriceAgent {
+
+  private static final String APP_NAME = "stock_agent";
+  private static final String USER_ID = "user1234";
+
+  // Mock data for various stocks functionality
+  // NOTE: This is a MOCK implementation. In a real Java application,
+  // you would use a financial data API or library.
+  private static final Map<String, Double> mockStockPrices = new HashMap<>();
+
+  static {
+    mockStockPrices.put("GOOG", 1.0);
+    mockStockPrices.put("AAPL", 1.0);
+    mockStockPrices.put("MSFT", 1.0);
+  }
+
+  @Schema(description = "Retrieves the current stock price for a given symbol.")
+  public static Map<String, Object> getStockPrice(
+      @Schema(description = "The stock symbol (e.g., \"AAPL\", \"GOOG\")",
+        name = "symbol")
+      String symbol) {
+
+    try {
+      if (mockStockPrices.containsKey(symbol.toUpperCase())) {
+        double currentPrice = mockStockPrices.get(symbol.toUpperCase());
+        System.out.println("Tool: Found price for " + symbol + ": " + currentPrice);
+        return Map.of("symbol", symbol, "price", currentPrice);
+      } else {
+        return Map.of("symbol", symbol, "error", "No data found for symbol");
+      }
+    } catch (Exception e) {
+      return Map.of("symbol", symbol, "error", e.getMessage());
+    }
+  }
+
+  public static void callAgent(String prompt) {
+    // Create the FunctionTool from the Java method
+    FunctionTool getStockPriceTool = FunctionTool.create(StockPriceAgent.class, "getStockPrice");
+
+    LlmAgent stockPriceAgent =
+        LlmAgent.builder()
+            .model("gemini-2.0-flash")
+            .name("stock_agent")
+            .instruction(
+                "You are an agent who retrieves stock prices. If a ticker symbol is provided, fetch the current price. If only a company name is given, first perform a Google search to find the correct ticker symbol before retrieving the stock price. If the provided ticker symbol is invalid or data cannot be retrieved, inform the user that the stock price could not be found.")
+            .description(
+                "This agent specializes in retrieving real-time stock prices. Given a stock ticker symbol (e.g., AAPL, GOOG, MSFT) or the stock name, use the tools and reliable data sources to provide the most up-to-date price.")
+            .tools(getStockPriceTool) // Add the Java FunctionTool
+            .build();
+
+    // Create an InMemoryRunner
+    InMemoryRunner runner = new InMemoryRunner(stockPriceAgent, APP_NAME);
+    // InMemoryRunner automatically creates a session service. Create a session using the service
+    Session session = runner.sessionService().createSession(APP_NAME, USER_ID).blockingGet();
+    Content userMessage = Content.fromParts(Part.fromText(prompt));
+
+    // Run the agent
+    Flowable<Event> eventStream = runner.runAsync(USER_ID, session.id(), userMessage);
+
+    // Stream event response
+    eventStream.blockingForEach(
+        event -> {
+          if (event.finalResponse()) {
+            System.out.println(event.stringifyContent());
+          }
+        });
+  }
+
+  public static void main(String[] args) {
+    callAgent("stock price of GOOG");
+    callAgent("What's the price of MSFT?");
+    callAgent("Can you find the stock price for an unknown company XYZ?");
+  }
+}
+
+```
+
+The return value from this tool will be wrapped into a Map.
+
+```
+For input `GOOG`: {"symbol": "GOOG", "price": "1.0"}
+
+```
+
+# H3: Best Practices¶
+
+While you have considerable flexibility in defining your function, remember that simplicity enhances usability for the LLM. Consider these guidelines:
+
+- Fewer Parameters are Better: Minimize the number of parameters to reduce complexity.  
+
+- Simple Data Types: Favor primitive data types like `str` and `int` over custom classes whenever possible.  
+
+- Meaningful Names: The function's name and parameter names significantly influence how the LLM interprets and utilizes the tool. Choose names that clearly reflect the function's purpose and the meaning of its inputs. Avoid generic names like `do_stuff()` or `beAgent()`.
+
+- Build for Parallel Execution: Improve function calling performance when multiple tools are run by building for asynchronous operation. For information on enabling parallel execution for tools, see
+Increase tool performance with parallel execution.
+
+# H2: Long Running Function Tools¶
+
+This tool is designed to help you start and manage tasks that are handled outside the operation of your agent workflow, and require a significant amount of processing time, without blocking the agent's execution. This tool is a subclass of `FunctionTool`.
+
+When using a `LongRunningFunctionTool`, your function can initiate the long-running operation and optionally return an initial result, such as a long-running operation id. Once a long running function tool is invoked the agent runner pauses the agent run and lets the agent client to decide whether to continue or wait until the long-running operation finishes. The agent client can query the progress of the long-running operation and send back an intermediate or final response. The agent can then continue with other tasks. An example is the human-in-the-loop scenario where the agent needs human approval before proceeding with a task.
+
+Warning: Execution handling
+
+Long Running Function Tools are designed to help you start and manage long running
+tasks as part of your agent workflow, but not perform the actual, long task.
+For tasks that require significant time to complete, you should implement a separate
+server to do the task.
+
+Tip: Parallel execution
+
+Depending on the type of tool you are building, designing for asychronous
+operation may be a better solution than creating a long running tool. For
+more information, see
+Increase tool performance with parallel execution.
+
+# H3: How it Works¶
+
+In Python, you wrap a function with `LongRunningFunctionTool`.  In Java, you pass a Method name to `LongRunningFunctionTool.create()`.
+
+- 
+
+Initiation: When the LLM calls the tool, your function starts the long-running operation.
+
+- 
+
+Initial Updates: Your function should optionally return an initial result (e.g. the long-running operaiton id). The ADK framework takes the result and sends it back to the LLM packaged within a `FunctionResponse`. This allows the LLM to inform the user (e.g., status, percentage complete, messages). And then the agent run is ended / paused.
+
+- 
+
+Continue or Wait: After each agent run is completed. Agent client can query the progress of the long-running operation and decide whether to continue the agent run with an intermediate response (to update the progress) or wait until a final response is retrieved. Agent client should send the intermediate or final response back to the agent for the next run.
+
+- 
+
+Framework Handling: The ADK framework manages the execution. It sends the intermediate or final `FunctionResponse` sent by agent client to the LLM to generate a user friendly message.
+
+# H3: Creating the Tool¶
+
+Define your tool function and wrap it using the `LongRunningFunctionTool` class:
+PythonGoJava
+
+```
+# 1. Define the long running function
+def ask_for_approval(
+    purpose: str, amount: float
+) -> dict[str, Any]:
+    """Ask for approval for the reimbursement."""
+    # create a ticket for the approval
+    # Send a notification to the approver with the link of the ticket
+    return {'status': 'pending', 'approver': 'Sean Zhou', 'purpose' : purpose, 'amount': amount, 'ticket-id': 'approval-ticket-1'}
+
+def reimburse(purpose: str, amount: float) -> str:
+    """Reimburse the amount of money to the employee."""
+    # send the reimbrusement request to payment vendor
+    return {'status': 'ok'}
+
+# 2. Wrap the function with LongRunningFunctionTool
+long_running_tool = LongRunningFunctionTool(func=ask_for_approval)
+
+```
+
+```
+import (
+    "google.golang.org/adk/agent"
+    "google.golang.org/adk/agent/llmagent"
+    "google.golang.org/adk/model/gemini"
+    "google.golang.org/adk/tool"
+    "google.golang.org/adk/tool/functiontool"
+    "google.golang.org/genai"
+)
+
+// CreateTicketArgs defines the arguments for our long-running tool.
+type CreateTicketArgs struct {
+    Urgency string `json:"urgency" jsonschema:"The urgency level of the ticket."`
+}
+
+// CreateTicketResults defines the *initial* output of our long-running tool.
+type CreateTicketResults struct {
+    Status   string `json:"status"`
+    TicketId string `json:"ticket_id"`
+}
+
+// createTicketAsync simulates the *initiation* of a long-running ticket creation task.
+func createTicketAsync(ctx tool.Context, args CreateTicketArgs) (CreateTicketResults, error) {
+    log.Printf("TOOL_EXEC: 'create_ticket_long_running' called with urgency: %s (Call ID: %s)\n", args.Urgency, ctx.FunctionCallID())
+
+    // "Generate" a ticket ID and return it in the initial response.
+    ticketID := "TICKET-ABC-123"
+    log.Printf("ACTION: Generated Ticket ID: %s for Call ID: %s\n", ticketID, ctx.FunctionCallID())
+
+    // In a real application, you would save the association between the
+    // FunctionCallID and the ticketID to handle the async response later.
+    return CreateTicketResults{
+        Status:   "started",
+        TicketId: ticketID,
+    }, nil
+}
+
+func createTicketAgent(ctx context.Context) (agent.Agent, error) {
+    ticketTool, err := functiontool.New(
+        functiontool.Config{
+            Name:        "create_ticket_long_running",
+            Description: "Creates a new support ticket with a specified urgency level.",
+        },
+        createTicketAsync,
+    )
+    if err != nil {
+        return nil, fmt.Errorf("failed to create long running tool: %w", err)
+    }
+
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+    if err != nil {
+        return nil, fmt.Errorf("failed to create model: %v", err)
+    }
+
+    return llmagent.New(llmagent.Config{
+        Name:        "ticket_agent",
+        Model:       model,
+        Instruction: "You are a helpful assistant for creating support tickets. Provide the status of the ticket at each interaction.",
+        Tools:       []tool.Tool{ticketTool},
+    })
+}
+
+```
+
+```
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.tools.LongRunningFunctionTool;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ExampleLongRunningFunction {
+
+  // Define your Long Running function.
+  // Ask for approval for the reimbursement.
+  public static Map<String, Object> askForApproval(String purpose, double amount) {
+    // Simulate creating a ticket and sending a notification
+    System.out.println(
+        "Simulating ticket creation for purpose: " + purpose + ", amount: " + amount);
+
+    // Send a notification to the approver with the link of the ticket
+    Map<String, Object> result = new HashMap<>();
+    result.put("status", "pending");
+    result.put("approver", "Sean Zhou");
+    result.put("purpose", purpose);
+    result.put("amount", amount);
+    result.put("ticket-id", "approval-ticket-1");
+    return result;
+  }
+
+  public static void main(String[] args) throws NoSuchMethodException {
+    // Pass the method to LongRunningFunctionTool.create
+    LongRunningFunctionTool approveTool =
+        LongRunningFunctionTool.create(ExampleLongRunningFunction.class, "askForApproval");
+
+    // Include the tool in the agent
+    LlmAgent approverAgent =
+        LlmAgent.builder()
+            // ...
+            .tools(approveTool)
+            .build();
+  }
+}
+
+```
+
+# H3: Intermediate / Final result Updates¶
+
+Agent client received an event with long running function calls and check the status of the ticket. Then Agent client can send the intermediate or final response back to update the progress. The framework packages this value (even if it's None) into the content of the `FunctionResponse` sent back to the LLM.
+
+Note: Long running function response with Resume feature
+
+If your ADK agent workflow is configured with the 
+Resume feature, you also must include
+the Invocation ID (`invocation_id`) parameter with the long running 
+function response. The Invocation ID you provide must be the same 
+invocation that generated the long running function request, otherwise 
+the system starts a new invocation with the response. If your
+agent uses the Resume feature, consider including the Invocation ID
+as a parameter with your long running function request, so it can be
+included with the response. For more details on using the Resume 
+feature, see
+Resume stopped agents.
+
+Applies to only Java ADK
+
+When passing `ToolContext` with Function Tools, ensure that one of the following is true:
+
+- 
+
+The Schema is passed with the ToolContext parameter in the function signature, like:
+
+```
+@com.google.adk.tools.Annotations.Schema(name = "toolContext") ToolContext toolContext
+
+```
+
+OR
+
+- 
+
+The following `-parameters` flag is set to the mvn compiler plugin
+
+```
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.14.0</version> <!-- or newer -->
+            <configuration>
+                <compilerArgs>
+                    <arg>-parameters</arg>
+                </compilerArgs>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+```
+
+This constraint is temporary and will be removed.
+
+PythonGoJava
+
+```
+# Agent Interaction
+async def call_agent_async(query):
+
+    def get_long_running_function_call(event: Event) -> types.FunctionCall:
+        # Get the long running function call from the event
+        if not event.long_running_tool_ids or not event.content or not event.content.parts:
+            return
+        for part in event.content.parts:
+            if (
+                part
+                and part.function_call
+                and event.long_running_tool_ids
+                and part.function_call.id in event.long_running_tool_ids
+            ):
+                return part.function_call
+
+    def get_function_response(event: Event, function_call_id: str) -> types.FunctionResponse:
+        # Get the function response for the fuction call with specified id.
+        if not event.content or not event.content.parts:
+            return
+        for part in event.content.parts:
+            if (
+                part
+                and part.function_response
+                and part.function_response.id == function_call_id
+            ):
+                return part.function_response
+
+    content = types.Content(role='user', parts=[types.Part(text=query)])
+    session, runner = await setup_session_and_runner()
+
+    print("\nRunning agent...")
+    events_async = runner.run_async(
+        session_id=session.id, user_id=USER_ID, new_message=content
+    )
+
+    long_running_function_call, long_running_function_response, ticket_id = None, None, None
+    async for event in events_async:
+        # Use helper to check for the specific auth request event
+        if not long_running_function_call:
+            long_running_function_call = get_long_running_function_call(event)
+        else:
+            _potential_response = get_function_response(event, long_running_function_call.id)
+            if _potential_response: # Only update if we get a non-None response
+                long_running_function_response = _potential_response
+                ticket_id = long_running_function_response.response['ticket-id']
+        if event.content and event.content.parts:
+            if text := ''.join(part.text or '' for part in event.content.parts):
+                print(f'[{event.author}]: {text}')
+
+    if long_running_function_response:
+        # query the status of the correpsonding ticket via tciket_id
+        # send back an intermediate / final response
+        updated_response = long_running_function_response.model_copy(deep=True)
+        updated_response.response = {'status': 'approved'}
+        async for event in runner.run_async(
+          session_id=session.id, user_id=USER_ID, new_message=types.Content(parts=[types.Part(function_response = updated_response)], role='user')
+        ):
+            if event.content and event.content.parts:
+                if text := ''.join(part.text or '' for part in event.content.parts):
+                    print(f'[{event.author}]: {text}')
+
+```
+
+The following example demonstrates a multi-turn workflow. First, the user asks the agent to create a ticket. The agent calls the long-running tool and the client captures the `FunctionCall` ID. The client then simulates the asynchronous work completing by sending subsequent `FunctionResponse` messages back to the agent to provide the ticket ID and final status.
+
+```
+// runTurn executes a single turn with the agent and returns the captured function call ID.
+func runTurn(ctx context.Context, r *runner.Runner, sessionID, turnLabel string, content *genai.Content) string {
+    var funcCallID atomic.Value // Safely store the found ID.
+
+    fmt.Printf("\n--- %s ---\n", turnLabel)
+    for event, err := range r.Run(ctx, userID, sessionID, content, agent.RunConfig{
+        StreamingMode: agent.StreamingModeNone,
+    }) {
+        if err != nil {
+            fmt.Printf("\nAGENT_ERROR: %v\n", err)
+            continue
+        }
+        // Print a summary of the event for clarity.
+        printEventSummary(event, turnLabel)
+
+        // Capture the function call ID from the event.
+        for _, part := range event.Content.Parts {
+            if fc := part.FunctionCall; fc != nil {
+                if fc.Name == "create_ticket_long_running" {
+                    funcCallID.Store(fc.ID)
+                }
+            }
+        }
+    }
+
+    if id, ok := funcCallID.Load().(string); ok {
+        return id
+    }
+    return ""
+}
+
+func main() {
+    ctx := context.Background()
+    ticketAgent, err := createTicketAgent(ctx)
+    if err != nil {
+        log.Fatalf("Failed to create agent: %v", err)
+    }
+
+    // Setup the runner and session.
+    sessionService := session.InMemoryService()
+    session, err := sessionService.Create(ctx, &session.CreateRequest{AppName: appName, UserID: userID})
+    if err != nil {
+        log.Fatalf("Failed to create session: %v", err)
+    }
+    r, err := runner.New(runner.Config{AppName: appName, Agent: ticketAgent, SessionService: sessionService})
+    if err != nil {
+        log.Fatalf("Failed to create runner: %v", err)
+    }
+
+    // --- Turn 1: User requests to create a ticket. ---
+    initialUserMessage := genai.NewContentFromText("Create a high urgency ticket for me.", genai.RoleUser)
+    funcCallID := runTurn(ctx, r, session.Session.ID(), "Turn 1: User Request", initialUserMessage)
+    if funcCallID == "" {
+        log.Fatal("ERROR: Tool 'create_ticket_long_running' not called in Turn 1.")
+    }
+    fmt.Printf("ACTION: Captured FunctionCall ID: %s\n", funcCallID)
+
+    // --- Turn 2: App provides the final status of the ticket. ---
+    // In a real application, the ticketID would be retrieved from a database
+    // using the funcCallID. For this example, we'll use the same ID.
+    ticketID := "TICKET-ABC-123"
+    willContinue := false // Signal that this is the final response.
+    ticketStatusResponse := &genai.FunctionResponse{
+        Name: "create_ticket_long_running",
+        ID:   funcCallID,
+        Response: map[string]any{
+            "status":    "approved",
+            "ticket_id": ticketID,
+        },
+        WillContinue: &willContinue,
+    }
+    appResponseWithStatus := &genai.Content{
+        Role:  string(genai.RoleUser),
+        Parts: []*genai.Part{{FunctionResponse: ticketStatusResponse}},
+    }
+    runTurn(ctx, r, session.Session.ID(), "Turn 2: App provides ticket status", appResponseWithStatus)
+    fmt.Println("Long running function completed successfully.")
+}
+
+// printEventSummary provides a readable log of agent and LLM interactions.
+func printEventSummary(event *session.Event, turnLabel string) {
+    for _, part := range event.Content.Parts {
+        // Check for a text part.
+        if part.Text != "" {
+            fmt.Printf("[%s][%s_TEXT]: %s\n", turnLabel, event.Author, part.Text)
+        }
+        // Check for a function call part.
+        if fc := part.FunctionCall; fc != nil {
+            fmt.Printf("[%s][%s_CALL]: %s(%v) ID: %s\n", turnLabel, event.Author, fc.Name, fc.Args, fc.ID)
+        }
+    }
+}
+
+```
+
+```
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.events.Event;
+import com.google.adk.runner.InMemoryRunner;
+import com.google.adk.runner.Runner;
+import com.google.adk.sessions.Session;
+import com.google.adk.tools.Annotations.Schema;
+import com.google.adk.tools.LongRunningFunctionTool;
+import com.google.adk.tools.ToolContext;
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableMap;
+import com.google.genai.types.Content;
+import com.google.genai.types.FunctionCall;
+import com.google.genai.types.FunctionResponse;
+import com.google.genai.types.Part;
+import java.util.Optional;
+import java.util.UUID;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.Collectors;
+
+public class LongRunningFunctionExample {
+
+  private static String USER_ID = "user123";
+
+  @Schema(
+      name = "create_ticket_long_running",
+      description = """
+          Creates a new support ticket with a specified urgency level.
+          Examples of urgency are 'high', 'medium', or 'low'.
+          The ticket creation is a long-running process, and its ID will be provided when ready.
+      """)
+  public static void createTicketAsync(
+      @Schema(
+              name = "urgency",
+              description =
+                  "The urgency level for the new ticket, such as 'high', 'medium', or 'low'.")
+          String urgency,
+      @Schema(name = "toolContext") // Ensures ADK injection
+          ToolContext toolContext) {
+    System.out.printf(
+        "TOOL_EXEC: 'create_ticket_long_running' called with urgency: %s (Call ID: %s)%n",
+        urgency, toolContext.functionCallId().orElse("N/A"));
+  }
+
+  public static void main(String[] args) {
+    LlmAgent agent =
+        LlmAgent.builder()
+            .name("ticket_agent")
+            .description("Agent for creating tickets via a long-running task.")
+            .model("gemini-2.0-flash")
+            .tools(
+                ImmutableList.of(
+                    LongRunningFunctionTool.create(
+                        LongRunningFunctionExample.class, "createTicketAsync")))
+            .build();
+
+    Runner runner = new InMemoryRunner(agent);
+    Session session =
+        runner.sessionService().createSession(agent.name(), USER_ID, null, null).blockingGet();
+
+    // --- Turn 1: User requests ticket ---
+    System.out.println("\n--- Turn 1: User Request ---");
+    Content initialUserMessage =
+        Content.fromParts(Part.fromText("Create a high urgency ticket for me."));
+
+    AtomicReference<String> funcCallIdRef = new AtomicReference<>();
+    runner
+        .runAsync(USER_ID, session.id(), initialUserMessage)
+        .blockingForEach(
+            event -> {
+              printEventSummary(event, "T1");
+              if (funcCallIdRef.get() == null) { // Capture the first relevant function call ID
+                event.content().flatMap(Content::parts).orElse(ImmutableList.of()).stream()
+                    .map(Part::functionCall)
+                    .flatMap(Optional::stream)
+                    .filter(fc -> "create_ticket_long_running".equals(fc.name().orElse("")))
+                    .findFirst()
+                    .flatMap(FunctionCall::id)
+                    .ifPresent(funcCallIdRef::set);
+              }
+            });
+
+    if (funcCallIdRef.get() == null) {
+      System.out.println("ERROR: Tool 'create_ticket_long_running' not called in Turn 1.");
+      return;
+    }
+    System.out.println("ACTION: Captured FunctionCall ID: " + funcCallIdRef.get());
+
+    // --- Turn 2: App provides initial ticket_id (simulating async tool completion) ---
+    System.out.println("\n--- Turn 2: App provides ticket_id ---");
+    String ticketId = "TICKET-" + UUID.randomUUID().toString().substring(0, 8).toUpperCase();
+    FunctionResponse ticketCreatedFuncResponse =
+        FunctionResponse.builder()
+            .name("create_ticket_long_running")
+            .id(funcCallIdRef.get())
+            .response(ImmutableMap.of("ticket_id", ticketId))
+            .build();
+    Content appResponseWithTicketId =
+        Content.builder()
+            .parts(
+                ImmutableList.of(
+                    Part.builder().functionResponse(ticketCreatedFuncResponse).build()))
+            .role("user")
+            .build();
+
+    runner
+        .runAsync(USER_ID, session.id(), appResponseWithTicketId)
+        .blockingForEach(event -> printEventSummary(event, "T2"));
+    System.out.println("ACTION: Sent ticket_id " + ticketId + " to agent.");
+
+    // --- Turn 3: App provides ticket status update ---
+    System.out.println("\n--- Turn 3: App provides ticket status ---");
+    FunctionResponse ticketStatusFuncResponse =
+        FunctionResponse.builder()
+            .name("create_ticket_long_running")
+            .id(funcCallIdRef.get())
+            .response(ImmutableMap.of("status", "approved", "ticket_id", ticketId))
+            .build();
+    Content appResponseWithStatus =
+        Content.builder()
+            .parts(
+                ImmutableList.of(Part.builder().functionResponse(ticketStatusFuncResponse).build()))
+            .role("user")
+            .build();
+
+    runner
+        .runAsync(USER_ID, session.id(), appResponseWithStatus)
+        .blockingForEach(event -> printEventSummary(event, "T3_FINAL"));
+    System.out.println("Long running function completed successfully.");
+  }
+
+  private static void printEventSummary(Event event, String turnLabel) {
+    event
+        .content()
+        .ifPresent(
+            content -> {
+              String text =
+                  content.parts().orElse(ImmutableList.of()).stream()
+                      .map(part -> part.text().orElse(""))
+                      .filter(s -> !s.isEmpty())
+                      .collect(Collectors.joining(" "));
+              if (!text.isEmpty()) {
+                System.out.printf("[%s][%s_TEXT]: %s%n", turnLabel, event.author(), text);
+              }
+              content.parts().orElse(ImmutableList.of()).stream()
+                  .map(Part::functionCall)
+                  .flatMap(Optional::stream)
+                  .findFirst() // Assuming one function call per relevant event for simplicity
+                  .ifPresent(
+                      fc ->
+                          System.out.printf(
+                              "[%s][%s_CALL]: %s(%s) ID: %s%n",
+                              turnLabel,
+                              event.author(),
+                              fc.name().orElse("N/A"),
+                              fc.args().orElse(ImmutableMap.of()),
+                              fc.id().orElse("N/A")));
+            });
+  }
+}
+
+```
+
+Python complete example: File Processing Simulation
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import asyncio
+from typing import Any
+from google.adk.agents import Agent
+from google.adk.events import Event
+from google.adk.runners import Runner
+from google.adk.tools import LongRunningFunctionTool
+from google.adk.sessions import InMemorySessionService
+from google.genai import types
+
+# 1. Define the long running function
+def ask_for_approval(
+    purpose: str, amount: float
+) -> dict[str, Any]:
+    """Ask for approval for the reimbursement."""
+    # create a ticket for the approval
+    # Send a notification to the approver with the link of the ticket
+    return {'status': 'pending', 'approver': 'Sean Zhou', 'purpose' : purpose, 'amount': amount, 'ticket-id': 'approval-ticket-1'}
+
+def reimburse(purpose: str, amount: float) -> str:
+    """Reimburse the amount of money to the employee."""
+    # send the reimbrusement request to payment vendor
+    return {'status': 'ok'}
+
+# 2. Wrap the function with LongRunningFunctionTool
+long_running_tool = LongRunningFunctionTool(func=ask_for_approval)
+
+# 3. Use the tool in an Agent
+file_processor_agent = Agent(
+    # Use a model compatible with function calling
+    model="gemini-2.0-flash",
+    name='reimbursement_agent',
+    instruction="""
+      You are an agent whose job is to handle the reimbursement process for
+      the employees. If the amount is less than $100, you will automatically
+      approve the reimbursement.
+
+      If the amount is greater than $100, you will
+      ask for approval from the manager. If the manager approves, you will
+      call reimburse() to reimburse the amount to the employee. If the manager
+      rejects, you will inform the employee of the rejection.
+    """,
+    tools=[reimburse, long_running_tool]
+)
+
+APP_NAME = "human_in_the_loop"
+USER_ID = "1234"
+SESSION_ID = "session1234"
+
+# Session and Runner
+async def setup_session_and_runner():
+    session_service = InMemorySessionService()
+    session = await session_service.create_session(app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID)
+    runner = Runner(agent=file_processor_agent, app_name=APP_NAME, session_service=session_service)
+    return session, runner
+
+# Agent Interaction
+async def call_agent_async(query):
+
+    def get_long_running_function_call(event: Event) -> types.FunctionCall:
+        # Get the long running function call from the event
+        if not event.long_running_tool_ids or not event.content or not event.content.parts:
+            return
+        for part in event.content.parts:
+            if (
+                part
+                and part.function_call
+                and event.long_running_tool_ids
+                and part.function_call.id in event.long_running_tool_ids
+            ):
+                return part.function_call
+
+    def get_function_response(event: Event, function_call_id: str) -> types.FunctionResponse:
+        # Get the function response for the fuction call with specified id.
+        if not event.content or not event.content.parts:
+            return
+        for part in event.content.parts:
+            if (
+                part
+                and part.function_response
+                and part.function_response.id == function_call_id
+            ):
+                return part.function_response
+
+    content = types.Content(role='user', parts=[types.Part(text=query)])
+    session, runner = await setup_session_and_runner()
+
+    print("\nRunning agent...")
+    events_async = runner.run_async(
+        session_id=session.id, user_id=USER_ID, new_message=content
+    )
+
+    long_running_function_call, long_running_function_response, ticket_id = None, None, None
+    async for event in events_async:
+        # Use helper to check for the specific auth request event
+        if not long_running_function_call:
+            long_running_function_call = get_long_running_function_call(event)
+        else:
+            _potential_response = get_function_response(event, long_running_function_call.id)
+            if _potential_response: # Only update if we get a non-None response
+                long_running_function_response = _potential_response
+                ticket_id = long_running_function_response.response['ticket-id']
+        if event.content and event.content.parts:
+            if text := ''.join(part.text or '' for part in event.content.parts):
+                print(f'[{event.author}]: {text}')
+
+    if long_running_function_response:
+        # query the status of the correpsonding ticket via tciket_id
+        # send back an intermediate / final response
+        updated_response = long_running_function_response.model_copy(deep=True)
+        updated_response.response = {'status': 'approved'}
+        async for event in runner.run_async(
+          session_id=session.id, user_id=USER_ID, new_message=types.Content(parts=[types.Part(function_response = updated_response)], role='user')
+        ):
+            if event.content and event.content.parts:
+                if text := ''.join(part.text or '' for part in event.content.parts):
+                    print(f'[{event.author}]: {text}')
+
+# Note: In Colab, you can directly use 'await' at the top level.
+# If running this code as a standalone Python script, you'll need to use asyncio.run() or manage the event loop.
+
+# reimbursement that doesn't require approval
+# asyncio.run(call_agent_async("Please reimburse 50$ for meals"))
+await call_agent_async("Please reimburse 50$ for meals") # For Notebooks, uncomment this line and comment the above line
+# reimbursement that requires approval
+# asyncio.run(call_agent_async("Please reimburse 200$ for meals"))
+await call_agent_async("Please reimburse 200$ for meals") # For Notebooks, uncomment this line and comment the above line
+
+```
+
+# H4: Key aspects of this example¶
+
+- 
+
+`LongRunningFunctionTool`: Wraps the supplied method/function; the framework handles sending yielded updates and the final return value as sequential FunctionResponses.
+
+- 
+
+Agent instruction: Directs the LLM to use the tool and understand the incoming FunctionResponse stream (progress vs. completion) for user updates.
+
+- 
+
+Final return: The function returns the final result dictionary, which is sent in the concluding FunctionResponse to indicate completion.
+
+# H2: Agent-as-a-Tool¶
+
+This powerful feature allows you to leverage the capabilities of other agents within your system by calling them as tools. The Agent-as-a-Tool enables you to invoke another agent to perform a specific task, effectively delegating responsibility. This is conceptually similar to creating a Python function that calls another agent and uses the agent's response as the function's return value.
+
+# H3: Key difference from sub-agents¶
+
+It's important to distinguish an Agent-as-a-Tool from a Sub-Agent.
+
+- 
+
+Agent-as-a-Tool: When Agent A calls Agent B as a tool (using Agent-as-a-Tool), Agent B's answer is passed back to Agent A, which then summarizes the answer and generates a response to the user. Agent A retains control and continues to handle future user input.  
+
+- 
+
+Sub-agent: When Agent A calls Agent B as a sub-agent, the responsibility of answering the user is completely transferred to Agent B. Agent A is effectively out of the loop. All subsequent user input will be answered by Agent B.
+
+# H3: Usage¶
+
+To use an agent as a tool, wrap the agent with the AgentTool class.
+PythonGoJava
+
+```
+tools=[AgentTool(agent=agent_b)]
+
+```
+
+```
+agenttool.New(agent, &agenttool.Config{...})
+
+```
+
+```
+AgentTool.create(agent)
+
+```
+
+# H3: Customization¶
+
+The `AgentTool` class provides the following attributes for customizing its behavior:
+
+- skip_summarization: bool: If set to True, the framework will bypass the LLM-based summarization of the tool agent's response. This can be useful when the tool's response is already well-formatted and requires no further processing.
+
+Example
+PythonGoJava
+
+```
+# Copyright 2025 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+from google.adk.agents import Agent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.tools.agent_tool import AgentTool
+from google.genai import types
+
+APP_NAME="summary_agent"
+USER_ID="user1234"
+SESSION_ID="1234"
+
+summary_agent = Agent(
+    model="gemini-2.0-flash",
+    name="summary_agent",
+    instruction="""You are an expert summarizer. Please read the following text and provide a concise summary.""",
+    description="Agent to summarize text",
+)
+
+root_agent = Agent(
+    model='gemini-2.0-flash',
+    name='root_agent',
+    instruction="""You are a helpful assistant. When the user provides a text, use the 'summarize' tool to generate a summary. Always forward the user's message exactly as received to the 'summarize' tool, without modifying or summarizing it yourself. Present the response from the tool to the user.""",
+    tools=[AgentTool(agent=summary_agent, skip_summarization=True)]
+)
+
+# Session and Runner
+async def setup_session_and_runner():
+    session_service = InMemorySessionService()
+    session = await session_service.create_session(app_name=APP_NAME, user_id=USER_ID, session_id=SESSION_ID)
+    runner = Runner(agent=root_agent, app_name=APP_NAME, session_service=session_service)
+    return session, runner
+
+# Agent Interaction
+async def call_agent_async(query):
+    content = types.Content(role='user', parts=[types.Part(text=query)])
+    session, runner = await setup_session_and_runner()
+    events = runner.run_async(user_id=USER_ID, session_id=SESSION_ID, new_message=content)
+
+    async for event in events:
+        if event.is_final_response():
+            final_response = event.content.parts[0].text
+            print("Agent Response: ", final_response)
+
+long_text = """Quantum computing represents a fundamentally different approach to computation, 
+leveraging the bizarre principles of quantum mechanics to process information. Unlike classical computers 
+that rely on bits representing either 0 or 1, quantum computers use qubits which can exist in a state of superposition - effectively 
+being 0, 1, or a combination of both simultaneously. Furthermore, qubits can become entangled, 
+meaning their fates are intertwined regardless of distance, allowing for complex correlations. This parallelism and 
+interconnectedness grant quantum computers the potential to solve specific types of incredibly complex problems - such 
+as drug discovery, materials science, complex system optimization, and breaking certain types of cryptography - far 
+faster than even the most powerful classical supercomputers could ever achieve, although the technology is still largely in its developmental stages."""
+
+# Note: In Colab, you can directly use 'await' at the top level.
+# If running this code as a standalone Python script, you'll need to use asyncio.run() or manage the event loop.
+await call_agent_async(long_text)
+
+```
+
+```
+import (
+    "google.golang.org/adk/agent"
+    "google.golang.org/adk/agent/llmagent"
+    "google.golang.org/adk/model/gemini"
+    "google.golang.org/adk/tool"
+    "google.golang.org/adk/tool/agenttool"
+    "google.golang.org/genai"
+)
+
+// createSummarizerAgent creates an agent whose sole purpose is to summarize text.
+func createSummarizerAgent(ctx context.Context) (agent.Agent, error) {
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+    if err != nil {
+        return nil, err
+    }
+    return llmagent.New(llmagent.Config{
+        Name:        "SummarizerAgent",
+        Model:       model,
+        Instruction: "You are an expert at summarizing text. Take the user's input and provide a concise summary.",
+        Description: "An agent that summarizes text.",
+    })
+}
+
+// createMainAgent creates the primary agent that will use the summarizer agent as a tool.
+func createMainAgent(ctx context.Context, tools ...tool.Tool) (agent.Agent, error) {
+    model, err := gemini.NewModel(ctx, "gemini-2.5-flash", &genai.ClientConfig{})
+    if err != nil {
+        return nil, err
+    }
+    return llmagent.New(llmagent.Config{
+        Name:  "MainAgent",
+        Model: model,
+        Instruction: "You are a helpful assistant. If you are asked to summarize a long text, use the 'summarize' tool. " +
+            "After getting the summary, present it to the user by saying 'Here is a summary of the text:'.",
+        Description: "The main agent that can delegate tasks.",
+        Tools:       tools,
+    })
+}
+
+func RunAgentAsToolSimulation() {
+    ctx := context.Background()
+
+    // 1. Create the Tool Agent (Summarizer)
+    summarizerAgent, err := createSummarizerAgent(ctx)
+    if err != nil {
+        log.Fatalf("Failed to create summarizer agent: %v", err)
+    }
+
+    // 2. Wrap the Tool Agent in an AgentTool
+    summarizeTool := agenttool.New(summarizerAgent, &agenttool.Config{
+        SkipSummarization: true,
+    })
+
+    // 3. Create the Main Agent and provide it with the AgentTool
+    mainAgent, err := createMainAgent(ctx, summarizeTool)
+    if err != nil {
+        log.Fatalf("Failed to create main agent: %v", err)
+    }
+
+    // 4. Run the main agent
+    prompt := `
+        Please summarize this text for me:
+        Quantum computing represents a fundamentally different approach to computation,
+        leveraging the bizarre principles of quantum mechanics to process information. Unlike classical computers
+        that rely on bits representing either 0 or 1, quantum computers use qubits which can exist in a state of superposition - effectively
+        being 0, 1, or a combination of both simultaneously. Furthermore, qubits can become entangled,
+        meaning their fates are intertwined regardless of distance, allowing for complex correlations. This parallelism and
+        interconnectedness grant quantum computers the potential to solve specific types of incredibly complex problems - such
+        as drug discovery, materials science, complex system optimization, and breaking certain types of cryptography - far
+        faster than even the most powerful classical supercomputers could ever achieve, although the technology is still largely in its developmental stages.
+    `
+    fmt.Printf("\nPrompt: %s\nResponse: ", prompt)
+    callAgent(context.Background(), mainAgent, prompt)
+    fmt.Println("\n---")
+}
+
+```
+
+```
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.events.Event;
+import com.google.adk.runner.InMemoryRunner;
+import com.google.adk.sessions.Session;
+import com.google.adk.tools.AgentTool;
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+import io.reactivex.rxjava3.core.Flowable;
+
+public class AgentToolCustomization {
+
+  private static final String APP_NAME = "summary_agent";
+  private static final String USER_ID = "user1234";
+
+  public static void initAgentAndRun(String prompt) {
+
+    LlmAgent summaryAgent =
+        LlmAgent.builder()
+            .model("gemini-2.0-flash")
+            .name("summaryAgent")
+            .instruction(
+                "You are an expert summarizer. Please read the following text and provide a concise summary.")
+            .description("Agent to summarize text")
+            .build();
+
+    // Define root_agent
+    LlmAgent rootAgent =
+        LlmAgent.builder()
+            .model("gemini-2.0-flash")
+            .name("rootAgent")
+            .instruction(
+                "You are a helpful assistant. When the user provides a text, always use the 'summaryAgent' tool to generate a summary. Always forward the user's message exactly as received to the 'summaryAgent' tool, without modifying or summarizing it yourself. Present the response from the tool to the user.")
+            .description("Assistant agent")
+            .tools(AgentTool.create(summaryAgent, true)) // Set skipSummarization to true
+            .build();
+
+    // Create an InMemoryRunner
+    InMemoryRunner runner = new InMemoryRunner(rootAgent, APP_NAME);
+    // InMemoryRunner automatically creates a session service. Create a session using the service
+    Session session = runner.sessionService().createSession(APP_NAME, USER_ID).blockingGet();
+    Content userMessage = Content.fromParts(Part.fromText(prompt));
+
+    // Run the agent
+    Flowable<Event> eventStream = runner.runAsync(USER_ID, session.id(), userMessage);
+
+    // Stream event response
+    eventStream.blockingForEach(
+        event -> {
+          if (event.finalResponse()) {
+            System.out.println(event.stringifyContent());
+          }
+        });
+  }
+
+  public static void main(String[] args) {
+    String longText =
+        """
+            Quantum computing represents a fundamentally different approach to computation,
+            leveraging the bizarre principles of quantum mechanics to process information. Unlike classical computers
+            that rely on bits representing either 0 or 1, quantum computers use qubits which can exist in a state of superposition - effectively
+            being 0, 1, or a combination of both simultaneously. Furthermore, qubits can become entangled,
+            meaning their fates are intertwined regardless of distance, allowing for complex correlations. This parallelism and
+            interconnectedness grant quantum computers the potential to solve specific types of incredibly complex problems - such
+            as drug discovery, materials science, complex system optimization, and breaking certain types of cryptography - far
+            faster than even the most powerful classical supercomputers could ever achieve, although the technology is still largely in its developmental stages.""";
+
+    initAgentAndRun(longText);
+  }
+}
+
+```
+
+# H3: How it works¶
+
+- When the `main_agent` receives the long text, its instruction tells it to use the 'summarize' tool for long texts.  
+
+- The framework recognizes 'summarize' as an `AgentTool` that wraps the `summary_agent`.  
+
+- Behind the scenes, the `main_agent` will call the `summary_agent` with the long text as input.  
+
+- The `summary_agent` will process the text according to its instruction and generate a summary.  
+
+- The response from the `summary_agent` is then passed back to the `main_agent`.  
+
+- The `main_agent` can then take the summary and formulate its final response to the user (e.g., "Here's a summary of the text: ...")
+
+              
+
+==================================================
+SOURCE: https://google.github.io/adk-docs/tools-custom/mcp-tools/
+==================================================
+
+
+
+    adk-python
+
+    adk-go
+
+    adk-java
+
+- 
+
+    Home
+
+            Home
+
+- 
+
+    Build Agents
+
+            Build Agents
+
+- 
+
+    Get Started
+
+            Get Started
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Java
+
+- 
+
+    Build your Agent
+
+            Build your Agent
+
+- 
+
+    Multi-tool agent
+
+- 
+
+    Agent team
+
+- 
+
+    Streaming agent
+
+            Streaming agent
+
+- 
+
+    Python
+
+- 
+
+    Java
+
+- 
+
+    Visual Builder
+
+- 
+
+    Advanced setup
+
+- 
+
+    Agents
+
+            Agents
+
+- 
+
+    LLM agents
+
+- 
+
+    Workflow agents
+
+            Workflow agents
+
+- 
+
+    Sequential agents
+
+- 
+
+    Loop agents
+
+- 
+
+    Parallel agents
+
+- 
+
+    Custom agents
+
+- 
+
+    Multi-agent systems
+
+- 
+
+    Agent Config
+
+- 
+
+    Models & Authentication
+
+- 
+
+    Tools for Agents
+
+            Tools for Agents
+
+- 
+
+    Built-in tools
+
+- 
+
+    Gemini API tools
+
+            Gemini API tools
+
+- 
+
+    Computer use
+
+- 
+
+    Google Cloud tools
+
+            Google Cloud tools
+
+- 
+
+    Overview
+
+- 
+
+    MCP Toolbox for Databases
+
+- 
+
+    BigQuery Agent Analytics
+
+- 
+
+    Code Execution with Agent Engine
+
+- 
+
+    Third-party tools
+
+            Third-party tools
+
+- 
+
+    AgentQL
+
+- 
+
+    Bright Data
+
+- 
+
+    Browserbase
+
+- 
+
+    Exa
+
+- 
+
+    Firecrawl
+
+- 
+
+    GitHub
+
+- 
+
+    GitLab
+
+- 
+
+    Hugging Face
+
+- 
+
+    Notion
+
+- 
+
+    ScrapeGraphAI
+
+- 
+
+    Tavily
+
+- 
+
+    Agentic UI (AG-UI)
+
+- 
+
+    Custom Tools
+
+            Custom Tools
+
+- 
+
+    Function tools
+
+            Function tools
+
+- 
+
+    Overview
+
+- 
+
+    Tool performance
+
+- 
+
+    Action confirmations
+
+- 
+
+    MCP tools
+
+    MCP tools
+
+      Table of contents
+
+- 
+
+      What is Model Context Protocol (MCP)?
+
+- 
+
+      Prerequisites
+
+- 
+
+      1. Using MCP servers with ADK agents (ADK as an MCP client) in adk web
+
+- 
+
+      McpToolset class
+
+- 
+
+      Example 1: File System MCP Server
+
+- 
+
+      Step 1: Define your Agent with McpToolset
+
+- 
+
+      Step 2: Create an __init__.py file
+
+- 
+
+      Step 3: Run adk web and Interact
+
+- 
+
+      Example 2: Google Maps MCP Server
+
+- 
+
+      Step 1: Get API Key and Enable APIs
+
+- 
+
+      Step 2: Define your Agent with McpToolset for Google Maps
+
+- 
+
+      Step 3: Ensure __init__.py Exists
+
+- 
+
+      Step 4: Run adk web and Interact
+
+- 
+
+      2. Building an MCP server with ADK tools (MCP server exposing ADK)
+
+- 
+
+      Summary of steps
+
+- 
+
+      Prerequisites
+
+- 
+
+      Step 1: Create the MCP Server Script
+
+- 
+
+      Step 2: Implement the Server Logic
+
+- 
+
+      Step 3: Test your Custom MCP Server with an ADK Agent
+
+- 
+
+      Using MCP Tools in your own Agent out of adk web
+
+- 
+
+      Key considerations
+
+- 
+
+      Deploying Agents with MCP Tools
+
+- 
+
+      Critical Deployment Requirement: Synchronous Agent Definition
+
+- 
+
+      Quick Deployment Commands
+
+- 
+
+      Vertex AI Agent Engine
+
+- 
+
+      Cloud Run
+
+- 
+
+      Deployment Patterns
+
+- 
+
+      Pattern 1: Self-Contained Stdio MCP Servers
+
+- 
+
+      Pattern 2: Remote MCP Servers (Streamable HTTP)
+
+- 
+
+      Pattern 3: Sidecar MCP Servers (GKE)
+
+- 
+
+      Connection Management Considerations
+
+- 
+
+      Stdio Connections
+
+- 
+
+      SSE/HTTP Connections
+
+- 
+
+      Production Deployment Checklist
+
+- 
+
+      Environment-Specific Configurations
+
+- 
+
+      Cloud Run
+
+- 
+
+      GKE
+
+- 
+
+      Vertex AI Agent Engine
+
+- 
+
+      Troubleshooting Deployment Issues
+
+- 
+
+      Further Resources
+
+- 
+
+    OpenAPI tools
+
+- 
+
+    Authentication
+
+- 
+
+    Run Agents
+
+            Run Agents
+
+- 
+
+    Agent Runtime
+
+            Agent Runtime
+
+- 
+
+    Runtime Config
+
+- 
+
+    API Server
+
+- 
+
+    Resume Agents
+
+- 
+
+    Deployment
+
+            Deployment
+
+- 
+
+    Agent Engine
+
+- 
+
+    Cloud Run
+
+- 
+
+    GKE
+
+- 
+
+    Observability
+
+            Observability
+
+- 
+
+    Logging
+
+- 
+
+    Cloud Trace
+
+- 
+
+    AgentOps
+
+- 
+
+    Arize AX
+
+- 
+
+    Freeplay
+
+- 
+
+    Monocle
+
+- 
+
+    Phoenix
+
+- 
+
+    W&B Weave
+
+- 
+
+    Evaluation
+
+            Evaluation
+
+- 
+
+    Criteria
+
+- 
+
+    User Simulation
+
+- 
+
+    Safety and Security
+
+            Safety and Security
+
+- 
+
+    Components
+
+            Components
+
+- 
+
+    Technical Overview
+
+- 
+
+    Context
+
+            Context
+
+- 
+
+    Context caching
+
+- 
+
+    Context compression
+
+- 
+
+    Sessions & Memory
+
+            Sessions & Memory
+
+- 
+
+    Session
+
+- 
+
+    State
+
+- 
+
+    Memory
+
+- 
+
+    Vertex AI Express Mode
+
+- 
+
+    Callbacks
+
+            Callbacks
+
+- 
+
+    Types of callbacks
+
+- 
+
+    Callback patterns
+
+- 
+
+    Artifacts
+
+            Artifacts
+
+- 
+
+    Events
+
+            Events
+
+- 
+
+    Apps
+
+            Apps
+
+- 
+
+    Plugins
+
+            Plugins
+
+- 
+
+    Reflect and retry
+
+- 
+
+    MCP
+
+            MCP
+
+- 
+
+    A2A Protocol
+
+            A2A Protocol
+
+- 
+
+    Introduction to A2A
+
+- 
+
+    A2A Quickstart (Exposing)
+
+            A2A Quickstart (Exposing)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    A2A Quickstart (Consuming)
+
+            A2A Quickstart (Consuming)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Bidi-streaming (live)
+
+            Bidi-streaming (live)
+
+- 
+
+    Custom Audio Bidi-streaming app sample (WebSockets)
+
+- 
+
+    Bidi-streaming development guide series
+
+            Bidi-streaming development guide series
+
+- 
+
+    Part 1, Intro to streaming
+
+- 
+
+    Part 2, Sending messages
+
+- 
+
+    Part 3, Event handling
+
+- 
+
+    Part 4, Run configuration
+
+- 
+
+    Part 5, Audio, Images, and Video
+
+- 
+
+    Streaming Tools
+
+- 
+
+    Configurating Bidi-streaming behaviour
+
+- 
+
+    Grounding
+
+            Grounding
+
+- 
+
+    Understanding Google Search Grounding
+
+- 
+
+    Understanding Vertex AI Search Grounding
+
+- 
+
+    Reference
+
+            Reference
+
+- 
+
+    Release Notes
+
+- 
+
+    API Reference
+
+            API Reference
+
+- 
+
+    Python ADK
+
+- 
+
+    Go ADK
+
+- 
+
+    Java ADK
+
+- 
+
+    CLI Reference
+
+- 
+
+    Agent Config Reference
+
+- 
+
+    REST API
+
+- 
+
+    Community Resources
+
+- 
+
+    Contributing Guide
+
+      Table of contents
+
+- 
+
+      What is Model Context Protocol (MCP)?
+
+- 
+
+      Prerequisites
+
+- 
+
+      1. Using MCP servers with ADK agents (ADK as an MCP client) in adk web
+
+- 
+
+      McpToolset class
+
+- 
+
+      Example 1: File System MCP Server
+
+- 
+
+      Step 1: Define your Agent with McpToolset
+
+- 
+
+      Step 2: Create an __init__.py file
+
+- 
+
+      Step 3: Run adk web and Interact
+
+- 
+
+      Example 2: Google Maps MCP Server
+
+- 
+
+      Step 1: Get API Key and Enable APIs
+
+- 
+
+      Step 2: Define your Agent with McpToolset for Google Maps
+
+- 
+
+      Step 3: Ensure __init__.py Exists
+
+- 
+
+      Step 4: Run adk web and Interact
+
+- 
+
+      2. Building an MCP server with ADK tools (MCP server exposing ADK)
+
+- 
+
+      Summary of steps
+
+- 
+
+      Prerequisites
+
+- 
+
+      Step 1: Create the MCP Server Script
+
+- 
+
+      Step 2: Implement the Server Logic
+
+- 
+
+      Step 3: Test your Custom MCP Server with an ADK Agent
+
+- 
+
+      Using MCP Tools in your own Agent out of adk web
+
+- 
+
+      Key considerations
+
+- 
+
+      Deploying Agents with MCP Tools
+
+- 
+
+      Critical Deployment Requirement: Synchronous Agent Definition
+
+- 
+
+      Quick Deployment Commands
+
+- 
+
+      Vertex AI Agent Engine
+
+- 
+
+      Cloud Run
+
+- 
+
+      Deployment Patterns
+
+- 
+
+      Pattern 1: Self-Contained Stdio MCP Servers
+
+- 
+
+      Pattern 2: Remote MCP Servers (Streamable HTTP)
+
+- 
+
+      Pattern 3: Sidecar MCP Servers (GKE)
+
+- 
+
+      Connection Management Considerations
+
+- 
+
+      Stdio Connections
+
+- 
+
+      SSE/HTTP Connections
+
+- 
+
+      Production Deployment Checklist
+
+- 
+
+      Environment-Specific Configurations
+
+- 
+
+      Cloud Run
+
+- 
+
+      GKE
+
+- 
+
+      Vertex AI Agent Engine
+
+- 
+
+      Troubleshooting Deployment Issues
+
+- 
+
+      Further Resources
+
+# H1: Model Context Protocol Tools¶
+
+  Supported in ADKPython v0.1.0Go v0.1.0Java v0.1.0
+
+This guide walks you through two ways of integrating Model Context Protocol (MCP) with ADK.
+
+# H2: What is Model Context Protocol (MCP)?¶
+
+The Model Context Protocol (MCP) is an open standard designed to standardize how Large Language Models (LLMs) like Gemini and Claude communicate with external applications, data sources, and tools. Think of it as a universal connection mechanism that simplifies how LLMs obtain context, execute actions, and interact with various systems.
+
+MCP follows a client-server architecture, defining how data (resources), interactive templates (prompts), and actionable functions (tools) are exposed by an MCP server and consumed by an MCP client (which could be an LLM host application or an AI agent).
+
+This guide covers two primary integration patterns:
+
+- Using Existing MCP Servers within ADK: An ADK agent acts as an MCP client, leveraging tools provided by external MCP servers.
+
+- Exposing ADK Tools via an MCP Server: Building an MCP server that wraps ADK tools, making them accessible to any MCP client.
+
+# H2: Prerequisites¶
+
+Before you begin, ensure you have the following set up:
+
+- Set up ADK: Follow the standard ADK setup instructions in the quickstart.
+
+- Install/update Python/Java: MCP requires Python version of 3.9 or higher for Python or Java 17 or higher.
+
+- Setup Node.js and npx: (Python only) Many community MCP servers are distributed as Node.js packages and run using `npx`. Install Node.js (which includes npx) if you haven't already. For details, see https://nodejs.org/en.
+
+- Verify Installations: (Python only) Confirm `adk` and `npx` are in your PATH within the activated virtual environment:
+
+```
+# Both commands should print the path to the executables.
+which adk
+which npx
+
+```
+
+# H2: 1. Using MCP servers with ADK agents (ADK as an MCP client) in `adk web`¶
+
+This section demonstrates how to integrate tools from external MCP (Model Context Protocol) servers into your ADK agents. This is the most common integration pattern when your ADK agent needs to use capabilities provided by an existing service that exposes an MCP interface. You will see how the `McpToolset` class can be directly added to your agent's `tools` list, enabling seamless connection to an MCP server, discovery of its tools, and making them available for your agent to use. These examples primarily focus on interactions within the `adk web` development environment.
+
+# H3: `McpToolset` class¶
+
+The `McpToolset` class is ADK's primary mechanism for integrating tools from an MCP server. When you include an `McpToolset` instance in your agent's `tools` list, it automatically handles the interaction with the specified MCP server. Here's how it works:
+
+- Connection Management: On initialization, `McpToolset` establishes and manages the connection to the MCP server. This can be a local server process (using `StdioConnectionParams` for communication over standard input/output) or a remote server (using `SseConnectionParams` for Server-Sent Events). The toolset also handles the graceful shutdown of this connection when the agent or application terminates.
+
+- Tool Discovery & Adaptation: Once connected, `McpToolset` queries the MCP server for its available tools (via the `list_tools` MCP method). It then converts the schemas of these discovered MCP tools into ADK-compatible `BaseTool` instances.
+
+- Exposure to Agent: These adapted tools are then made available to your `LlmAgent` as if they were native ADK tools.
+
+- Proxying Tool Calls: When your `LlmAgent` decides to use one of these tools, `McpToolset` transparently proxies the call (using the `call_tool` MCP method) to the MCP server, sends the necessary arguments, and returns the server's response back to the agent.
+
+- Filtering (Optional): You can use the `tool_filter` parameter when creating an `McpToolset` to select a specific subset of tools from the MCP server, rather than exposing all of them to your agent.
+
+The following examples demonstrate how to use `McpToolset` within the `adk web` development environment. For scenarios where you need more fine-grained control over the MCP connection lifecycle or are not using `adk web`, refer to the "Using MCP Tools in your own Agent out of `adk web`" section later in this page.
+
+# H3: Example 1: File System MCP Server¶
+
+This Python example demonstrates connecting to a local MCP server that provides file system operations.
+
+# H4: Step 1: Define your Agent with `McpToolset`¶
+
+Create an `agent.py` file (e.g., in `./adk_agent_samples/mcp_agent/agent.py`). The `McpToolset` is instantiated directly within the `tools` list of your `LlmAgent`.
+
+- Important: Replace `"/path/to/your/folder"` in the `args` list with the absolute path to an actual folder on your local system that the MCP server can access.
+
+- Important: Place the `.env` file in the parent directory of the `./adk_agent_samples` directory.
+
+```
+# ./adk_agent_samples/mcp_agent/agent.py
+import os # Required for path operations
+from google.adk.agents import LlmAgent
+from google.adk.tools.mcp_tool import McpToolset
+from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
+from mcp import StdioServerParameters
+
+# It's good practice to define paths dynamically if possible,
+# or ensure the user understands the need for an ABSOLUTE path.
+# For this example, we'll construct a path relative to this file,
+# assuming '/path/to/your/folder' is in the same directory as agent.py.
+# REPLACE THIS with an actual absolute path if needed for your setup.
+TARGET_FOLDER_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "/path/to/your/folder")
+# Ensure TARGET_FOLDER_PATH is an absolute path for the MCP server.
+# If you created ./adk_agent_samples/mcp_agent/your_folder,
+
+root_agent = LlmAgent(
+    model='gemini-2.0-flash',
+    name='filesystem_assistant_agent',
+    instruction='Help the user manage their files. You can list files, read files, etc.',
+    tools=[
+        McpToolset(
+            connection_params=StdioConnectionParams(
+                server_params = StdioServerParameters(
+                    command='npx',
+                    args=[
+                        "-y",  # Argument for npx to auto-confirm install
+                        "@modelcontextprotocol/server-filesystem",
+                        # IMPORTANT: This MUST be an ABSOLUTE path to a folder the
+                        # npx process can access.
+                        # Replace with a valid absolute path on your system.
+                        # For example: "/Users/youruser/accessible_mcp_files"
+                        # or use a dynamically constructed absolute path:
+                        os.path.abspath(TARGET_FOLDER_PATH),
+                    ],
+                ),
+            ),
+            # Optional: Filter which tools from the MCP server are exposed
+            # tool_filter=['list_directory', 'read_file']
+        )
+    ],
+)
+
+```
+
+# H4: Step 2: Create an `__init__.py` file¶
+
+Ensure you have an `__init__.py` in the same directory as `agent.py` to make it a discoverable Python package for ADK.
+
+```
+# ./adk_agent_samples/mcp_agent/__init__.py
+from . import agent
+
+```
+
+# H4: Step 3: Run `adk web` and Interact¶
+
+Navigate to the parent directory of `mcp_agent` (e.g., `adk_agent_samples`) in your terminal and run:
+
+```
+cd ./adk_agent_samples # Or your equivalent parent directory
+adk web
+
+```
+
+Note for Windows users
+
+When hitting the `_make_subprocess_transport NotImplementedError`, consider using `adk web --no-reload` instead.
+
+Once the ADK Web UI loads in your browser:
+
+- Select the `filesystem_assistant_agent` from the agent dropdown.
+
+- Try prompts like:
+
+- "List files in the current directory."
+
+- "Can you read the file named sample.txt?" (assuming you created it in `TARGET_FOLDER_PATH`).
+
+- "What is the content of `another_file.md`?"
+
+You should see the agent interacting with the MCP file system server, and the server's responses (file listings, file content) relayed through the agent. The `adk web` console (terminal where you ran the command) might also show logs from the `npx` process if it outputs to stderr.
+
+For Java, refer to the following sample to define an agent that initializes the `McpToolset`:
+
+```
+package agents;
+
+import com.google.adk.JsonBaseModel;
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.agents.RunConfig;
+import com.google.adk.runner.InMemoryRunner;
+import com.google.adk.tools.mcp.McpTool;
+import com.google.adk.tools.mcp.McpToolset;
+import com.google.adk.tools.mcp.McpToolset.McpToolsAndToolsetResult;
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+import io.modelcontextprotocol.client.transport.ServerParameters;
+
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+
+public class McpAgentCreator {
+
+    /**
+     * Initializes an McpToolset, retrieves tools from an MCP server using stdio,
+     * creates an LlmAgent with these tools, sends a prompt to the agent,
+     * and ensures the toolset is closed.
+     * @param args Command line arguments (not used).
+     */
+    public static void main(String[] args) {
+        //Note: you may have permissions issues if the folder is outside home
+        String yourFolderPath = "~/path/to/folder";
+
+        ServerParameters connectionParams = ServerParameters.builder("npx")
+                .args(List.of(
+                        "-y",
+                        "@modelcontextprotocol/server-filesystem",
+                        yourFolderPath
+                ))
+                .build();
+
+        try {
+            CompletableFuture<McpToolsAndToolsetResult> futureResult =
+                    McpToolset.fromServer(connectionParams, JsonBaseModel.getMapper());
+
+            McpToolsAndToolsetResult result = futureResult.join();
+
+            try (McpToolset toolset = result.getToolset()) {
+                List<McpTool> tools = result.getTools();
+
+                LlmAgent agent = LlmAgent.builder()
+                        .model("gemini-2.0-flash")
+                        .name("enterprise_assistant")
+                        .description("An agent to help users access their file systems")
+                        .instruction(
+                                "Help user accessing their file systems. You can list files in a directory."
+                        )
+                        .tools(tools)
+                        .build();
+
+                System.out.println("Agent created: " + agent.name());
+
+                InMemoryRunner runner = new InMemoryRunner(agent);
+                String userId = "user123";
+                String sessionId = "1234";
+                String promptText = "Which files are in this directory - " + yourFolderPath + "?";
+
+                // Explicitly create the session first
+                try {
+                    // appName for InMemoryRunner defaults to agent.name() if not specified in constructor
+                    runner.sessionService().createSession(runner.appName(), userId, null, sessionId).blockingGet();
+                    System.out.println("Session created: " + sessionId + " for user: " + userId);
+                } catch (Exception sessionCreationException) {
+                    System.err.println("Failed to create session: " + sessionCreationException.getMessage());
+                    sessionCreationException.printStackTrace();
+                    return;
+                }
+
+                Content promptContent = Content.fromParts(Part.fromText(promptText));
+
+                System.out.println("\nSending prompt: \"" + promptText + "\" to agent...\n");
+
+                runner.runAsync(userId, sessionId, promptContent, RunConfig.builder().build())
+                        .blockingForEach(event -> {
+                            System.out.println("Event received: " + event.toJson());
+                        });
+            }
+        } catch (Exception e) {
+            System.err.println("An error occurred: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+Assuming a folder containing three files named `first`, `second` and `third`, successful response will look like this:
+
+```
+Event received: {"id":"163a449e-691a-48a2-9e38-8cadb6d1f136","invocationId":"e-c2458c56-e57a-45b2-97de-ae7292e505ef","author":"enterprise_assistant","content":{"parts":[{"functionCall":{"id":"adk-388b4ac2-d40e-4f6a-bda6-f051110c6498","args":{"path":"~/home-test"},"name":"list_directory"}}],"role":"model"},"actions":{"stateDelta":{},"artifactDelta":{},"requestedAuthConfigs":{}},"timestamp":1747377543788}
+
+Event received: {"id":"8728380b-bfad-4d14-8421-fa98d09364f1","invocationId":"e-c2458c56-e57a-45b2-97de-ae7292e505ef","author":"enterprise_assistant","content":{"parts":[{"functionResponse":{"id":"adk-388b4ac2-d40e-4f6a-bda6-f051110c6498","name":"list_directory","response":{"text_output":[{"text":"[FILE] first\n[FILE] second\n[FILE] third"}]}}}],"role":"user"},"actions":{"stateDelta":{},"artifactDelta":{},"requestedAuthConfigs":{}},"timestamp":1747377544679}
+
+Event received: {"id":"8fe7e594-3e47-4254-8b57-9106ad8463cb","invocationId":"e-c2458c56-e57a-45b2-97de-ae7292e505ef","author":"enterprise_assistant","content":{"parts":[{"text":"There are three files in the directory: first, second, and third."}],"role":"model"},"actions":{"stateDelta":{},"artifactDelta":{},"requestedAuthConfigs":{}},"timestamp":1747377544689}
+
+```
+
+# H3: Example 2: Google Maps MCP Server¶
+
+This example demonstrates connecting to the Google Maps MCP server.
+
+# H4: Step 1: Get API Key and Enable APIs¶
+
+- Google Maps API Key: Follow the directions at Use API keys to obtain a Google Maps API Key.
+
+- Enable APIs: In your Google Cloud project, ensure the following APIs are enabled:
+
+- Directions API
+
+- Routes API
+For instructions, see the Getting started with Google Maps Platform documentation.
+
+# H4: Step 2: Define your Agent with `McpToolset` for Google Maps¶
+
+Modify your `agent.py` file (e.g., in `./adk_agent_samples/mcp_agent/agent.py`). Replace `YOUR_GOOGLE_MAPS_API_KEY` with the actual API key you obtained.
+
+```
+# ./adk_agent_samples/mcp_agent/agent.py
+import os
+from google.adk.agents import LlmAgent
+from google.adk.tools.mcp_tool import McpToolset
+from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
+from mcp import StdioServerParameters
+
+# Retrieve the API key from an environment variable or directly insert it.
+# Using an environment variable is generally safer.
+# Ensure this environment variable is set in the terminal where you run 'adk web'.
+# Example: export GOOGLE_MAPS_API_KEY="YOUR_ACTUAL_KEY"
+google_maps_api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
+
+if not google_maps_api_key:
+    # Fallback or direct assignment for testing - NOT RECOMMENDED FOR PRODUCTION
+    google_maps_api_key = "YOUR_GOOGLE_MAPS_API_KEY_HERE" # Replace if not using env var
+    if google_maps_api_key == "YOUR_GOOGLE_MAPS_API_KEY_HERE":
+        print("WARNING: GOOGLE_MAPS_API_KEY is not set. Please set it as an environment variable or in the script.")
+        # You might want to raise an error or exit if the key is crucial and not found.
+
+root_agent = LlmAgent(
+    model='gemini-2.0-flash',
+    name='maps_assistant_agent',
+    instruction='Help the user with mapping, directions, and finding places using Google Maps tools.',
+    tools=[
+        McpToolset(
+            connection_params=StdioConnectionParams(
+                server_params = StdioServerParameters(
+                    command='npx',
+                    args=[
+                        "-y",
+                        "@modelcontextprotocol/server-google-maps",
+                    ],
+                    # Pass the API key as an environment variable to the npx process
+                    # This is how the MCP server for Google Maps expects the key.
+                    env={
+                        "GOOGLE_MAPS_API_KEY": google_maps_api_key
+                    }
+                ),
+            ),
+            # You can filter for specific Maps tools if needed:
+            # tool_filter=['get_directions', 'find_place_by_id']
+        )
+    ],
+)
+
+```
+
+# H4: Step 3: Ensure `__init__.py` Exists¶
+
+If you created this in Example 1, you can skip this. Otherwise, ensure you have an `__init__.py` in the `./adk_agent_samples/mcp_agent/` directory:
+
+```
+# ./adk_agent_samples/mcp_agent/__init__.py
+from . import agent
+
+```
+
+# H4: Step 4: Run `adk web` and Interact¶
+
+- 
+
+Set Environment Variable (Recommended):
+    Before running `adk web`, it's best to set your Google Maps API key as an environment variable in your terminal:
+
+```
+export GOOGLE_MAPS_API_KEY="YOUR_ACTUAL_GOOGLE_MAPS_API_KEY"
+
+```
+
+    Replace `YOUR_ACTUAL_GOOGLE_MAPS_API_KEY` with your key.
+
+- 
+
+Run `adk web`:
+    Navigate to the parent directory of `mcp_agent` (e.g., `adk_agent_samples`) and run:
+
+```
+cd ./adk_agent_samples # Or your equivalent parent directory
+adk web
+
+```
+
+- 
+
+Interact in the UI:
+
+- Select the `maps_assistant_agent`.
+
+- Try prompts like:
+
+- "Get directions from GooglePlex to SFO."
+
+- "Find coffee shops near Golden Gate Park."
+
+- "What's the route from Paris, France to Berlin, Germany?"
+
+You should see the agent use the Google Maps MCP tools to provide directions or location-based information.
+
+For Java, refer to the following sample to define an agent that initializes the `McpToolset`:
+
+```
+package agents;
+
+import com.google.adk.JsonBaseModel;
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.agents.RunConfig;
+import com.google.adk.runner.InMemoryRunner;
+import com.google.adk.tools.mcp.McpTool;
+import com.google.adk.tools.mcp.McpToolset;
+import com.google.adk.tools.mcp.McpToolset.McpToolsAndToolsetResult;
+
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+
+import io.modelcontextprotocol.client.transport.ServerParameters;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.concurrent.CompletableFuture;
+import java.util.Arrays;
+
+public class MapsAgentCreator {
+
+    /**
+     * Initializes an McpToolset for Google Maps, retrieves tools,
+     * creates an LlmAgent, sends a map-related prompt, and closes the toolset.
+     * @param args Command line arguments (not used).
+     */
+    public static void main(String[] args) {
+        // TODO: Replace with your actual Google Maps API key, on a project with the Places API enabled.
+        String googleMapsApiKey = "YOUR_GOOGLE_MAPS_API_KEY";
+
+        Map<String, String> envVariables = new HashMap<>();
+        envVariables.put("GOOGLE_MAPS_API_KEY", googleMapsApiKey);
+
+        ServerParameters connectionParams = ServerParameters.builder("npx")
+                .args(List.of(
+                        "-y",
+                        "@modelcontextprotocol/server-google-maps"
+                ))
+                .env(Collections.unmodifiableMap(envVariables))
+                .build();
+
+        try {
+            CompletableFuture<McpToolsAndToolsetResult> futureResult =
+                    McpToolset.fromServer(connectionParams, JsonBaseModel.getMapper());
+
+            McpToolsAndToolsetResult result = futureResult.join();
+
+            try (McpToolset toolset = result.getToolset()) {
+                List<McpTool> tools = result.getTools();
+
+                LlmAgent agent = LlmAgent.builder()
+                        .model("gemini-2.0-flash")
+                        .name("maps_assistant")
+                        .description("Maps assistant")
+                        .instruction("Help user with mapping and directions using available tools.")
+                        .tools(tools)
+                        .build();
+
+                System.out.println("Agent created: " + agent.name());
+
+                InMemoryRunner runner = new InMemoryRunner(agent);
+                String userId = "maps-user-" + System.currentTimeMillis();
+                String sessionId = "maps-session-" + System.currentTimeMillis();
+
+                String promptText = "Please give me directions to the nearest pharmacy to Madison Square Garden.";
+
+                try {
+                    runner.sessionService().createSession(runner.appName(), userId, null, sessionId).blockingGet();
+                    System.out.println("Session created: " + sessionId + " for user: " + userId);
+                } catch (Exception sessionCreationException) {
+                    System.err.println("Failed to create session: " + sessionCreationException.getMessage());
+                    sessionCreationException.printStackTrace();
+                    return;
+                }
+
+                Content promptContent = Content.fromParts(Part.fromText(promptText))
+
+                System.out.println("\nSending prompt: \"" + promptText + "\" to agent...\n");
+
+                runner.runAsync(userId, sessionId, promptContent, RunConfig.builder().build())
+                        .blockingForEach(event -> {
+                            System.out.println("Event received: " + event.toJson());
+                        });
+            }
+        } catch (Exception e) {
+            System.err.println("An error occurred: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+
+```
+
+A successful response will look like this:
+
+```
+Event received: {"id":"1a4deb46-c496-4158-bd41-72702c773368","invocationId":"e-48994aa0-531c-47be-8c57-65215c3e0319","author":"maps_assistant","content":{"parts":[{"text":"OK. I see a few options. The closest one is CVS Pharmacy at 5 Pennsylvania Plaza, New York, NY 10001, United States. Would you like directions?\n"}],"role":"model"},"actions":{"stateDelta":{},"artifactDelta":{},"requestedAuthConfigs":{}},"timestamp":1747380026642}
+
+```
+
+# H2: 2. Building an MCP server with ADK tools (MCP server exposing ADK)¶
+
+This pattern allows you to wrap existing ADK tools and make them available to any standard MCP client application. The example in this section exposes the ADK `load_web_page` tool through a custom-built MCP server.
+
+# H3: Summary of steps¶
+
+You will create a standard Python MCP server application using the `mcp` library. Within this server, you will:
+
+- Instantiate the ADK tool(s) you want to expose (e.g., `FunctionTool(load_web_page)`).
+
+- Implement the MCP server's `@app.list_tools()` handler to advertise the ADK tool(s). This involves converting the ADK tool definition to the MCP schema using the `adk_to_mcp_tool_type` utility from `google.adk.tools.mcp_tool.conversion_utils`.
+
+- Implement the MCP server's `@app.call_tool()` handler. This handler will:
+
+- Receive tool call requests from MCP clients.
+
+- Identify if the request targets one of your wrapped ADK tools.
+
+- Execute the ADK tool's `.run_async()` method.
+
+- Format the ADK tool's result into an MCP-compliant response (e.g., `mcp.types.TextContent`).
+
+# H3: Prerequisites¶
+
+Install the MCP server library in the same Python environment as your ADK installation:
+
+```
+pip install mcp
+
+```
+
+# H3: Step 1: Create the MCP Server Script¶
+
+Create a new Python file for your MCP server, for example, `my_adk_mcp_server.py`.
+
+# H3: Step 2: Implement the Server Logic¶
+
+Add the following code to `my_adk_mcp_server.py`. This script sets up an MCP server that exposes the ADK `load_web_page` tool.
+
+```
+# my_adk_mcp_server.py
+import asyncio
+import json
+import os
+from dotenv import load_dotenv
+
+# MCP Server Imports
+from mcp import types as mcp_types # Use alias to avoid conflict
+from mcp.server.lowlevel import Server, NotificationOptions
+from mcp.server.models import InitializationOptions
+import mcp.server.stdio # For running as a stdio server
+
+# ADK Tool Imports
+from google.adk.tools.function_tool import FunctionTool
+from google.adk.tools.load_web_page import load_web_page # Example ADK tool
+# ADK <-> MCP Conversion Utility
+from google.adk.tools.mcp_tool.conversion_utils import adk_to_mcp_tool_type
+
+# --- Load Environment Variables (If ADK tools need them, e.g., API keys) ---
+load_dotenv() # Create a .env file in the same directory if needed
+
+# --- Prepare the ADK Tool ---
+# Instantiate the ADK tool you want to expose.
+# This tool will be wrapped and called by the MCP server.
+print("Initializing ADK load_web_page tool...")
+adk_tool_to_expose = FunctionTool(load_web_page)
+print(f"ADK tool '{adk_tool_to_expose.name}' initialized and ready to be exposed via MCP.")
+# --- End ADK Tool Prep ---
+
+# --- MCP Server Setup ---
+print("Creating MCP Server instance...")
+# Create a named MCP Server instance using the mcp.server library
+app = Server("adk-tool-exposing-mcp-server")
+
+# Implement the MCP server's handler to list available tools
+@app.list_tools()
+async def list_mcp_tools() -> list[mcp_types.Tool]:
+    """MCP handler to list tools this server exposes."""
+    print("MCP Server: Received list_tools request.")
+    # Convert the ADK tool's definition to the MCP Tool schema format
+    mcp_tool_schema = adk_to_mcp_tool_type(adk_tool_to_expose)
+    print(f"MCP Server: Advertising tool: {mcp_tool_schema.name}")
+    return [mcp_tool_schema]
+
+# Implement the MCP server's handler to execute a tool call
+@app.call_tool()
+async def call_mcp_tool(
+    name: str, arguments: dict
+) -> list[mcp_types.Content]: # MCP uses mcp_types.Content
+    """MCP handler to execute a tool call requested by an MCP client."""
+    print(f"MCP Server: Received call_tool request for '{name}' with args: {arguments}")
+
+    # Check if the requested tool name matches our wrapped ADK tool
+    if name == adk_tool_to_expose.name:
+        try:
+            # Execute the ADK tool's run_async method.
+            # Note: tool_context is None here because this MCP server is
+            # running the ADK tool outside of a full ADK Runner invocation.
+            # If the ADK tool requires ToolContext features (like state or auth),
+            # this direct invocation might need more sophisticated handling.
+            adk_tool_response = await adk_tool_to_expose.run_async(
+                args=arguments,
+                tool_context=None,
+            )
+            print(f"MCP Server: ADK tool '{name}' executed. Response: {adk_tool_response}")
+
+            # Format the ADK tool's response (often a dict) into an MCP-compliant format.
+            # Here, we serialize the response dictionary as a JSON string within TextContent.
+            # Adjust formatting based on the ADK tool's output and client needs.
+            response_text = json.dumps(adk_tool_response, indent=2)
+            # MCP expects a list of mcp_types.Content parts
+            return [mcp_types.TextContent(type="text", text=response_text)]
+
+        except Exception as e:
+            print(f"MCP Server: Error executing ADK tool '{name}': {e}")
+            # Return an error message in MCP format
+            error_text = json.dumps({"error": f"Failed to execute tool '{name}': {str(e)}"})
+            return [mcp_types.TextContent(type="text", text=error_text)]
+    else:
+        # Handle calls to unknown tools
+        print(f"MCP Server: Tool '{name}' not found/exposed by this server.")
+        error_text = json.dumps({"error": f"Tool '{name}' not implemented by this server."})
+        return [mcp_types.TextContent(type="text", text=error_text)]
+
+# --- MCP Server Runner ---
+async def run_mcp_stdio_server():
+    """Runs the MCP server, listening for connections over standard input/output."""
+    # Use the stdio_server context manager from the mcp.server.stdio library
+    async with mcp.server.stdio.stdio_server() as (read_stream, write_stream):
+        print("MCP Stdio Server: Starting handshake with client...")
+        await app.run(
+            read_stream,
+            write_stream,
+            InitializationOptions(
+                server_name=app.name, # Use the server name defined above
+                server_version="0.1.0",
+                capabilities=app.get_capabilities(
+                    # Define server capabilities - consult MCP docs for options
+                    notification_options=NotificationOptions(),
+                    experimental_capabilities={},
+                ),
+            ),
+        )
+        print("MCP Stdio Server: Run loop finished or client disconnected.")
+
+if __name__ == "__main__":
+    print("Launching MCP Server to expose ADK tools via stdio...")
+    try:
+        asyncio.run(run_mcp_stdio_server())
+    except KeyboardInterrupt:
+        print("\nMCP Server (stdio) stopped by user.")
+    except Exception as e:
+        print(f"MCP Server (stdio) encountered an error: {e}")
+    finally:
+        print("MCP Server (stdio) process exiting.")
+# --- End MCP Server ---
+
+```
+
+# H3: Step 3: Test your Custom MCP Server with an ADK Agent¶
+
+Now, create an ADK agent that will act as a client to the MCP server you just built. This ADK agent will use `McpToolset` to connect to your `my_adk_mcp_server.py` script.
+
+Create an `agent.py` (e.g., in `./adk_agent_samples/mcp_client_agent/agent.py`):
+
+```
+# ./adk_agent_samples/mcp_client_agent/agent.py
+import os
+from google.adk.agents import LlmAgent
+from google.adk.tools.mcp_tool import McpToolset
+from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
+from mcp import StdioServerParameters
+
+# IMPORTANT: Replace this with the ABSOLUTE path to your my_adk_mcp_server.py script
+PATH_TO_YOUR_MCP_SERVER_SCRIPT = "/path/to/your/my_adk_mcp_server.py" # <<< REPLACE
+
+if PATH_TO_YOUR_MCP_SERVER_SCRIPT == "/path/to/your/my_adk_mcp_server.py":
+    print("WARNING: PATH_TO_YOUR_MCP_SERVER_SCRIPT is not set. Please update it in agent.py.")
+    # Optionally, raise an error if the path is critical
+
+root_agent = LlmAgent(
+    model='gemini-2.0-flash',
+    name='web_reader_mcp_client_agent',
+    instruction="Use the 'load_web_page' tool to fetch content from a URL provided by the user.",
+    tools=[
+        McpToolset(
+            connection_params=StdioConnectionParams(
+                server_params = StdioServerParameters(
+                    command='python3', # Command to run your MCP server script
+                    args=[PATH_TO_YOUR_MCP_SERVER_SCRIPT], # Argument is the path to the script
+                )
+            )
+            # tool_filter=['load_web_page'] # Optional: ensure only specific tools are loaded
+        )
+    ],
+)
+
+```
+
+And an `__init__.py` in the same directory:
+
+```
+# ./adk_agent_samples/mcp_client_agent/__init__.py
+from . import agent
+
+```
+
+To run the test:
+
+- 
+
+Start your custom MCP server (optional, for separate observation):
+    You can run your `my_adk_mcp_server.py` directly in one terminal to see its logs:
+
+```
+python3 /path/to/your/my_adk_mcp_server.py
+
+```
+
+    It will print "Launching MCP Server..." and wait. The ADK agent (run via `adk web`) will then connect to this process if the `command` in `StdioConnectionParams` is set up to execute it.
+    (Alternatively, `McpToolset` will start this server script as a subprocess automatically when the agent initializes).
+
+- 
+
+Run `adk web` for the client agent:
+    Navigate to the parent directory of `mcp_client_agent` (e.g., `adk_agent_samples`) and run:
+
+```
+cd ./adk_agent_samples # Or your equivalent parent directory
+adk web
+
+```
+
+- 
+
+Interact in the ADK Web UI:
+
+- Select the `web_reader_mcp_client_agent`.
+
+- Try a prompt like: "Load the content from https://example.com"
+
+The ADK agent (`web_reader_mcp_client_agent`) will use `McpToolset` to start and connect to your `my_adk_mcp_server.py`. Your MCP server will receive the `call_tool` request, execute the ADK `load_web_page` tool, and return the result. The ADK agent will then relay this information. You should see logs from both the ADK Web UI (and its terminal) and potentially from your `my_adk_mcp_server.py` terminal if you ran it separately.
+
+This example demonstrates how ADK tools can be encapsulated within an MCP server, making them accessible to a broader range of MCP-compliant clients, not just ADK agents.
+
+Refer to the documentation, to try it out with Claude Desktop.
+
+# H2: Using MCP Tools in your own Agent out of `adk web`¶
+
+This section is relevant to you if:
+
+- You are developing your own Agent using ADK
+
+- And, you are NOT using `adk web`,
+
+- And, you are exposing the agent via your own UI
+
+Using MCP Tools requires a different setup than using regular tools, due to the fact that specs for MCP Tools are fetched asynchronously
+from the MCP Server running remotely, or in another process.
+
+The following example is modified from the "Example 1: File System MCP Server" example above. The main differences are:
+
+- Your tool and agent are created asynchronously
+
+- You need to properly manage the exit stack, so that your agents and tools are destructed properly when the connection to MCP Server is closed.
+
+```
+# agent.py (modify get_tools_async and other parts as needed)
+# ./adk_agent_samples/mcp_agent/agent.py
+import os
+import asyncio
+from dotenv import load_dotenv
+from google.genai import types
+from google.adk.agents.llm_agent import LlmAgent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.artifacts.in_memory_artifact_service import InMemoryArtifactService # Optional
+from google.adk.tools.mcp_tool import McpToolset
+from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
+from mcp import StdioServerParameters
+
+# Load environment variables from .env file in the parent directory
+# Place this near the top, before using env vars like API keys
+load_dotenv('../.env')
+
+# Ensure TARGET_FOLDER_PATH is an absolute path for the MCP server.
+TARGET_FOLDER_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "/path/to/your/folder")
+
+# --- Step 1: Agent Definition ---
+async def get_agent_async():
+  """Creates an ADK Agent equipped with tools from the MCP Server."""
+  toolset = McpToolset(
+      # Use StdioConnectionParams for local process communication
+      connection_params=StdioConnectionParams(
+          server_params = StdioServerParameters(
+            command='npx', # Command to run the server
+            args=["-y",    # Arguments for the command
+                "@modelcontextprotocol/server-filesystem",
+                TARGET_FOLDER_PATH],
+          ),
+      ),
+      tool_filter=['read_file', 'list_directory'] # Optional: filter specific tools
+      # For remote servers, you would use SseConnectionParams instead:
+      # connection_params=SseConnectionParams(url="http://remote-server:port/path", headers={...})
+  )
+
+  # Use in an agent
+  root_agent = LlmAgent(
+      model='gemini-2.0-flash', # Adjust model name if needed based on availability
+      name='enterprise_assistant',
+      instruction='Help user accessing their file systems',
+      tools=[toolset], # Provide the MCP tools to the ADK agent
+  )
+  return root_agent, toolset
+
+# --- Step 2: Main Execution Logic ---
+async def async_main():
+  session_service = InMemorySessionService()
+  # Artifact service might not be needed for this example
+  artifacts_service = InMemoryArtifactService()
+
+  session = await session_service.create_session(
+      state={}, app_name='mcp_filesystem_app', user_id='user_fs'
+  )
+
+  # TODO: Change the query to be relevant to YOUR specified folder.
+  # e.g., "list files in the 'documents' subfolder" or "read the file 'notes.txt'"
+  query = "list files in the tests folder"
+  print(f"User Query: '{query}'")
+  content = types.Content(role='user', parts=[types.Part(text=query)])
+
+  root_agent, toolset = await get_agent_async()
+
+  runner = Runner(
+      app_name='mcp_filesystem_app',
+      agent=root_agent,
+      artifact_service=artifacts_service, # Optional
+      session_service=session_service,
+  )
+
+  print("Running agent...")
+  events_async = runner.run_async(
+      session_id=session.id, user_id=session.user_id, new_message=content
+  )
+
+  async for event in events_async:
+    print(f"Event received: {event}")
+
+  # Cleanup is handled automatically by the agent framework
+  # But you can also manually close if needed:
+  print("Closing MCP server connection...")
+  await toolset.close()
+  print("Cleanup complete.")
+
+if __name__ == '__main__':
+  try:
+    asyncio.run(async_main())
+  except Exception as e:
+    print(f"An error occurred: {e}")
+
+```
+
+# H2: Key considerations¶
+
+When working with MCP and ADK, keep these points in mind:
+
+- 
+
+Protocol vs. Library: MCP is a protocol specification, defining communication rules. ADK is a Python library/framework for building agents. McpToolset bridges these by implementing the client side of the MCP protocol within the ADK framework. Conversely, building an MCP server in Python requires using the model-context-protocol library.
+
+- 
+
+ADK Tools vs. MCP Tools:
+
+- ADK Tools (BaseTool, FunctionTool, AgentTool, etc.) are Python objects designed for direct use within the ADK's LlmAgent and Runner.
+
+- MCP Tools are capabilities exposed by an MCP Server according to the protocol's schema. McpToolset makes these look like ADK tools to an LlmAgent.
+
+- 
+
+Asynchronous nature: Both ADK and the MCP Python library are heavily based on the asyncio Python library. Tool implementations and server handlers should generally be async functions.
+
+- 
+
+Stateful sessions (MCP): MCP establishes stateful, persistent connections between a client and server instance. This differs from typical stateless REST APIs.
+
+- Deployment: This statefulness can pose challenges for scaling and deployment, especially for remote servers handling many users. The original MCP design often assumed client and server were co-located. Managing these persistent connections requires careful infrastructure considerations (e.g., load balancing, session affinity).
+
+- ADK McpToolset: Manages this connection lifecycle. The exit_stack pattern shown in the examples is crucial for ensuring the connection (and potentially the server process) is properly terminated when the ADK agent finishes.
+
+# H2: Deploying Agents with MCP Tools¶
+
+When deploying ADK agents that use MCP tools to production environments like Cloud Run, GKE, or Vertex AI Agent Engine, you need to consider how MCP connections will work in containerized and distributed environments.
+
+# H3: Critical Deployment Requirement: Synchronous Agent Definition¶
+
+⚠️ Important: When deploying agents with MCP tools, the agent and its McpToolset must be defined synchronously in your `agent.py` file. While `adk web` allows for asynchronous agent creation, deployment environments require synchronous instantiation.
+
+```
+# ✅ CORRECT: Synchronous agent definition for deployment
+import os
+from google.adk.agents.llm_agent import LlmAgent
+from google.adk.tools.mcp_tool import McpToolset
+from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
+from mcp import StdioServerParameters
+
+_allowed_path = os.path.dirname(os.path.abspath(__file__))
+
+root_agent = LlmAgent(
+    model='gemini-2.0-flash',
+    name='enterprise_assistant',
+    instruction=f'Help user accessing their file systems. Allowed directory: {_allowed_path}',
+    tools=[
+        McpToolset(
+            connection_params=StdioConnectionParams(
+                server_params=StdioServerParameters(
+                    command='npx',
+                    args=['-y', '@modelcontextprotocol/server-filesystem', _allowed_path],
+                ),
+                timeout=5,  # Configure appropriate timeouts
+            ),
+            # Filter tools for security in production
+            tool_filter=[
+                'read_file', 'read_multiple_files', 'list_directory',
+                'directory_tree', 'search_files', 'get_file_info',
+                'list_allowed_directories',
+            ],
+        )
+    ],
+)
+
+```
+
+```
+# ❌ WRONG: Asynchronous patterns don't work in deployment
+async def get_agent():  # This won't work for deployment
+    toolset = await create_mcp_toolset_async()
+    return LlmAgent(tools=[toolset])
+
+```
+
+# H3: Quick Deployment Commands¶
+
+# H4: Vertex AI Agent Engine¶
+
+```
+uv run adk deploy agent_engine \
+  --project=<your-gcp-project-id> \
+  --region=<your-gcp-region> \
+  --staging_bucket="gs://<your-gcs-bucket>" \
+  --display_name="My MCP Agent" \
+  ./path/to/your/agent_directory
+
+```
+
+# H4: Cloud Run¶
+
+```
+uv run adk deploy cloud_run \
+  --project=<your-gcp-project-id> \
+  --region=<your-gcp-region> \
+  --service_name=<your-service-name> \
+  ./path/to/your/agent_directory
+
+```
+
+# H3: Deployment Patterns¶
+
+# H4: Pattern 1: Self-Contained Stdio MCP Servers¶
+
+For MCP servers that can be packaged as npm packages or Python modules (like `@modelcontextprotocol/server-filesystem`), you can include them directly in your agent container:
+
+Container Requirements:
+
+```
+# Example for npm-based MCP servers
+FROM python:3.13-slim
+
+# Install Node.js and npm for MCP servers
+RUN apt-get update && apt-get install -y nodejs npm && rm -rf /var/lib/apt/lists/*
+
+# Install your Python dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy your agent code
+COPY . .
+
+# Your agent can now use StdioConnectionParams with 'npx' commands
+CMD ["python", "main.py"]
+
+```
+
+Agent Configuration:
+
+```
+# This works in containers because npx and the MCP server run in the same environment
+McpToolset(
+    connection_params=StdioConnectionParams(
+        server_params=StdioServerParameters(
+            command='npx',
+            args=["-y", "@modelcontextprotocol/server-filesystem", "/app/data"],
+        ),
+    ),
+)
+
+```
+
+# H4: Pattern 2: Remote MCP Servers (Streamable HTTP)¶
+
+For production deployments requiring scalability, deploy MCP servers as separate services and connect via Streamable HTTP:
+
+MCP Server Deployment (Cloud Run):
+
+```
+# deploy_mcp_server.py - Separate Cloud Run service using Streamable HTTP
+import contextlib
+import logging
+from collections.abc import AsyncIterator
+from typing import Any
+
+import anyio
+import click
+import mcp.types as types
+from mcp.server.lowlevel import Server
+from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
+from starlette.applications import Starlette
+from starlette.routing import Mount
+from starlette.types import Receive, Scope, Send
+
+logger = logging.getLogger(__name__)
+
+def create_mcp_server():
+    """Create and configure the MCP server."""
+    app = Server("adk-mcp-streamable-server")
+
+    @app.call_tool()
+    async def call_tool(name: str, arguments: dict[str, Any]) -> list[types.ContentBlock]:
+        """Handle tool calls from MCP clients."""
+        # Example tool implementation - replace with your actual ADK tools
+        if name == "example_tool":
+            result = arguments.get("input", "No input provided")
+            return [
+                types.TextContent(
+                    type="text",
+                    text=f"Processed: {result}"
+                )
+            ]
+        else:
+            raise ValueError(f"Unknown tool: {name}")
+
+    @app.list_tools()
+    async def list_tools() -> list[types.Tool]:
+        """List available tools."""
+        return [
+            types.Tool(
+                name="example_tool",
+                description="Example tool for demonstration",
+                inputSchema={
+                    "type": "object",
+                    "properties": {
+                        "input": {
+                            "type": "string",
+                            "description": "Input text to process"
+                        }
+                    },
+                    "required": ["input"]
+                }
+            )
+        ]
+
+    return app
+
+def main(port: int = 8080, json_response: bool = False):
+    """Main server function."""
+    logging.basicConfig(level=logging.INFO)
+
+    app = create_mcp_server()
+
+    # Create session manager with stateless mode for scalability
+    session_manager = StreamableHTTPSessionManager(
+        app=app,
+        event_store=None,
+        json_response=json_response,
+        stateless=True,  # Important for Cloud Run scalability
+    )
+
+    async def handle_streamable_http(scope: Scope, receive: Receive, send: Send) -> None:
+        await session_manager.handle_request(scope, receive, send)
+
+    @contextlib.asynccontextmanager
+    async def lifespan(app: Starlette) -> AsyncIterator[None]:
+        """Manage session manager lifecycle."""
+        async with session_manager.run():
+            logger.info("MCP Streamable HTTP server started!")
+            try:
+                yield
+            finally:
+                logger.info("MCP server shutting down...")
+
+    # Create ASGI application
+    starlette_app = Starlette(
+        debug=False,  # Set to False for production
+        routes=[
+            Mount("/mcp", app=handle_streamable_http),
+        ],
+        lifespan=lifespan,
+    )
+
+    import uvicorn
+    uvicorn.run(starlette_app, host="0.0.0.0", port=port)
+
+if __name__ == "__main__":
+    main()
+
+```
+
+Agent Configuration for Remote MCP:
+
+```
+# Your ADK agent connects to the remote MCP service via Streamable HTTP
+McpToolset(
+    connection_params=StreamableHTTPConnectionParams(
+        url="https://your-mcp-server-url.run.app/mcp",
+        headers={"Authorization": "Bearer your-auth-token"}
+    ),
+)
+
+```
+
+# H4: Pattern 3: Sidecar MCP Servers (GKE)¶
+
+In Kubernetes environments, you can deploy MCP servers as sidecar containers:
+
+```
+# deployment.yaml - GKE with MCP sidecar
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adk-agent-with-mcp
+spec:
+  template:
+    spec:
+      containers:
+      # Main ADK agent container
+      - name: adk-agent
+        image: your-adk-agent:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: MCP_SERVER_URL
+          value: "http://localhost:8081"
+
+      # MCP server sidecar
+      - name: mcp-server
+        image: your-mcp-server:latest
+        ports:
+        - containerPort: 8081
+
+```
+
+# H3: Connection Management Considerations¶
+
+# H4: Stdio Connections¶
+
+- Pros: Simple setup, process isolation, works well in containers
+
+- Cons: Process overhead, not suitable for high-scale deployments
+
+- Best for: Development, single-tenant deployments, simple MCP servers
+
+# H4: SSE/HTTP Connections¶
+
+- Pros: Network-based, scalable, can handle multiple clients
+
+- Cons: Requires network infrastructure, authentication complexity
+
+- Best for: Production deployments, multi-tenant systems, external MCP services
+
+# H3: Production Deployment Checklist¶
+
+When deploying agents with MCP tools to production:
+
+✅ Connection Lifecycle
+- Ensure proper cleanup of MCP connections using exit_stack patterns
+- Configure appropriate timeouts for connection establishment and requests
+- Implement retry logic for transient connection failures
+
+✅ Resource Management
+- Monitor memory usage for stdio MCP servers (each spawns a process)
+- Configure appropriate CPU/memory limits for MCP server processes
+- Consider connection pooling for remote MCP servers
+
+✅ Security
+- Use authentication headers for remote MCP connections
+- Restrict network access between ADK agents and MCP servers
+- Filter MCP tools using `tool_filter` to limit exposed functionality
+- Validate MCP tool inputs to prevent injection attacks
+- Use restrictive file paths for filesystem MCP servers (e.g., `os.path.dirname(os.path.abspath(__file__))`)
+- Consider read-only tool filters for production environments
+
+✅ Monitoring & Observability
+- Log MCP connection establishment and teardown events
+- Monitor MCP tool execution times and success rates
+- Set up alerts for MCP connection failures
+
+✅ Scalability
+- For high-volume deployments, prefer remote MCP servers over stdio
+- Configure session affinity if using stateful MCP servers
+- Consider MCP server connection limits and implement circuit breakers
+
+# H3: Environment-Specific Configurations¶
+
+# H4: Cloud Run¶
+
+```
+# Cloud Run environment variables for MCP configuration
+import os
+
+# Detect Cloud Run environment
+if os.getenv('K_SERVICE'):
+    # Use remote MCP servers in Cloud Run
+    mcp_connection = SseConnectionParams(
+        url=os.getenv('MCP_SERVER_URL'),
+        headers={'Authorization': f"Bearer {os.getenv('MCP_AUTH_TOKEN')}"}
+    )
+else:
+    # Use stdio for local development
+    mcp_connection = StdioConnectionParams(
+        server_params=StdioServerParameters(
+            command='npx',
+            args=["-y", "@modelcontextprotocol/server-filesystem", "/tmp"]
+        )
+    )
+
+McpToolset(connection_params=mcp_connection)
+
+```
+
+# H4: GKE¶
+
+```
+# GKE-specific MCP configuration
+# Use service discovery for MCP servers within the cluster
+McpToolset(
+    connection_params=SseConnectionParams(
+        url="http://mcp-service.default.svc.cluster.local:8080/sse"
+    ),
+)
+
+```
+
+# H4: Vertex AI Agent Engine¶
+
+```
+# Agent Engine managed deployment
+# Prefer lightweight, self-contained MCP servers or external services
+McpToolset(
+    connection_params=SseConnectionParams(
+        url="https://your-managed-mcp-service.googleapis.com/sse",
+        headers={'Authorization': 'Bearer $(gcloud auth print-access-token)'}
+    ),
+)
+
+```
+
+# H3: Troubleshooting Deployment Issues¶
+
+Common MCP Deployment Problems:
+
+- 
+
+Stdio Process Startup Failures
+
+```
+# Debug stdio connection issues
+McpToolset(
+    connection_params=StdioConnectionParams(
+        server_params=StdioServerParameters(
+            command='npx',
+            args=["-y", "@modelcontextprotocol/server-filesystem", "/app/data"],
+            # Add environment debugging
+            env={'DEBUG': '1'}
+        ),
+    ),
+)
+
+```
+
+- 
+
+Network Connectivity Issues
+
+```
+# Test remote MCP connectivity
+import aiohttp
+
+async def test_mcp_connection():
+    async with aiohttp.ClientSession() as session:
+        async with session.get('https://your-mcp-server.com/health') as resp:
+            print(f"MCP Server Health: {resp.status}")
+
+```
+
+- 
+
+Resource Exhaustion
+
+- Monitor container memory usage when using stdio MCP servers
+
+- Set appropriate limits in Kubernetes deployments
+
+- Use remote MCP servers for resource-intensive operations
+
+# H2: Further Resources¶
+
+- Model Context Protocol Documentation
+
+- MCP Specification
+
+- MCP Python SDK & Examples
+
+              

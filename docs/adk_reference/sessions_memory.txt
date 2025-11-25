@@ -1,0 +1,3756 @@
+
+
+==================================================
+SOURCE: https://google.github.io/adk-docs/sessions/session/
+==================================================
+
+
+
+    adk-python
+
+    adk-go
+
+    adk-java
+
+- 
+
+    Home
+
+            Home
+
+- 
+
+    Build Agents
+
+            Build Agents
+
+- 
+
+    Get Started
+
+            Get Started
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Java
+
+- 
+
+    Build your Agent
+
+            Build your Agent
+
+- 
+
+    Multi-tool agent
+
+- 
+
+    Agent team
+
+- 
+
+    Streaming agent
+
+            Streaming agent
+
+- 
+
+    Python
+
+- 
+
+    Java
+
+- 
+
+    Visual Builder
+
+- 
+
+    Advanced setup
+
+- 
+
+    Agents
+
+            Agents
+
+- 
+
+    LLM agents
+
+- 
+
+    Workflow agents
+
+            Workflow agents
+
+- 
+
+    Sequential agents
+
+- 
+
+    Loop agents
+
+- 
+
+    Parallel agents
+
+- 
+
+    Custom agents
+
+- 
+
+    Multi-agent systems
+
+- 
+
+    Agent Config
+
+- 
+
+    Models & Authentication
+
+- 
+
+    Tools for Agents
+
+            Tools for Agents
+
+- 
+
+    Built-in tools
+
+- 
+
+    Gemini API tools
+
+            Gemini API tools
+
+- 
+
+    Computer use
+
+- 
+
+    Google Cloud tools
+
+            Google Cloud tools
+
+- 
+
+    Overview
+
+- 
+
+    MCP Toolbox for Databases
+
+- 
+
+    BigQuery Agent Analytics
+
+- 
+
+    Code Execution with Agent Engine
+
+- 
+
+    Third-party tools
+
+            Third-party tools
+
+- 
+
+    AgentQL
+
+- 
+
+    Bright Data
+
+- 
+
+    Browserbase
+
+- 
+
+    Exa
+
+- 
+
+    Firecrawl
+
+- 
+
+    GitHub
+
+- 
+
+    GitLab
+
+- 
+
+    Hugging Face
+
+- 
+
+    Notion
+
+- 
+
+    ScrapeGraphAI
+
+- 
+
+    Tavily
+
+- 
+
+    Agentic UI (AG-UI)
+
+- 
+
+    Custom Tools
+
+            Custom Tools
+
+- 
+
+    Function tools
+
+            Function tools
+
+- 
+
+    Overview
+
+- 
+
+    Tool performance
+
+- 
+
+    Action confirmations
+
+- 
+
+    MCP tools
+
+- 
+
+    OpenAPI tools
+
+- 
+
+    Authentication
+
+- 
+
+    Run Agents
+
+            Run Agents
+
+- 
+
+    Agent Runtime
+
+            Agent Runtime
+
+- 
+
+    Runtime Config
+
+- 
+
+    API Server
+
+- 
+
+    Resume Agents
+
+- 
+
+    Deployment
+
+            Deployment
+
+- 
+
+    Agent Engine
+
+- 
+
+    Cloud Run
+
+- 
+
+    GKE
+
+- 
+
+    Observability
+
+            Observability
+
+- 
+
+    Logging
+
+- 
+
+    Cloud Trace
+
+- 
+
+    AgentOps
+
+- 
+
+    Arize AX
+
+- 
+
+    Freeplay
+
+- 
+
+    Monocle
+
+- 
+
+    Phoenix
+
+- 
+
+    W&B Weave
+
+- 
+
+    Evaluation
+
+            Evaluation
+
+- 
+
+    Criteria
+
+- 
+
+    User Simulation
+
+- 
+
+    Safety and Security
+
+            Safety and Security
+
+- 
+
+    Components
+
+            Components
+
+- 
+
+    Technical Overview
+
+- 
+
+    Context
+
+            Context
+
+- 
+
+    Context caching
+
+- 
+
+    Context compression
+
+- 
+
+    Sessions & Memory
+
+            Sessions & Memory
+
+- 
+
+    Session
+
+    Session
+
+      Table of contents
+
+- 
+
+      The Session Object
+
+- 
+
+      Example: Examining Session Properties
+
+- 
+
+      Managing Sessions with a SessionService
+
+- 
+
+      SessionService Implementations
+
+- 
+
+      The Session Lifecycle
+
+- 
+
+    State
+
+- 
+
+    Memory
+
+- 
+
+    Vertex AI Express Mode
+
+- 
+
+    Callbacks
+
+            Callbacks
+
+- 
+
+    Types of callbacks
+
+- 
+
+    Callback patterns
+
+- 
+
+    Artifacts
+
+            Artifacts
+
+- 
+
+    Events
+
+            Events
+
+- 
+
+    Apps
+
+            Apps
+
+- 
+
+    Plugins
+
+            Plugins
+
+- 
+
+    Reflect and retry
+
+- 
+
+    MCP
+
+            MCP
+
+- 
+
+    A2A Protocol
+
+            A2A Protocol
+
+- 
+
+    Introduction to A2A
+
+- 
+
+    A2A Quickstart (Exposing)
+
+            A2A Quickstart (Exposing)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    A2A Quickstart (Consuming)
+
+            A2A Quickstart (Consuming)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Bidi-streaming (live)
+
+            Bidi-streaming (live)
+
+- 
+
+    Custom Audio Bidi-streaming app sample (WebSockets)
+
+- 
+
+    Bidi-streaming development guide series
+
+            Bidi-streaming development guide series
+
+- 
+
+    Part 1, Intro to streaming
+
+- 
+
+    Part 2, Sending messages
+
+- 
+
+    Part 3, Event handling
+
+- 
+
+    Part 4, Run configuration
+
+- 
+
+    Part 5, Audio, Images, and Video
+
+- 
+
+    Streaming Tools
+
+- 
+
+    Configurating Bidi-streaming behaviour
+
+- 
+
+    Grounding
+
+            Grounding
+
+- 
+
+    Understanding Google Search Grounding
+
+- 
+
+    Understanding Vertex AI Search Grounding
+
+- 
+
+    Reference
+
+            Reference
+
+- 
+
+    Release Notes
+
+- 
+
+    API Reference
+
+            API Reference
+
+- 
+
+    Python ADK
+
+- 
+
+    Go ADK
+
+- 
+
+    Java ADK
+
+- 
+
+    CLI Reference
+
+- 
+
+    Agent Config Reference
+
+- 
+
+    REST API
+
+- 
+
+    Community Resources
+
+- 
+
+    Contributing Guide
+
+      Table of contents
+
+- 
+
+      The Session Object
+
+- 
+
+      Example: Examining Session Properties
+
+- 
+
+      Managing Sessions with a SessionService
+
+- 
+
+      SessionService Implementations
+
+- 
+
+      The Session Lifecycle
+
+# H1: Session: Tracking Individual Conversations¶
+
+  Supported in ADKPython v0.1.0Go v0.1.0Java v0.1.0
+
+Following our Introduction, let's dive into the `Session`. Think back to the
+idea of a "conversation thread." Just like you wouldn't start every text message
+from scratch, agents need context regarding the ongoing interaction.
+`Session` is the ADK object designed specifically to track and manage these
+individual conversation threads.
+
+# H2: The `Session` Object¶
+
+When a user starts interacting with your agent, the `SessionService` creates a
+`Session` object (`google.adk.sessions.Session`). This object acts as the
+container holding everything related to that one specific chat thread. Here
+are its key properties:
+
+- Identification (`id`, `appName`, `userId`): Unique labels for the
+    conversation.
+
+- `id`: A unique identifier for this specific conversation thread, essential for retrieving it later. A SessionService object can handle multiple `Session`(s). This field identifies which particular session object are we referring to. For example, "test_id_modification".
+
+- `app_name`: Identifies which agent application this conversation belongs to. For example, "id_modifier_workflow".
+
+- `userId`: Links the conversation to a particular user.
+
+- History (`events`): A chronological sequence of all interactions
+    (`Event` objects – user messages, agent responses, tool actions) that have
+    occurred within this specific thread.
+
+- Session State (`state`): A place to store temporary data relevant only
+    to this specific, ongoing conversation. This acts as a scratchpad for the
+    agent during the interaction. We will cover how to use and manage `state` in
+    detail in the next section.
+
+- Activity Tracking (`lastUpdateTime`): A timestamp indicating the last
+    time an event occurred in this conversation thread.
+
+# H3: Example: Examining Session Properties¶
+PythonGoJava
+
+```
+ from google.adk.sessions import InMemorySessionService, Session
+
+ # Create a simple session to examine its properties
+ temp_service = InMemorySessionService()
+ example_session = await temp_service.create_session(
+     app_name="my_app",
+     user_id="example_user",
+     state={"initial_key": "initial_value"} # State can be initialized
+ )
+
+ print(f"--- Examining Session Properties ---")
+ print(f"ID (`id`):                {example_session.id}")
+ print(f"Application Name (`app_name`): {example_session.app_name}")
+ print(f"User ID (`user_id`):         {example_session.user_id}")
+ print(f"State (`state`):           {example_session.state}") # Note: Only shows initial state here
+ print(f"Events (`events`):         {example_session.events}") # Initially empty
+ print(f"Last Update (`last_update_time`): {example_session.last_update_time:.2f}")
+ print(f"---------------------------------")
+
+ # Clean up (optional for this example)
+ temp_service = await temp_service.delete_session(app_name=example_session.app_name,
+                             user_id=example_session.user_id, session_id=example_session.id)
+ print("The final status of temp_service - ", temp_service)
+
+```
+
+```
+appName := "my_go_app"
+userID := "example_go_user"
+initialState := map[string]any{"initial_key": "initial_value"}
+
+// Create a session to examine its properties.
+createResp, err := inMemoryService.Create(ctx, &session.CreateRequest{
+ AppName: appName,
+ UserID:  userID,
+ State:   initialState,
+})
+if err != nil {
+ log.Fatalf("Failed to create session: %v", err)
+}
+exampleSession := createResp.Session
+
+fmt.Println("\n--- Examining Session Properties ---")
+fmt.Printf("ID (`ID()`): %s\n", exampleSession.ID())
+fmt.Printf("Application Name (`AppName()`): %s\n", exampleSession.AppName())
+// To access state, you call Get().
+val, _ := exampleSession.State().Get("initial_key")
+fmt.Printf("State (`State().Get()`):    initial_key = %v\n", val)
+
+// Events are initially empty.
+fmt.Printf("Events (`Events().Len()`):  %d\n", exampleSession.Events().Len())
+fmt.Printf("Last Update (`LastUpdateTime()`): %s\n", exampleSession.LastUpdateTime().Format("2006-01-02 15:04:05"))
+fmt.Println("---------------------------------")
+
+// Clean up the session.
+err = inMemoryService.Delete(ctx, &session.DeleteRequest{
+ AppName:   exampleSession.AppName(),
+ UserID:    exampleSession.UserID(),
+ SessionID: exampleSession.ID(),
+})
+if err != nil {
+ log.Fatalf("Failed to delete session: %v", err)
+}
+fmt.Println("Session deleted successfully.")
+
+```
+
+```
+ import com.google.adk.sessions.InMemorySessionService;
+ import com.google.adk.sessions.Session;
+ import java.util.concurrent.ConcurrentMap;
+ import java.util.concurrent.ConcurrentHashMap;
+
+ String sessionId = "123";
+ String appName = "example-app"; // Example app name
+ String userId = "example-user"; // Example user id
+ ConcurrentMap<String, Object> initialState = new ConcurrentHashMap<>(Map.of("newKey", "newValue"));
+ InMemorySessionService exampleSessionService = new InMemorySessionService();
+
+ // Create Session
+ Session exampleSession = exampleSessionService.createSession(
+     appName, userId, initialState, Optional.of(sessionId)).blockingGet();
+ System.out.println("Session created successfully.");
+
+ System.out.println("--- Examining Session Properties ---");
+ System.out.printf("ID (`id`): %s%n", exampleSession.id());
+ System.out.printf("Application Name (`appName`): %s%n", exampleSession.appName());
+ System.out.printf("User ID (`userId`): %s%n", exampleSession.userId());
+ System.out.printf("State (`state`): %s%n", exampleSession.state());
+ System.out.println("------------------------------------");
+
+ // Clean up (optional for this example)
+ var unused = exampleSessionService.deleteSession(appName, userId, sessionId);
+
+```
+
+(Note: The state shown above is only the initial state. State updates
+happen via events, as discussed in the State section.)
+
+# H2: Managing Sessions with a `SessionService`¶
+
+As seen above, you don't typically create or manage `Session` objects directly.
+Instead, you use a `SessionService`. This service acts as the central
+manager responsible for the entire lifecycle of your conversation sessions.
+
+Its core responsibilities include:
+
+- Starting New Conversations: Creating fresh `Session` objects when a user
+    begins an interaction.
+
+- Resuming Existing Conversations: Retrieving a specific `Session` (using
+    its ID) so the agent can continue where it left off.
+
+- Saving Progress: Appending new interactions (`Event` objects) to a
+    session's history. This is also the mechanism through which session `state`
+    gets updated (more in the `State` section).
+
+- Listing Conversations: Finding the active session threads for a
+    particular user and application.
+
+- Cleaning Up: Deleting `Session` objects and their associated data when
+    conversations are finished or no longer needed.
+
+# H2: `SessionService` Implementations¶
+
+ADK provides different `SessionService` implementations, allowing you to choose
+the storage backend that best suits your needs:
+
+- 
+
+`InMemorySessionService`
+
+- How it works: Stores all session data directly in the application's
+    memory.
+
+- Persistence: None. All conversation data is lost if the
+    application restarts.
+
+- Requires: Nothing extra.
+
+- Best for: Quick development, local testing, examples, and scenarios
+    where long-term persistence isn't required.
+
+PythonGoJava
+
+```
+ from google.adk.sessions import InMemorySessionService
+ session_service = InMemorySessionService()
+
+```
+
+```
+ import "google.golang.org/adk/session"
+
+ inMemoryService := session.InMemoryService()
+
+```
+
+```
+ import com.google.adk.sessions.InMemorySessionService;
+ InMemorySessionService exampleSessionService = new InMemorySessionService();
+
+```
+
+- 
+
+`VertexAiSessionService`
+
+- How it works: Uses Google Cloud Vertex AI infrastructure via API
+    calls for session management.
+
+- Persistence: Yes. Data is managed reliably and scalably via
+    Vertex AI Agent Engine.
+
+- Requires:
+
+- A Google Cloud project (`pip install vertexai`)
+
+- A Google Cloud storage bucket that can be configured by this
+    step.
+
+- A Reasoning Engine resource name/ID that can setup following this
+    tutorial.
+
+- If you do not have a Google Cloud project and you want to try the VertexAiSessionService for free, see how to try Session and Memory for free.
+
+- Best for: Scalable production applications deployed on Google Cloud,
+    especially when integrating with other Vertex AI features.
+
+PythonGoJava
+
+```
+# Requires: pip install google-adk[vertexai]
+# Plus GCP setup and authentication
+from google.adk.sessions import VertexAiSessionService
+
+PROJECT_ID = "your-gcp-project-id"
+LOCATION = "us-central1"
+# The app_name used with this service should be the Reasoning Engine ID or name
+REASONING_ENGINE_APP_NAME = "projects/your-gcp-project-id/locations/us-central1/reasoningEngines/your-engine-id"
+
+session_service = VertexAiSessionService(project=PROJECT_ID, location=LOCATION)
+# Use REASONING_ENGINE_APP_NAME when calling service methods, e.g.:
+# session_service = await session_service.create_session(app_name=REASONING_ENGINE_APP_NAME, ...)
+
+```
+
+```
+import "google.golang.org/adk/session"
+
+// 2. VertexAIService
+// Before running, ensure your environment is authenticated:
+// gcloud auth application-default login
+// export GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
+// export GOOGLE_CLOUD_LOCATION="your-gcp-location"
+
+modelName := "gemini-1.5-flash-001" // Replace with your desired model
+vertexService, err := session.VertexAIService(ctx, modelName)
+if err != nil {
+  log.Printf("Could not initialize VertexAIService (this is expected if the gcloud project is not set): %v", err)
+} else {
+  fmt.Println("Successfully initialized VertexAIService.")
+}
+
+```
+
+```
+// Please look at the set of requirements above, consequently export the following in your bashrc file:
+// export GOOGLE_CLOUD_PROJECT=my_gcp_project
+// export GOOGLE_CLOUD_LOCATION=us-central1
+// export GOOGLE_API_KEY=my_api_key
+
+import com.google.adk.sessions.VertexAiSessionService;
+import java.util.UUID;
+
+String sessionId = UUID.randomUUID().toString();
+String reasoningEngineAppName = "123456789";
+String userId = "u_123"; // Example user id
+ConcurrentMap<String, Object> initialState = new
+    ConcurrentHashMap<>(); // No initial state needed for this example
+
+VertexAiSessionService sessionService = new VertexAiSessionService();
+Session mySession =
+    sessionService
+        .createSession(reasoningEngineAppName, userId, initialState, Optional.of(sessionId))
+        .blockingGet();
+
+```
+
+- 
+
+`DatabaseSessionService`
+
+  Supported in ADKPython v0.1.0Go v0.1.0
+
+- How it works: Connects to a relational database (e.g., PostgreSQL,
+    MySQL, SQLite) to store session data persistently in tables.
+
+- Persistence: Yes. Data survives application restarts.
+
+- Requires: A configured database.
+
+- Best for: Applications needing reliable, persistent storage that you
+    manage yourself.
+
+```
+from google.adk.sessions import DatabaseSessionService
+# Example using a local SQLite file:
+db_url = "sqlite:///./my_agent_data.db"
+session_service = DatabaseSessionService(db_url=db_url)
+
+```
+
+Choosing the right `SessionService` is key to defining how your agent's
+conversation history and temporary data are stored and persist.
+
+# H2: The Session Lifecycle¶
+
+Here’s a simplified flow of how `Session` and `SessionService` work together
+during a conversation turn:
+
+- Start or Resume: Your application needs to use the `SessionService` to
+    either `create_session` (for a new chat) or use an existing session id.
+
+- Context Provided: The `Runner` gets the appropriate `Session` object
+    from the appropriate service method, providing the agent with access to the
+    corresponding Session's `state` and `events`.
+
+- Agent Processing: The user prompts the agent with a query. The agent
+    analyzes the query and potentially the session `state` and `events` history
+    to determine the response.
+
+- Response & State Update: The agent generates a response (and potentially
+    flags data to be updated in the `state`). The `Runner` packages this as an
+    `Event`.
+
+- Save Interaction: The `Runner` calls
+    `sessionService.append_event(session, event)` with the `session` and the new
+    `event` as the arguments. The service adds the `Event` to the history and
+    updates the session's `state` in storage based on information within the
+    event. The session's `last_update_time` also get updated.
+
+- Ready for Next: The agent's response goes to the user. The updated
+    `Session` is now stored by the `SessionService`, ready for the next turn
+    (which restarts the cycle at step 1, usually with the continuation of the
+    conversation in the current session).
+
+- End Conversation: When the conversation is over, your application calls
+    `sessionService.delete_session(...)` to clean up the stored session data if
+    it is no longer required.
+
+This cycle highlights how the `SessionService` ensures conversational continuity
+by managing the history and state associated with each `Session` object.
+
+              
+
+==================================================
+SOURCE: https://google.github.io/adk-docs/sessions/state/
+==================================================
+
+
+
+    adk-python
+
+    adk-go
+
+    adk-java
+
+- 
+
+    Home
+
+            Home
+
+- 
+
+    Build Agents
+
+            Build Agents
+
+- 
+
+    Get Started
+
+            Get Started
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Java
+
+- 
+
+    Build your Agent
+
+            Build your Agent
+
+- 
+
+    Multi-tool agent
+
+- 
+
+    Agent team
+
+- 
+
+    Streaming agent
+
+            Streaming agent
+
+- 
+
+    Python
+
+- 
+
+    Java
+
+- 
+
+    Visual Builder
+
+- 
+
+    Advanced setup
+
+- 
+
+    Agents
+
+            Agents
+
+- 
+
+    LLM agents
+
+- 
+
+    Workflow agents
+
+            Workflow agents
+
+- 
+
+    Sequential agents
+
+- 
+
+    Loop agents
+
+- 
+
+    Parallel agents
+
+- 
+
+    Custom agents
+
+- 
+
+    Multi-agent systems
+
+- 
+
+    Agent Config
+
+- 
+
+    Models & Authentication
+
+- 
+
+    Tools for Agents
+
+            Tools for Agents
+
+- 
+
+    Built-in tools
+
+- 
+
+    Gemini API tools
+
+            Gemini API tools
+
+- 
+
+    Computer use
+
+- 
+
+    Google Cloud tools
+
+            Google Cloud tools
+
+- 
+
+    Overview
+
+- 
+
+    MCP Toolbox for Databases
+
+- 
+
+    BigQuery Agent Analytics
+
+- 
+
+    Code Execution with Agent Engine
+
+- 
+
+    Third-party tools
+
+            Third-party tools
+
+- 
+
+    AgentQL
+
+- 
+
+    Bright Data
+
+- 
+
+    Browserbase
+
+- 
+
+    Exa
+
+- 
+
+    Firecrawl
+
+- 
+
+    GitHub
+
+- 
+
+    GitLab
+
+- 
+
+    Hugging Face
+
+- 
+
+    Notion
+
+- 
+
+    ScrapeGraphAI
+
+- 
+
+    Tavily
+
+- 
+
+    Agentic UI (AG-UI)
+
+- 
+
+    Custom Tools
+
+            Custom Tools
+
+- 
+
+    Function tools
+
+            Function tools
+
+- 
+
+    Overview
+
+- 
+
+    Tool performance
+
+- 
+
+    Action confirmations
+
+- 
+
+    MCP tools
+
+- 
+
+    OpenAPI tools
+
+- 
+
+    Authentication
+
+- 
+
+    Run Agents
+
+            Run Agents
+
+- 
+
+    Agent Runtime
+
+            Agent Runtime
+
+- 
+
+    Runtime Config
+
+- 
+
+    API Server
+
+- 
+
+    Resume Agents
+
+- 
+
+    Deployment
+
+            Deployment
+
+- 
+
+    Agent Engine
+
+- 
+
+    Cloud Run
+
+- 
+
+    GKE
+
+- 
+
+    Observability
+
+            Observability
+
+- 
+
+    Logging
+
+- 
+
+    Cloud Trace
+
+- 
+
+    AgentOps
+
+- 
+
+    Arize AX
+
+- 
+
+    Freeplay
+
+- 
+
+    Monocle
+
+- 
+
+    Phoenix
+
+- 
+
+    W&B Weave
+
+- 
+
+    Evaluation
+
+            Evaluation
+
+- 
+
+    Criteria
+
+- 
+
+    User Simulation
+
+- 
+
+    Safety and Security
+
+            Safety and Security
+
+- 
+
+    Components
+
+            Components
+
+- 
+
+    Technical Overview
+
+- 
+
+    Context
+
+            Context
+
+- 
+
+    Context caching
+
+- 
+
+    Context compression
+
+- 
+
+    Sessions & Memory
+
+            Sessions & Memory
+
+- 
+
+    Session
+
+- 
+
+    State
+
+    State
+
+      Table of contents
+
+- 
+
+      What is session.state?
+
+- 
+
+      Key Characteristics of State
+
+- 
+
+      Organizing State with Prefixes: Scope Matters
+
+- 
+
+      Accessing Session State in Agent Instructions
+
+- 
+
+      Using {key} Templating
+
+- 
+
+      Important Considerations
+
+- 
+
+      Bypassing State Injection with InstructionProvider
+
+- 
+
+      How State is Updated: Recommended Methods
+
+- 
+
+      ⚠️ A Warning About Direct State Modification
+
+- 
+
+      Best Practices for State Design Recap
+
+- 
+
+    Memory
+
+- 
+
+    Vertex AI Express Mode
+
+- 
+
+    Callbacks
+
+            Callbacks
+
+- 
+
+    Types of callbacks
+
+- 
+
+    Callback patterns
+
+- 
+
+    Artifacts
+
+            Artifacts
+
+- 
+
+    Events
+
+            Events
+
+- 
+
+    Apps
+
+            Apps
+
+- 
+
+    Plugins
+
+            Plugins
+
+- 
+
+    Reflect and retry
+
+- 
+
+    MCP
+
+            MCP
+
+- 
+
+    A2A Protocol
+
+            A2A Protocol
+
+- 
+
+    Introduction to A2A
+
+- 
+
+    A2A Quickstart (Exposing)
+
+            A2A Quickstart (Exposing)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    A2A Quickstart (Consuming)
+
+            A2A Quickstart (Consuming)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Bidi-streaming (live)
+
+            Bidi-streaming (live)
+
+- 
+
+    Custom Audio Bidi-streaming app sample (WebSockets)
+
+- 
+
+    Bidi-streaming development guide series
+
+            Bidi-streaming development guide series
+
+- 
+
+    Part 1, Intro to streaming
+
+- 
+
+    Part 2, Sending messages
+
+- 
+
+    Part 3, Event handling
+
+- 
+
+    Part 4, Run configuration
+
+- 
+
+    Part 5, Audio, Images, and Video
+
+- 
+
+    Streaming Tools
+
+- 
+
+    Configurating Bidi-streaming behaviour
+
+- 
+
+    Grounding
+
+            Grounding
+
+- 
+
+    Understanding Google Search Grounding
+
+- 
+
+    Understanding Vertex AI Search Grounding
+
+- 
+
+    Reference
+
+            Reference
+
+- 
+
+    Release Notes
+
+- 
+
+    API Reference
+
+            API Reference
+
+- 
+
+    Python ADK
+
+- 
+
+    Go ADK
+
+- 
+
+    Java ADK
+
+- 
+
+    CLI Reference
+
+- 
+
+    Agent Config Reference
+
+- 
+
+    REST API
+
+- 
+
+    Community Resources
+
+- 
+
+    Contributing Guide
+
+      Table of contents
+
+- 
+
+      What is session.state?
+
+- 
+
+      Key Characteristics of State
+
+- 
+
+      Organizing State with Prefixes: Scope Matters
+
+- 
+
+      Accessing Session State in Agent Instructions
+
+- 
+
+      Using {key} Templating
+
+- 
+
+      Important Considerations
+
+- 
+
+      Bypassing State Injection with InstructionProvider
+
+- 
+
+      How State is Updated: Recommended Methods
+
+- 
+
+      ⚠️ A Warning About Direct State Modification
+
+- 
+
+      Best Practices for State Design Recap
+
+# H1: State: The Session's Scratchpad¶
+
+  Supported in ADKPython v0.1.0Go v0.1.0Java v0.1.0
+
+Within each `Session` (our conversation thread), the `state` attribute acts like the agent's dedicated scratchpad for that specific interaction. While `session.events` holds the full history, `session.state` is where the agent stores and updates dynamic details needed during the conversation.
+
+# H2: What is `session.state`?¶
+
+Conceptually, `session.state` is a collection (dictionary or Map) holding key-value pairs. It's designed for information the agent needs to recall or track to make the current conversation effective:
+
+- Personalize Interaction: Remember user preferences mentioned earlier (e.g., `'user_preference_theme': 'dark'`).
+
+- Track Task Progress: Keep tabs on steps in a multi-turn process (e.g., `'booking_step': 'confirm_payment'`).
+
+- Accumulate Information: Build lists or summaries (e.g., `'shopping_cart_items': ['book', 'pen']`).
+
+- Make Informed Decisions: Store flags or values influencing the next response (e.g., `'user_is_authenticated': True`).
+
+# H3: Key Characteristics of `State`¶
+
+- 
+
+Structure: Serializable Key-Value Pairs
+
+- Data is stored as `key: value`.
+
+- Keys: Always strings (`str`). Use clear names (e.g., `'departure_city'`, `'user:language_preference'`).
+
+- Values: Must be serializable. This means they can be easily saved and loaded by the `SessionService`. Stick to basic types in the specific languages (Python/Go/Java) like strings, numbers, booleans, and simple lists or dictionaries containing only these basic types. (See API documentation for precise details).
+
+- ⚠️ Avoid Complex Objects: Do not store non-serializable objects (custom class instances, functions, connections, etc.) directly in the state. Store simple identifiers if needed, and retrieve the complex object elsewhere.
+
+- 
+
+Mutability: It Changes
+
+- The contents of the `state` are expected to change as the conversation evolves.
+
+- 
+
+Persistence: Depends on `SessionService`
+
+- 
+
+Whether state survives application restarts depends on your chosen service:
+
+- 
+
+`InMemorySessionService`: Not Persistent. State is lost on restart.
+
+- `DatabaseSessionService` / `VertexAiSessionService`: Persistent. State is saved reliably.
+
+Note
+
+The specific parameters or method names for the primitives may vary slightly by SDK language (e.g., `session.state['current_intent'] = 'book_flight'` in Python,`context.State().Set("current_intent", "book_flight")` in Go, `session.state().put("current_intent", "book_flight)` in Java). Refer to the language-specific API documentation for details.
+
+# H3: Organizing State with Prefixes: Scope Matters¶
+
+Prefixes on state keys define their scope and persistence behavior, especially with persistent services:
+
+- 
+
+No Prefix (Session State):
+
+- Scope: Specific to the current session (`id`).
+
+- Persistence: Only persists if the `SessionService` is persistent (`Database`, `VertexAI`).
+
+- Use Cases: Tracking progress within the current task (e.g., `'current_booking_step'`), temporary flags for this interaction (e.g., `'needs_clarification'`).
+
+- Example: `session.state['current_intent'] = 'book_flight'`
+
+- 
+
+`user:` Prefix (User State):
+
+- Scope: Tied to the `user_id`, shared across all sessions for that user (within the same `app_name`).
+
+- Persistence: Persistent with `Database` or `VertexAI`. (Stored by `InMemory` but lost on restart).
+
+- Use Cases: User preferences (e.g., `'user:theme'`), profile details (e.g., `'user:name'`).
+
+- Example: `session.state['user:preferred_language'] = 'fr'`
+
+- 
+
+`app:` Prefix (App State):
+
+- Scope: Tied to the `app_name`, shared across all users and sessions for that application.
+
+- Persistence: Persistent with `Database` or `VertexAI`. (Stored by `InMemory` but lost on restart).
+
+- Use Cases: Global settings (e.g., `'app:api_endpoint'`), shared templates.
+
+- Example: `session.state['app:global_discount_code'] = 'SAVE10'`
+
+- 
+
+`temp:` Prefix (Temporary Invocation State):
+
+- Scope: Specific to the current invocation (the entire process from an agent receiving user input to generating the final output for that input).
+
+- Persistence: Not Persistent. Discarded after the invocation completes and does not carry over to the next one.
+
+- Use Cases: Storing intermediate calculations, flags, or data passed between tool calls within a single invocation.
+
+- When Not to Use: For information that must persist across different invocations, such as user preferences, conversation history summaries, or accumulated data.
+
+- Example: `session.state['temp:raw_api_response'] = {...}`
+
+Sub-Agents and Invocation Context
+
+When a parent agent calls a sub-agent (e.g., using `SequentialAgent` or `ParallelAgent`), it passes its `InvocationContext` to the sub-agent. This means the entire chain of agent calls shares the same invocation ID and, therefore, the same `temp:` state.
+
+How the Agent Sees It: Your agent code interacts with the combined state through the single `session.state` collection (dict/ Map). The `SessionService` handles fetching/merging state from the correct underlying storage based on prefixes.
+
+# H3: Accessing Session State in Agent Instructions¶
+
+When working with `LlmAgent` instances, you can directly inject session state values into the agent's instruction string using a simple templating syntax. This allows you to create dynamic and context-aware instructions without relying solely on natural language directives.
+
+# H4: Using `{key}` Templating¶
+
+To inject a value from the session state, enclose the key of the desired state variable within curly braces: `{key}`. The framework will automatically replace this placeholder with the corresponding value from `session.state` before passing the instruction to the LLM.
+
+Example:
+PythonGo
+
+```
+from google.adk.agents import LlmAgent
+
+story_generator = LlmAgent(
+    name="StoryGenerator",
+    model="gemini-2.0-flash",
+    instruction="""Write a short story about a cat, focusing on the theme: {topic}."""
+)
+
+# Assuming session.state['topic'] is set to "friendship", the LLM
+# will receive the following instruction:
+# "Write a short story about a cat, focusing on the theme: friendship."
+
+```
+
+```
+func main() {
+    ctx := context.Background()
+    sessionService := session.InMemoryService()
+
+    // 1. Initialize a session with a 'topic' in its state.
+    _, err := sessionService.Create(ctx, &session.CreateRequest{
+        AppName:   appName,
+        UserID:    userID,
+        SessionID: sessionID,
+        State: map[string]any{
+            "topic": "friendship",
+        },
+    })
+    if err != nil {
+        log.Fatalf("Failed to create session: %v", err)
+    }
+
+    // 2. Create an agent with an instruction that uses a {topic} placeholder.
+    //    The ADK will automatically inject the value of "topic" from the
+    //    session state into the instruction before calling the LLM.
+    model, err := gemini.NewModel(ctx, modelID, nil)
+    if err != nil {
+        log.Fatalf("Failed to create Gemini model: %v", err)
+    }
+    storyGenerator, err := llmagent.New(llmagent.Config{
+        Name:        "StoryGenerator",
+        Model:       model,
+        Instruction: "Write a short story about a cat, focusing on the theme: {topic}.",
+    })
+    if err != nil {
+        log.Fatalf("Failed to create agent: %v", err)
+    }
+
+    r, err := runner.New(runner.Config{
+        AppName:        appName,
+        Agent:          agent.Agent(storyGenerator),
+        SessionService: sessionService,
+    })
+    if err != nil {
+        log.Fatalf("Failed to create runner: %v", err)
+    }
+
+```
+
+# H4: Important Considerations¶
+
+- Key Existence: Ensure that the key you reference in the instruction string exists in the session.state. If the key is missing, the agent will throw an error. To use a key that may or may not be present, you can include a question mark (?) after the key (e.g. {topic?}).
+
+- Data Types: The value associated with the key should be a string or a type that can be easily converted to a string.
+
+- Escaping: If you need to use literal curly braces in your instruction (e.g., for JSON formatting), you'll need to escape them.
+
+# H4: Bypassing State Injection with `InstructionProvider`¶
+
+In some cases, you might want to use `{{` and `}}` literally in your instructions without triggering the state injection mechanism. For example, you might be writing instructions for an agent that helps with a templating language that uses the same syntax.
+
+To achieve this, you can provide a function to the `instruction` parameter instead of a string. This function is called an `InstructionProvider`. When you use an `InstructionProvider`, the ADK will not attempt to inject state, and your instruction string will be passed to the model as-is.
+
+The `InstructionProvider` function receives a `ReadonlyContext` object, which you can use to access session state or other contextual information if you need to build the instruction dynamically.
+PythonGo
+
+```
+from google.adk.agents import LlmAgent
+from google.adk.agents.readonly_context import ReadonlyContext
+
+# This is an InstructionProvider
+def my_instruction_provider(context: ReadonlyContext) -> str:
+    # You can optionally use the context to build the instruction
+    # For this example, we'll return a static string with literal braces.
+    return "This is an instruction with {{literal_braces}} that will not be replaced."
+
+agent = LlmAgent(
+    model="gemini-2.0-flash",
+    name="template_helper_agent",
+    instruction=my_instruction_provider
+)
+
+```
+
+```
+//  1. This InstructionProvider returns a static string.
+//     Because it's a provider function, the ADK will not attempt to inject
+//     state, and the instruction will be passed to the model as-is,
+//     preserving the literal braces.
+func staticInstructionProvider(ctx agent.ReadonlyContext) (string, error) {
+    return "This is an instruction with {{literal_braces}} that will not be replaced.", nil
+}
+
+```
+
+If you want to both use an `InstructionProvider` and inject state into your instructions, you can use the `inject_session_state` utility function.
+PythonGo
+
+```
+from google.adk.agents import LlmAgent
+from google.adk.agents.readonly_context import ReadonlyContext
+from google.adk.utils import instructions_utils
+
+async def my_dynamic_instruction_provider(context: ReadonlyContext) -> str:
+    template = "This is a {adjective} instruction with {{literal_braces}}."
+    # This will inject the 'adjective' state variable but leave the literal braces.
+    return await instructions_utils.inject_session_state(template, context)
+
+agent = LlmAgent(
+    model="gemini-2.0-flash",
+    name="dynamic_template_helper_agent",
+    instruction=my_dynamic_instruction_provider
+)
+
+```
+
+```
+//  2. This InstructionProvider demonstrates how to manually inject state
+//     while also preserving literal braces. It uses the instructionutil helper.
+func dynamicInstructionProvider(ctx agent.ReadonlyContext) (string, error) {
+    template := "This is a {adjective} instruction with {{literal_braces}}."
+    // This will inject the 'adjective' state variable but leave the literal braces.
+    return instructionutil.InjectSessionState(ctx, template)
+}
+
+```
+
+Benefits of Direct Injection
+
+- Clarity: Makes it explicit which parts of the instruction are dynamic and based on session state.
+
+- Reliability: Avoids relying on the LLM to correctly interpret natural language instructions to access state.
+
+- Maintainability: Simplifies instruction strings and reduces the risk of errors when updating state variable names.
+
+Relation to Other State Access Methods
+
+This direct injection method is specific to LlmAgent instructions. Refer to the following section for more information on other state access methods.
+
+# H3: How State is Updated: Recommended Methods¶
+
+The Right Way to Modify State
+
+When you need to change the session state, the correct and safest method is to directly modify the `state` object on the `Context` provided to your function (e.g., `callback_context.state['my_key'] = 'new_value'`). This is considered "direct state manipulation" in the right way, as the framework automatically tracks these changes.
+
+This is critically different from directly modifying the `state` on a `Session` object you retrieve from the `SessionService` (e.g., `my_session.state['my_key'] = 'new_value'`). You should avoid this, as it bypasses the ADK's event tracking and can lead to lost data. The "Warning" section at the end of this page has more details on this important distinction.
+
+State should always be updated as part of adding an `Event` to the session history using `session_service.append_event()`. This ensures changes are tracked, persistence works correctly, and updates are thread-safe.
+
+1. The Easy Way: `output_key` (for Agent Text Responses)
+
+This is the simplest method for saving an agent's final text response directly into the state. When defining your `LlmAgent`, specify the `output_key`:
+PythonJavaGo
+
+```
+from google.adk.agents import LlmAgent
+from google.adk.sessions import InMemorySessionService, Session
+from google.adk.runners import Runner
+from google.genai.types import Content, Part
+
+# Define agent with output_key
+greeting_agent = LlmAgent(
+    name="Greeter",
+    model="gemini-2.0-flash", # Use a valid model
+    instruction="Generate a short, friendly greeting.",
+    output_key="last_greeting" # Save response to state['last_greeting']
+)
+
+# --- Setup Runner and Session ---
+app_name, user_id, session_id = "state_app", "user1", "session1"
+session_service = InMemorySessionService()
+runner = Runner(
+    agent=greeting_agent,
+    app_name=app_name,
+    session_service=session_service
+)
+session = await session_service.create_session(app_name=app_name,
+                                    user_id=user_id,
+                                    session_id=session_id)
+print(f"Initial state: {session.state}")
+
+# --- Run the Agent ---
+# Runner handles calling append_event, which uses the output_key
+# to automatically create the state_delta.
+user_message = Content(parts=[Part(text="Hello")])
+for event in runner.run(user_id=user_id,
+                        session_id=session_id,
+                        new_message=user_message):
+    if event.is_final_response():
+      print(f"Agent responded.") # Response text is also in event.content
+
+# --- Check Updated State ---
+updated_session = await session_service.get_session(app_name=APP_NAME, user_id=USER_ID, session_id=session_id)
+print(f"State after agent run: {updated_session.state}")
+# Expected output might include: {'last_greeting': 'Hello there! How can I help you today?'}
+
+```
+
+```
+import com.google.adk.agents.LlmAgent;
+import com.google.adk.agents.RunConfig;
+import com.google.adk.events.Event;
+import com.google.adk.runner.Runner;
+import com.google.adk.sessions.InMemorySessionService;
+import com.google.adk.sessions.Session;
+import com.google.genai.types.Content;
+import com.google.genai.types.Part;
+import java.util.List;
+import java.util.Optional;
+
+public class GreetingAgentExample {
+
+  public static void main(String[] args) {
+    // Define agent with output_key
+    LlmAgent greetingAgent =
+        LlmAgent.builder()
+            .name("Greeter")
+            .model("gemini-2.0-flash")
+            .instruction("Generate a short, friendly greeting.")
+            .description("Greeting agent")
+            .outputKey("last_greeting") // Save response to state['last_greeting']
+            .build();
+
+    // --- Setup Runner and Session ---
+    String appName = "state_app";
+    String userId = "user1";
+    String sessionId = "session1";
+
+    InMemorySessionService sessionService = new InMemorySessionService();
+    Runner runner = new Runner(greetingAgent, appName, null, sessionService); // artifactService can be null if not used
+
+    Session session =
+        sessionService.createSession(appName, userId, null, sessionId).blockingGet();
+    System.out.println("Initial state: " + session.state().entrySet());
+
+    // --- Run the Agent ---
+    // Runner handles calling appendEvent, which uses the output_key
+    // to automatically create the stateDelta.
+    Content userMessage = Content.builder().parts(List.of(Part.fromText("Hello"))).build();
+
+    // RunConfig is needed for runner.runAsync in Java
+    RunConfig runConfig = RunConfig.builder().build();
+
+    for (Event event : runner.runAsync(userId, sessionId, userMessage, runConfig).blockingIterable()) {
+      if (event.finalResponse()) {
+        System.out.println("Agent responded."); // Response text is also in event.content
+      }
+    }
+
+    // --- Check Updated State ---
+    Session updatedSession =
+        sessionService.getSession(appName, userId, sessionId, Optional.empty()).blockingGet();
+    assert updatedSession != null;
+    System.out.println("State after agent run: " + updatedSession.state().entrySet());
+    // Expected output might include: {'last_greeting': 'Hello there! How can I help you today?'}
+  }
+}
+
+```
+
+```
+//  1. GreetingAgent demonstrates using `OutputKey` to save an agent's
+//     final text response directly into the session state.
+func greetingAgentExample(sessionService session.Service) {
+    fmt.Println("--- Running GreetingAgent (output_key) Example ---")
+    ctx := context.Background()
+
+    modelGreeting, err := gemini.NewModel(ctx, modelID, nil)
+    if err != nil {
+        log.Fatalf("Failed to create Gemini model for greeting agent: %v", err)
+    }
+    greetingAgent, err := llmagent.New(llmagent.Config{
+        Name:        "Greeter",
+        Model:       modelGreeting,
+        Instruction: "Generate a short, friendly greeting.",
+        OutputKey:   "last_greeting",
+    })
+    if err != nil {
+        log.Fatalf("Failed to create greeting agent: %v", err)
+    }
+
+    r, err := runner.New(runner.Config{
+        AppName:        appName,
+        Agent:          agent.Agent(greetingAgent),
+        SessionService: sessionService,
+    })
+    if err != nil {
+        log.Fatalf("Failed to create runner: %v", err)
+    }
+
+    // Run the agent
+    userMessage := genai.NewContentFromText("Hello", "user")
+    for event, err := range r.Run(ctx, userID, sessionID, userMessage, agent.RunConfig{}) {
+        if err != nil {
+            log.Printf("Agent Error: %v", err)
+            continue
+        }
+        if isFinalResponse(event) {
+            if event.LLMResponse.Content != nil {
+                fmt.Printf("Agent responded with: %q\n", textParts(event.LLMResponse.Content))
+            } else {
+                fmt.Println("Agent responded.")
+            }
+        }
+    }
+
+    // Check the updated state
+    resp, err := sessionService.Get(ctx, &session.GetRequest{AppName: appName, UserID: userID, SessionID: sessionID})
+    if err != nil {
+        log.Fatalf("Failed to get session: %v", err)
+    }
+    lastGreeting, _ := resp.Session.State().Get("last_greeting")
+    fmt.Printf("State after agent run: last_greeting = %q\n\n", lastGreeting)
+}
+
+```
+
+Behind the scenes, the `Runner` uses the `output_key` to create the necessary `EventActions` with a `state_delta` and calls `append_event`.
+
+2. The Standard Way: `EventActions.state_delta` (for Complex Updates)
+
+For more complex scenarios (updating multiple keys, non-string values, specific scopes like `user:` or `app:`, or updates not tied directly to the agent's final text), you manually construct the `state_delta` within `EventActions`.
+PythonGoJava
+
+```
+from google.adk.sessions import InMemorySessionService, Session
+from google.adk.events import Event, EventActions
+from google.genai.types import Part, Content
+import time
+
+# --- Setup ---
+session_service = InMemorySessionService()
+app_name, user_id, session_id = "state_app_manual", "user2", "session2"
+session = await session_service.create_session(
+    app_name=app_name,
+    user_id=user_id,
+    session_id=session_id,
+    state={"user:login_count": 0, "task_status": "idle"}
+)
+print(f"Initial state: {session.state}")
+
+# --- Define State Changes ---
+current_time = time.time()
+state_changes = {
+    "task_status": "active",              # Update session state
+    "user:login_count": session.state.get("user:login_count", 0) + 1, # Update user state
+    "user:last_login_ts": current_time,   # Add user state
+    "temp:validation_needed": True        # Add temporary state (will be discarded)
+}
+
+# --- Create Event with Actions ---
+actions_with_update = EventActions(state_delta=state_changes)
+# This event might represent an internal system action, not just an agent response
+system_event = Event(
+    invocation_id="inv_login_update",
+    author="system", # Or 'agent', 'tool' etc.
+    actions=actions_with_update,
+    timestamp=current_time
+    # content might be None or represent the action taken
+)
+
+# --- Append the Event (This updates the state) ---
+await session_service.append_event(session, system_event)
+print("`append_event` called with explicit state delta.")
+
+# --- Check Updated State ---
+updated_session = await session_service.get_session(app_name=app_name,
+                                            user_id=user_id,
+                                            session_id=session_id)
+print(f"State after event: {updated_session.state}")
+# Expected: {'user:login_count': 1, 'task_status': 'active', 'user:last_login_ts': <timestamp>}
+# Note: 'temp:validation_needed' is NOT present.
+
+```
+
+```
+//  2. manualStateUpdateExample demonstrates creating an event with explicit
+//     state changes (a "state_delta") to update multiple keys, including
+//     those with user- and temp- prefixes.
+func manualStateUpdateExample(sessionService session.Service) {
+    fmt.Println("--- Running Manual State Update (EventActions) Example ---")
+    ctx := context.Background()
+    s, err := sessionService.Get(ctx, &session.GetRequest{AppName: appName, UserID: userID, SessionID: sessionID})
+    if err != nil {
+        log.Fatalf("Failed to get session: %v", err)
+    }
+    retrievedSession := s.Session
+
+    // Define state changes
+    loginCount, _ := retrievedSession.State().Get("user:login_count")
+    newLoginCount := 1
+    if lc, ok := loginCount.(int); ok {
+        newLoginCount = lc + 1
+    }
+
+    stateChanges := map[string]any{
+        "task_status":            "active",
+        "user:login_count":       newLoginCount,
+        "user:last_login_ts":     time.Now().Unix(),
+        "temp:validation_needed": true,
+    }
+
+    // Create an event with the state changes
+    systemEvent := session.NewEvent("inv_login_update")
+    systemEvent.Author = "system"
+    systemEvent.Actions.StateDelta = stateChanges
+
+    // Append the event to update the state
+    if err := sessionService.AppendEvent(ctx, retrievedSession, systemEvent); err != nil {
+        log.Fatalf("Failed to append event: %v", err)
+    }
+    fmt.Println("`append_event` called with explicit state delta.")
+
+    // Check the updated state
+    updatedResp, err := sessionService.Get(ctx, &session.GetRequest{AppName: appName, UserID: userID, SessionID: sessionID})
+    if err != nil {
+        log.Fatalf("Failed to get session: %v", err)
+    }
+    taskStatus, _ := updatedResp.Session.State().Get("task_status")
+    loginCount, _ = updatedResp.Session.State().Get("user:login_count")
+    lastLogin, _ := updatedResp.Session.State().Get("user:last_login_ts")
+    temp, err := updatedResp.Session.State().Get("temp:validation_needed") // This should fail or be nil
+
+    fmt.Printf("State after event: task_status=%q, user:login_count=%v, user:last_login_ts=%v\n", taskStatus, loginCount, lastLogin)
+    if err != nil {
+        fmt.Printf("As expected, temp state was not persisted: %v\n\n", err)
+    } else {
+        fmt.Printf("Unexpected temp state value: %v\n\n", temp)
+    }
+}
+
+```
+
+```
+import com.google.adk.events.Event;
+import com.google.adk.events.EventActions;
+import com.google.adk.sessions.InMemorySessionService;
+import com.google.adk.sessions.Session;
+import java.time.Instant;
+import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+
+public class ManualStateUpdateExample {
+
+  public static void main(String[] args) {
+    // --- Setup ---
+    InMemorySessionService sessionService = new InMemorySessionService();
+    String appName = "state_app_manual";
+    String userId = "user2";
+    String sessionId = "session2";
+
+    ConcurrentMap<String, Object> initialState = new ConcurrentHashMap<>();
+    initialState.put("user:login_count", 0);
+    initialState.put("task_status", "idle");
+
+    Session session =
+        sessionService.createSession(appName, userId, initialState, sessionId).blockingGet();
+    System.out.println("Initial state: " + session.state().entrySet());
+
+    // --- Define State Changes ---
+    long currentTimeMillis = Instant.now().toEpochMilli(); // Use milliseconds for Java Event
+
+    ConcurrentMap<String, Object> stateChanges = new ConcurrentHashMap<>();
+    stateChanges.put("task_status", "active"); // Update session state
+
+    // Retrieve and increment login_count
+    Object loginCountObj = session.state().get("user:login_count");
+    int currentLoginCount = 0;
+    if (loginCountObj instanceof Number) {
+      currentLoginCount = ((Number) loginCountObj).intValue();
+    }
+    stateChanges.put("user:login_count", currentLoginCount + 1); // Update user state
+
+    stateChanges.put("user:last_login_ts", currentTimeMillis); // Add user state (as long milliseconds)
+    stateChanges.put("temp:validation_needed", true); // Add temporary state
+
+    // --- Create Event with Actions ---
+    EventActions actionsWithUpdate = EventActions.builder().stateDelta(stateChanges).build();
+
+    // This event might represent an internal system action, not just an agent response
+    Event systemEvent =
+        Event.builder()
+            .invocationId("inv_login_update")
+            .author("system") // Or 'agent', 'tool' etc.
+            .actions(actionsWithUpdate)
+            .timestamp(currentTimeMillis)
+            // content might be None or represent the action taken
+            .build();
+
+    // --- Append the Event (This updates the state) ---
+    sessionService.appendEvent(session, systemEvent).blockingGet();
+    System.out.println("`appendEvent` called with explicit state delta.");
+
+    // --- Check Updated State ---
+    Session updatedSession =
+        sessionService.getSession(appName, userId, sessionId, Optional.empty()).blockingGet();
+    assert updatedSession != null;
+    System.out.println("State after event: " + updatedSession.state().entrySet());
+    // Expected: {'user:login_count': 1, 'task_status': 'active', 'user:last_login_ts': <timestamp_millis>}
+    // Note: 'temp:validation_needed' is NOT present because InMemorySessionService's appendEvent
+    // applies delta to its internal user/app state maps IF keys have prefixes,
+    // and to the session's own state map (which is then merged on getSession).
+  }
+}
+
+```
+
+3. Via `CallbackContext` or `ToolContext` (Recommended for Callbacks and Tools)
+
+Modifying state within agent callbacks (e.g., `on_before_agent_call`, `on_after_agent_call`) or tool functions is best done using the `state` attribute of the `CallbackContext` or `ToolContext` provided to your function.
+
+- `callback_context.state['my_key'] = my_value`
+
+- `tool_context.state['my_key'] = my_value`
+
+These context objects are specifically designed to manage state changes within their respective execution scopes. When you modify `context.state`, the ADK framework ensures that these changes are automatically captured and correctly routed into the `EventActions.state_delta` for the event being generated by the callback or tool. This delta is then processed by the `SessionService` when the event is appended, ensuring proper persistence and tracking.
+
+This method abstracts away the manual creation of `EventActions` and `state_delta` for most common state update scenarios within callbacks and tools, making your code cleaner and less error-prone.
+
+For more comprehensive details on context objects, refer to the Context documentation.
+PythonGoJava
+
+```
+# In an agent callback or tool function
+from google.adk.agents import CallbackContext # or ToolContext
+
+def my_callback_or_tool_function(context: CallbackContext, # Or ToolContext
+                                 # ... other parameters ...
+                                ):
+    # Update existing state
+    count = context.state.get("user_action_count", 0)
+    context.state["user_action_count"] = count + 1
+
+    # Add new state
+    context.state["temp:last_operation_status"] = "success"
+
+    # State changes are automatically part of the event's state_delta
+    # ... rest of callback/tool logic ...
+
+```
+
+```
+//  3. contextStateUpdateExample demonstrates the recommended way to modify state
+//     from within a tool function using the provided `tool.Context`.
+func contextStateUpdateExample(sessionService session.Service) {
+    fmt.Println("--- Running Context State Update (ToolContext) Example ---")
+    ctx := context.Background()
+
+    // Define the tool that modifies state
+    updateActionCountTool, err := functiontool.New(
+        functiontool.Config{Name: "update_action_count", Description: "Updates the user action count in the state."},
+        func(tctx tool.Context, args struct{}) (struct{}, error) {
+            actx, ok := tctx.(agent.CallbackContext)
+            if !ok {
+                log.Fatalf("tool.Context is not of type agent.CallbackContext")
+            }
+            s, err := actx.State().Get("user_action_count")
+            if err != nil {
+                log.Printf("could not get user_action_count: %v", err)
+            }
+            newCount := 1
+            if c, ok := s.(int); ok {
+                newCount = c + 1
+            }
+            if err := actx.State().Set("user_action_count", newCount); err != nil {
+                log.Printf("could not set user_action_count: %v", err)
+            }
+            if err := actx.State().Set("temp:last_operation_status", "success from tool"); err != nil {
+                log.Printf("could not set temp:last_operation_status: %v", err)
+            }
+            fmt.Println("Tool: Updated state via agent.CallbackContext.")
+            return struct{}{}, nil
+        },
+    )
+    if err != nil {
+        log.Fatalf("Failed to create tool: %v", err)
+    }
+
+    // Define an agent that uses the tool
+    modelTool, err := gemini.NewModel(ctx, modelID, nil)
+    if err != nil {
+        log.Fatalf("Failed to create Gemini model for tool agent: %v", err)
+    }
+    toolAgent, err := llmagent.New(llmagent.Config{
+        Name:        "ToolAgent",
+        Model:       modelTool,
+        Instruction: "Use the update_action_count tool.",
+        Tools:       []tool.Tool{updateActionCountTool},
+    })
+    if err != nil {
+        log.Fatalf("Failed to create tool agent: %v", err)
+    }
+
+    r, err := runner.New(runner.Config{
+        AppName:        appName,
+        Agent:          agent.Agent(toolAgent),
+        SessionService: sessionService,
+    })
+    if err != nil {
+        log.Fatalf("Failed to create runner: %v", err)
+    }
+
+    // Run the agent to trigger the tool
+    userMessage := genai.NewContentFromText("Please update the action count.", "user")
+    for _, err := range r.Run(ctx, userID, sessionID, userMessage, agent.RunConfig{}) {
+        if err != nil {
+            log.Printf("Agent Error: %v", err)
+        }
+    }
+
+    // Check the updated state
+    resp, err := sessionService.Get(ctx, &session.GetRequest{AppName: appName, UserID: userID, SessionID: sessionID})
+    if err != nil {
+        log.Fatalf("Failed to get session: %v", err)
+    }
+    actionCount, _ := resp.Session.State().Get("user_action_count")
+    fmt.Printf("State after tool run: user_action_count = %v\n", actionCount)
+}
+
+```
+
+```
+// In an agent callback or tool method
+import com.google.adk.agents.CallbackContext; // or ToolContext
+// ... other imports ...
+
+public class MyAgentCallbacks {
+    public void onAfterAgent(CallbackContext callbackContext) {
+        // Update existing state
+        Integer count = (Integer) callbackContext.state().getOrDefault("user_action_count", 0);
+        callbackContext.state().put("user_action_count", count + 1);
+
+        // Add new state
+        callbackContext.state().put("temp:last_operation_status", "success");
+
+        // State changes are automatically part of the event's state_delta
+        // ... rest of callback logic ...
+    }
+}
+
+```
+
+What `append_event` Does:
+
+- Adds the `Event` to `session.events`.
+
+- Reads the `state_delta` from the event's `actions`.
+
+- Applies these changes to the state managed by the `SessionService`, correctly handling prefixes and persistence based on the service type.
+
+- Updates the session's `last_update_time`.
+
+- Ensures thread-safety for concurrent updates.
+
+# H3: ⚠️ A Warning About Direct State Modification¶
+
+Avoid directly modifying the `session.state` collection (dictionary/Map) on a `Session` object that was obtained directly from the `SessionService` (e.g., via `session_service.get_session()` or `session_service.create_session()`) outside of the managed lifecycle of an agent invocation (i.e., not through a `CallbackContext` or `ToolContext`). For example, code like `retrieved_session = await session_service.get_session(...); retrieved_session.state['key'] = value` is problematic.
+
+State modifications within callbacks or tools using `CallbackContext.state` or `ToolContext.state` are the correct way to ensure changes are tracked, as these context objects handle the necessary integration with the event system.
+
+Why direct modification (outside of contexts) is strongly discouraged:
+
+- Bypasses Event History: The change isn't recorded as an `Event`, losing auditability.
+
+- Breaks Persistence: Changes made this way will likely NOT be saved by `DatabaseSessionService` or `VertexAiSessionService`. They rely on `append_event` to trigger saving.
+
+- Not Thread-Safe: Can lead to race conditions and lost updates.
+
+- Ignores Timestamps/Logic: Doesn't update `last_update_time` or trigger related event logic.
+
+Recommendation: Stick to updating state via `output_key`, `EventActions.state_delta` (when manually creating events), or by modifying the `state` property of `CallbackContext` or `ToolContext` objects when within their respective scopes. These methods ensure reliable, trackable, and persistent state management. Use direct access to `session.state` (from a `SessionService`-retrieved session) only for reading state.
+
+# H3: Best Practices for State Design Recap¶
+
+- Minimalism: Store only essential, dynamic data.
+
+- Serialization: Use basic, serializable types.
+
+- Descriptive Keys & Prefixes: Use clear names and appropriate prefixes (`user:`, `app:`, `temp:`, or none).
+
+- Shallow Structures: Avoid deep nesting where possible.
+
+- Standard Update Flow: Rely on `append_event`.
+
+              
+
+==================================================
+SOURCE: https://google.github.io/adk-docs/sessions/memory/
+==================================================
+
+
+
+    adk-python
+
+    adk-go
+
+    adk-java
+
+- 
+
+    Home
+
+            Home
+
+- 
+
+    Build Agents
+
+            Build Agents
+
+- 
+
+    Get Started
+
+            Get Started
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Java
+
+- 
+
+    Build your Agent
+
+            Build your Agent
+
+- 
+
+    Multi-tool agent
+
+- 
+
+    Agent team
+
+- 
+
+    Streaming agent
+
+            Streaming agent
+
+- 
+
+    Python
+
+- 
+
+    Java
+
+- 
+
+    Visual Builder
+
+- 
+
+    Advanced setup
+
+- 
+
+    Agents
+
+            Agents
+
+- 
+
+    LLM agents
+
+- 
+
+    Workflow agents
+
+            Workflow agents
+
+- 
+
+    Sequential agents
+
+- 
+
+    Loop agents
+
+- 
+
+    Parallel agents
+
+- 
+
+    Custom agents
+
+- 
+
+    Multi-agent systems
+
+- 
+
+    Agent Config
+
+- 
+
+    Models & Authentication
+
+- 
+
+    Tools for Agents
+
+            Tools for Agents
+
+- 
+
+    Built-in tools
+
+- 
+
+    Gemini API tools
+
+            Gemini API tools
+
+- 
+
+    Computer use
+
+- 
+
+    Google Cloud tools
+
+            Google Cloud tools
+
+- 
+
+    Overview
+
+- 
+
+    MCP Toolbox for Databases
+
+- 
+
+    BigQuery Agent Analytics
+
+- 
+
+    Code Execution with Agent Engine
+
+- 
+
+    Third-party tools
+
+            Third-party tools
+
+- 
+
+    AgentQL
+
+- 
+
+    Bright Data
+
+- 
+
+    Browserbase
+
+- 
+
+    Exa
+
+- 
+
+    Firecrawl
+
+- 
+
+    GitHub
+
+- 
+
+    GitLab
+
+- 
+
+    Hugging Face
+
+- 
+
+    Notion
+
+- 
+
+    ScrapeGraphAI
+
+- 
+
+    Tavily
+
+- 
+
+    Agentic UI (AG-UI)
+
+- 
+
+    Custom Tools
+
+            Custom Tools
+
+- 
+
+    Function tools
+
+            Function tools
+
+- 
+
+    Overview
+
+- 
+
+    Tool performance
+
+- 
+
+    Action confirmations
+
+- 
+
+    MCP tools
+
+- 
+
+    OpenAPI tools
+
+- 
+
+    Authentication
+
+- 
+
+    Run Agents
+
+            Run Agents
+
+- 
+
+    Agent Runtime
+
+            Agent Runtime
+
+- 
+
+    Runtime Config
+
+- 
+
+    API Server
+
+- 
+
+    Resume Agents
+
+- 
+
+    Deployment
+
+            Deployment
+
+- 
+
+    Agent Engine
+
+- 
+
+    Cloud Run
+
+- 
+
+    GKE
+
+- 
+
+    Observability
+
+            Observability
+
+- 
+
+    Logging
+
+- 
+
+    Cloud Trace
+
+- 
+
+    AgentOps
+
+- 
+
+    Arize AX
+
+- 
+
+    Freeplay
+
+- 
+
+    Monocle
+
+- 
+
+    Phoenix
+
+- 
+
+    W&B Weave
+
+- 
+
+    Evaluation
+
+            Evaluation
+
+- 
+
+    Criteria
+
+- 
+
+    User Simulation
+
+- 
+
+    Safety and Security
+
+            Safety and Security
+
+- 
+
+    Components
+
+            Components
+
+- 
+
+    Technical Overview
+
+- 
+
+    Context
+
+            Context
+
+- 
+
+    Context caching
+
+- 
+
+    Context compression
+
+- 
+
+    Sessions & Memory
+
+            Sessions & Memory
+
+- 
+
+    Session
+
+- 
+
+    State
+
+- 
+
+    Memory
+
+    Memory
+
+      Table of contents
+
+- 
+
+      The MemoryService Role
+
+- 
+
+      Choosing the Right Memory Service
+
+- 
+
+      In-Memory Memory
+
+- 
+
+      Searching Memory Within a Tool
+
+- 
+
+      Vertex AI Memory Bank
+
+- 
+
+      How It Works
+
+- 
+
+      Prerequisites
+
+- 
+
+      Configuration
+
+- 
+
+      Using Memory in Your Agent
+
+- 
+
+      Advanced Concepts
+
+- 
+
+      How Memory Works in Practice
+
+- 
+
+      Can an agent have access to more than one memory service?
+
+- 
+
+      Example: Using Two Memory Services
+
+- 
+
+    Vertex AI Express Mode
+
+- 
+
+    Callbacks
+
+            Callbacks
+
+- 
+
+    Types of callbacks
+
+- 
+
+    Callback patterns
+
+- 
+
+    Artifacts
+
+            Artifacts
+
+- 
+
+    Events
+
+            Events
+
+- 
+
+    Apps
+
+            Apps
+
+- 
+
+    Plugins
+
+            Plugins
+
+- 
+
+    Reflect and retry
+
+- 
+
+    MCP
+
+            MCP
+
+- 
+
+    A2A Protocol
+
+            A2A Protocol
+
+- 
+
+    Introduction to A2A
+
+- 
+
+    A2A Quickstart (Exposing)
+
+            A2A Quickstart (Exposing)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    A2A Quickstart (Consuming)
+
+            A2A Quickstart (Consuming)
+
+- 
+
+    Python
+
+- 
+
+    Go
+
+- 
+
+    Bidi-streaming (live)
+
+            Bidi-streaming (live)
+
+- 
+
+    Custom Audio Bidi-streaming app sample (WebSockets)
+
+- 
+
+    Bidi-streaming development guide series
+
+            Bidi-streaming development guide series
+
+- 
+
+    Part 1, Intro to streaming
+
+- 
+
+    Part 2, Sending messages
+
+- 
+
+    Part 3, Event handling
+
+- 
+
+    Part 4, Run configuration
+
+- 
+
+    Part 5, Audio, Images, and Video
+
+- 
+
+    Streaming Tools
+
+- 
+
+    Configurating Bidi-streaming behaviour
+
+- 
+
+    Grounding
+
+            Grounding
+
+- 
+
+    Understanding Google Search Grounding
+
+- 
+
+    Understanding Vertex AI Search Grounding
+
+- 
+
+    Reference
+
+            Reference
+
+- 
+
+    Release Notes
+
+- 
+
+    API Reference
+
+            API Reference
+
+- 
+
+    Python ADK
+
+- 
+
+    Go ADK
+
+- 
+
+    Java ADK
+
+- 
+
+    CLI Reference
+
+- 
+
+    Agent Config Reference
+
+- 
+
+    REST API
+
+- 
+
+    Community Resources
+
+- 
+
+    Contributing Guide
+
+      Table of contents
+
+- 
+
+      The MemoryService Role
+
+- 
+
+      Choosing the Right Memory Service
+
+- 
+
+      In-Memory Memory
+
+- 
+
+      Searching Memory Within a Tool
+
+- 
+
+      Vertex AI Memory Bank
+
+- 
+
+      How It Works
+
+- 
+
+      Prerequisites
+
+- 
+
+      Configuration
+
+- 
+
+      Using Memory in Your Agent
+
+- 
+
+      Advanced Concepts
+
+- 
+
+      How Memory Works in Practice
+
+- 
+
+      Can an agent have access to more than one memory service?
+
+- 
+
+      Example: Using Two Memory Services
+
+# H1: Memory: Long-Term Knowledge with `MemoryService`¶
+
+    Supported in ADKPython v0.1.0Go v0.1.0Java v0.2.0
+
+We've seen how `Session` tracks the history (`events`) and temporary data (`state`) for a single, ongoing conversation. But what if an agent needs to recall information from past conversations? This is where the concept of Long-Term Knowledge and the `MemoryService` come into play.
+
+Think of it this way:
+
+- `Session` / `State`: Like your short-term memory during one specific chat.
+
+- Long-Term Knowledge (`MemoryService`): Like a searchable archive or knowledge library the agent can consult, potentially containing information from many past chats or other sources.
+
+# H2: The `MemoryService` Role¶
+
+The `BaseMemoryService` defines the interface for managing this searchable, long-term knowledge store. Its primary responsibilities are:
+
+- Ingesting Information (`add_session_to_memory`): Taking the contents of a (usually completed) `Session` and adding relevant information to the long-term knowledge store.
+
+- Searching Information (`search_memory`): Allowing an agent (typically via a `Tool`) to query the knowledge store and retrieve relevant snippets or context based on a search query.
+
+# H2: Choosing the Right Memory Service¶
+
+The ADK offers two distinct `MemoryService` implementations, each tailored to different use cases. Use the table below to decide which is the best fit for your agent.
+
+Feature
+InMemoryMemoryService
+VertexAiMemoryBankService
+
+Persistence
+None (data is lost on restart)
+Yes (Managed by Vertex AI)
+
+Primary Use Case
+Prototyping, local development, and simple testing.
+Building meaningful, evolving memories from user conversations.
+
+Memory Extraction
+Stores full conversation
+Extracts meaningful information from conversations and consolidates it with existing memories (powered by LLM)
+
+Search Capability
+Basic keyword matching.
+Advanced semantic search.
+
+Setup Complexity
+None. It's the default.
+Low. Requires an Agent Engine instance in Vertex AI.
+
+Dependencies
+None.
+Google Cloud Project, Vertex AI API
+
+When to use it
+When you want to search across multiple sessions’ chat histories for prototyping.
+When you want your agent to remember and learn from past interactions.
+
+# H2: In-Memory Memory¶
+
+The `InMemoryMemoryService` stores session information in the application's memory and performs basic keyword matching for searches. It requires no setup and is best for prototyping and simple testing scenarios where persistence isn't required.
+PythonGo
+
+```
+from google.adk.memory import InMemoryMemoryService
+memory_service = InMemoryMemoryService()
+
+```
+
+```
+import (
+  "google.golang.org/adk/memory"
+  "google.golang.org/adk/session"
+)
+
+// Services must be shared across runners to share state and memory.
+sessionService := session.InMemoryService()
+memoryService := memory.InMemoryService()
+
+```
+
+Example: Adding and Searching Memory
+
+This example demonstrates the basic flow using the `InMemoryMemoryService` for simplicity.
+PythonGo
+
+```
+import asyncio
+from google.adk.agents import LlmAgent
+from google.adk.sessions import InMemorySessionService, Session
+from google.adk.memory import InMemoryMemoryService # Import MemoryService
+from google.adk.runners import Runner
+from google.adk.tools import load_memory # Tool to query memory
+from google.genai.types import Content, Part
+
+# --- Constants ---
+APP_NAME = "memory_example_app"
+USER_ID = "mem_user"
+MODEL = "gemini-2.0-flash" # Use a valid model
+
+# --- Agent Definitions ---
+# Agent 1: Simple agent to capture information
+info_capture_agent = LlmAgent(
+    model=MODEL,
+    name="InfoCaptureAgent",
+    instruction="Acknowledge the user's statement.",
+)
+
+# Agent 2: Agent that can use memory
+memory_recall_agent = LlmAgent(
+    model=MODEL,
+    name="MemoryRecallAgent",
+    instruction="Answer the user's question. Use the 'load_memory' tool "
+                "if the answer might be in past conversations.",
+    tools=[load_memory] # Give the agent the tool
+)
+
+# --- Services ---
+# Services must be shared across runners to share state and memory
+session_service = InMemorySessionService()
+memory_service = InMemoryMemoryService() # Use in-memory for demo
+
+async def run_scenario():
+    # --- Scenario ---
+
+    # Turn 1: Capture some information in a session
+    print("--- Turn 1: Capturing Information ---")
+    runner1 = Runner(
+        # Start with the info capture agent
+        agent=info_capture_agent,
+        app_name=APP_NAME,
+        session_service=session_service,
+        memory_service=memory_service # Provide the memory service to the Runner
+    )
+    session1_id = "session_info"
+    await runner1.session_service.create_session(app_name=APP_NAME, user_id=USER_ID, session_id=session1_id)
+    user_input1 = Content(parts=[Part(text="My favorite project is Project Alpha.")], role="user")
+
+    # Run the agent
+    final_response_text = "(No final response)"
+    async for event in runner1.run_async(user_id=USER_ID, session_id=session1_id, new_message=user_input1):
+        if event.is_final_response() and event.content and event.content.parts:
+            final_response_text = event.content.parts[0].text
+    print(f"Agent 1 Response: {final_response_text}")
+
+    # Get the completed session
+    completed_session1 = await runner1.session_service.get_session(app_name=APP_NAME, user_id=USER_ID, session_id=session1_id)
+
+    # Add this session's content to the Memory Service
+    print("\n--- Adding Session 1 to Memory ---")
+    await memory_service.add_session_to_memory(completed_session1)
+    print("Session added to memory.")
+
+    # Turn 2: Recall the information in a new session
+    print("\n--- Turn 2: Recalling Information ---")
+    runner2 = Runner(
+        # Use the second agent, which has the memory tool
+        agent=memory_recall_agent,
+        app_name=APP_NAME,
+        session_service=session_service, # Reuse the same service
+        memory_service=memory_service   # Reuse the same service
+    )
+    session2_id = "session_recall"
+    await runner2.session_service.create_session(app_name=APP_NAME, user_id=USER_ID, session_id=session2_id)
+    user_input2 = Content(parts=[Part(text="What is my favorite project?")], role="user")
+
+    # Run the second agent
+    final_response_text_2 = "(No final response)"
+    async for event in runner2.run_async(user_id=USER_ID, session_id=session2_id, new_message=user_input2):
+        if event.is_final_response() and event.content and event.content.parts:
+            final_response_text_2 = event.content.parts[0].text
+    print(f"Agent 2 Response: {final_response_text_2}")
+
+# To run this example, you can use the following snippet:
+# asyncio.run(run_scenario())
+
+# await run_scenario()
+
+```
+
+```
+import (
+    "context"
+    "fmt"
+    "log"
+    "strings"
+
+    "google.golang.org/adk/agent"
+    "google.golang.org/adk/agent/llmagent"
+    "google.golang.org/adk/memory"
+    "google.golang.org/adk/model/gemini"
+    "google.golang.org/adk/runner"
+    "google.golang.org/adk/session"
+    "google.golang.org/adk/tool"
+    "google.golang.org/adk/tool/functiontool"
+    "google.golang.org/genai"
+)
+
+const (
+    appName = "go_memory_example_app"
+    userID  = "go_mem_user"
+    modelID = "gemini-2.5-pro"
+)
+
+// Args defines the input structure for the memory search tool.
+type Args struct {
+    Query string `json:"query" jsonschema:"The query to search for in the memory."`
+}
+
+// Result defines the output structure for the memory search tool.
+type Result struct {
+    Results []string `json:"results"`
+}
+
+// memorySearchToolFunc is the implementation of the memory search tool.
+// This function demonstrates accessing memory via tool.Context.
+func memorySearchToolFunc(tctx tool.Context, args Args) (Result, error) {
+    fmt.Printf("Tool: Searching memory for query: '%s'\n", args.Query)
+    // The SearchMemory function is available on the context.
+    searchResults, err := tctx.SearchMemory(context.Background(), args.Query)
+    if err != nil {
+        log.Printf("Error searching memory: %v", err)
+        return Result{}, fmt.Errorf("failed memory search")
+    }
+
+    var results []string
+    for _, res := range searchResults.Memories {
+        if res.Content != nil {
+            results = append(results, textParts(res.Content)...)
+        }
+    }
+    return Result{Results: results}, nil
+}
+
+// Define a tool that can search memory.
+var memorySearchTool = must(functiontool.New(
+    functiontool.Config{
+        Name:        "search_past_conversations",
+        Description: "Searches past conversations for relevant information.",
+    },
+    memorySearchToolFunc,
+))
+
+// This example demonstrates how to use the MemoryService in the Go ADK.
+// It covers two main scenarios:
+// 1. Adding a completed session to memory and recalling it in a new session.
+// 2. Searching memory from within a custom tool using the tool.Context.
+func main() {
+    ctx := context.Background()
+
+    // --- Services ---
+    // Services must be shared across runners to share state and memory.
+    sessionService := session.InMemoryService()
+    memoryService := memory.InMemoryService() // Use in-memory for this demo.
+
+    // --- Scenario 1: Capture information in one session ---
+    fmt.Println("--- Turn 1: Capturing Information ---")
+    infoCaptureAgent := must(llmagent.New(llmagent.Config{
+        Name:        "InfoCaptureAgent",
+        Model:       must(gemini.NewModel(ctx, modelID, nil)),
+        Instruction: "Acknowledge the user's statement.",
+    }))
+
+    runner1 := must(runner.New(runner.Config{
+        AppName:        appName,
+        Agent:          infoCaptureAgent,
+        SessionService: sessionService,
+        MemoryService:  memoryService, // Provide the memory service to the Runner
+    }))
+
+    session1ID := "session_info"
+    must(sessionService.Create(ctx, &session.CreateRequest{AppName: appName, UserID: userID, SessionID: session1ID}))
+
+    userInput1 := genai.NewContentFromText("My favorite project is Project Alpha.", "user")
+    var finalResponseText string
+    for event, err := range runner1.Run(ctx, userID, session1ID, userInput1, agent.RunConfig{}) {
+        if err != nil {
+            log.Printf("Agent 1 Error: %v", err)
+            continue
+        }
+        if event.Content != nil && !event.LLMResponse.Partial {
+            finalResponseText = strings.Join(textParts(event.LLMResponse.Content), "")
+        }
+    }
+    fmt.Printf("Agent 1 Response: %s\n", finalResponseText)
+
+    // Add the completed session to the Memory Service
+    fmt.Println("\n--- Adding Session 1 to Memory ---")
+    resp, err := sessionService.Get(ctx, &session.GetRequest{AppName: appName, UserID: userID, SessionID: session1ID})
+    if err != nil {
+        log.Fatalf("Failed to get completed session: %v", err)
+    }
+    if err := memoryService.AddSession(ctx, resp.Session); err != nil {
+        log.Fatalf("Failed to add session to memory: %v", err)
+    }
+    fmt.Println("Session added to memory.")
+
+    // --- Scenario 2: Recall the information in a new session using a tool ---
+    fmt.Println("\n--- Turn 2: Recalling Information ---")
+
+    memoryRecallAgent := must(llmagent.New(llmagent.Config{
+        Name:        "MemoryRecallAgent",
+        Model:       must(gemini.NewModel(ctx, modelID, nil)),
+        Instruction: "Answer the user's question. Use the 'search_past_conversations' tool if the answer might be in past conversations.",
+        Tools:       []tool.Tool{memorySearchTool}, // Give the agent the tool
+    }))
+
+    runner2 := must(runner.New(runner.Config{
+        Agent:          memoryRecallAgent,
+        AppName:        appName,
+        SessionService: sessionService,
+        MemoryService:  memoryService,
+    }))
+
+    session2ID := "session_recall"
+    must(sessionService.Create(ctx, &session.CreateRequest{AppName: appName, UserID: userID, SessionID: session2ID}))
+    userInput2 := genai.NewContentFromText("What is my favorite project?", "user")
+
+    var finalResponseText2 string
+    for event, err := range runner2.Run(ctx, userID, session2ID, userInput2, agent.RunConfig{}) {
+        if err != nil {
+            log.Printf("Agent 2 Error: %v", err)
+            continue
+        }
+        if event.Content != nil && !event.LLMResponse.Partial {
+            finalResponseText2 = strings.Join(textParts(event.LLMResponse.Content), "")
+        }
+    }
+    fmt.Printf("Agent 2 Response: %s\n", finalResponseText2)
+}
+
+```
+
+# H3: Searching Memory Within a Tool¶
+
+You can also search memory from within a custom tool by using the `tool.Context`.
+Go
+
+```
+// memorySearchToolFunc is the implementation of the memory search tool.
+// This function demonstrates accessing memory via tool.Context.
+func memorySearchToolFunc(tctx tool.Context, args Args) (Result, error) {
+    fmt.Printf("Tool: Searching memory for query: '%s'\n", args.Query)
+    // The SearchMemory function is available on the context.
+    searchResults, err := tctx.SearchMemory(context.Background(), args.Query)
+    if err != nil {
+        log.Printf("Error searching memory: %v", err)
+        return Result{}, fmt.Errorf("failed memory search")
+    }
+
+    var results []string
+    for _, res := range searchResults.Memories {
+        if res.Content != nil {
+            results = append(results, textParts(res.Content)...)
+        }
+    }
+    return Result{Results: results}, nil
+}
+
+// Define a tool that can search memory.
+var memorySearchTool = must(functiontool.New(
+    functiontool.Config{
+        Name:        "search_past_conversations",
+        Description: "Searches past conversations for relevant information.",
+    },
+    memorySearchToolFunc,
+))
+
+```
+
+# H2: Vertex AI Memory Bank¶
+
+The `VertexAiMemoryBankService` connects your agent to Vertex AI Memory Bank, a fully managed Google Cloud service that provides sophisticated, persistent memory capabilities for conversational agents.
+
+# H3: How It Works¶
+
+The service handles two key operations:
+
+- Generating Memories: At the end of a conversation, you can send the session's events to the Memory Bank, which intelligently processes and stores the information as "memories."
+
+- Retrieving Memories: Your agent code can issue a search query against the Memory Bank to retrieve relevant memories from past conversations.
+
+# H3: Prerequisites¶
+
+Before you can use this feature, you must have:
+
+- A Google Cloud Project: With the Vertex AI API enabled.
+
+- An Agent Engine: You need to create an Agent Engine in Vertex AI. You do not need to deploy your agent to Agent Engine Runtime to use Memory Bank. This will provide you with the Agent Engine ID required for configuration.
+
+- Authentication: Ensure your local environment is authenticated to access Google Cloud services. The simplest way is to run:
+
+```
+gcloud auth application-default login
+
+```
+
+- Environment Variables: The service requires your Google Cloud Project ID and Location. Set them as environment variables:
+
+```
+export GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
+export GOOGLE_CLOUD_LOCATION="your-gcp-location"
+
+```
+
+# H3: Configuration¶
+
+To connect your agent to the Memory Bank, you use the `--memory_service_uri` flag when starting the ADK server (`adk web` or `adk api_server`). The URI must be in the format `agentengine://<agent_engine_id>`.
+bash
+```
+adk web path/to/your/agents_dir --memory_service_uri="agentengine://1234567890"
+
+```
+
+Or, you can configure your agent to use the Memory Bank by manually instantiating the `VertexAiMemoryBankService` and passing it to the `Runner`.
+Python
+
+```
+from google.adk.memory import VertexAiMemoryBankService
+
+agent_engine_id = agent_engine.api_resource.name.split("/")[-1]
+
+memory_service = VertexAiMemoryBankService(
+    project="PROJECT_ID",
+    location="LOCATION",
+    agent_engine_id=agent_engine_id
+)
+
+runner = adk.Runner(
+    ...
+    memory_service=memory_service
+)
+
+```
+
+# H2: Using Memory in Your Agent¶
+
+When a memory service is configured, your agent can use a tool or callback to retrieve memories. ADK includes two pre-built tools for retrieving memories:
+
+- `PreloadMemory`: Always retrieve memory at the beginning of each turn (similar to a callback).
+
+- `LoadMemory`: Retrieve memory when your agent decides it would be helpful.
+
+Example:
+Python
+
+```
+from google.adk.agents import Agent
+from google.adk.tools.preload_memory_tool import PreloadMemoryTool
+
+agent = Agent(
+    model=MODEL_ID,
+    name='weather_sentiment_agent',
+    instruction="...",
+    tools=[PreloadMemoryTool()]
+)
+
+```
+
+To extract memories from your session, you need to call `add_session_to_memory`. For example, you can automate this via a callback:
+Python
+
+```
+from google import adk
+
+async def auto_save_session_to_memory_callback(callback_context):
+    await callback_context._invocation_context.memory_service.add_session_to_memory(
+        callback_context._invocation_context.session)
+
+agent = Agent(
+    model=MODEL,
+    name="Generic_QA_Agent",
+    instruction="Answer the user's questions",
+    tools=[adk.tools.preload_memory_tool.PreloadMemoryTool()],
+    after_agent_callback=auto_save_session_to_memory_callback,
+)
+
+```
+
+# H2: Advanced Concepts¶
+
+# H3: How Memory Works in Practice¶
+
+The memory workflow internally involves these steps:
+
+- Session Interaction: A user interacts with an agent via a `Session`, managed by a `SessionService`. Events are added, and state might be updated.
+
+- Ingestion into Memory: At some point (often when a session is considered complete or has yielded significant information), your application calls `memory_service.add_session_to_memory(session)`. This extracts relevant information from the session's events and adds it to the long-term knowledge store (in-memory dictionary or Agent Engine Memory Bank).
+
+- Later Query: In a different (or the same) session, the user might ask a question requiring past context (e.g., "What did we discuss about project X last week?").
+
+- Agent Uses Memory Tool: An agent equipped with a memory-retrieval tool (like the built-in `load_memory` tool) recognizes the need for past context. It calls the tool, providing a search query (e.g., "discussion project X last week").
+
+- Search Execution: The tool internally calls `memory_service.search_memory(app_name, user_id, query)`.
+
+- Results Returned: The `MemoryService` searches its store (using keyword matching or semantic search) and returns relevant snippets as a `SearchMemoryResponse` containing a list of `MemoryResult` objects (each potentially holding events from a relevant past session).
+
+- Agent Uses Results: The tool returns these results to the agent, usually as part of the context or function response. The agent can then use this retrieved information to formulate its final answer to the user.
+
+# H3: Can an agent have access to more than one memory service?¶
+
+- 
+
+Through Standard Configuration: No. The framework (`adk web`, `adk api_server`) is designed to be configured with one single memory service at a time via the `--memory_service_uri` flag. This single service is then provided to the agent and accessed through the built-in `self.search_memory()` method. From a configuration standpoint, you can only choose one backend (`InMemory`, `VertexAiMemoryBankService`) for all agents served by that process.
+
+- 
+
+Within Your Agent's Code: Yes, absolutely. There is nothing preventing you from manually importing and instantiating another memory service directly inside your agent's code. This allows you to access multiple memory sources within a single agent turn.
+
+For example, your agent could use the framework-configured `InMemoryMemoryService` to recall conversational history, and also manually instantiate a `VertexAiMemoryBankService` to look up information in a technical manual.
+
+# H4: Example: Using Two Memory Services¶
+
+Here’s how you could implement that in your agent's code:
+Python
+
+```
+from google.adk.agents import Agent
+from google.adk.memory import InMemoryMemoryService, VertexAiMemoryBankService
+from google.genai import types
+
+class MultiMemoryAgent(Agent):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        self.memory_service = InMemoryMemoryService()
+        # Manually instantiate a second memory service for document lookups
+        self.vertexai_memorybank_service = VertexAiMemoryBankService(
+            project="PROJECT_ID",
+            location="LOCATION",
+            agent_engine_id="AGENT_ENGINE_ID"
+        )
+
+    async def run(self, request: types.Content, **kwargs) -> types.Content:
+        user_query = request.parts[0].text
+
+        # 1. Search conversational history using the framework-provided memory
+        #    (This would be InMemoryMemoryService if configured)
+        conversation_context = await self.memory_service.search_memory(query=user_query)
+
+        # 2. Search the document knowledge base using the manually created service
+        document_context = await self.vertexai_memorybank_service.search_memory(query=user_query)
+
+        # Combine the context from both sources to generate a better response
+        prompt = "From our past conversations, I remember:\n"
+        prompt += f"{conversation_context.memories}\n\n"
+        prompt += "From the technical manuals, I found:\n"
+        prompt += f"{document_context.memories}\n\n"
+        prompt += f"Based on all this, here is my answer to '{user_query}':"
+
+        return await self.llm.generate_content_async(prompt)
+
+```
+
+              
