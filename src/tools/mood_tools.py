@@ -3,15 +3,15 @@ from typing import List
 from google.adk.tools import FunctionTool
 from ..utils.database import DatabaseManager
 
-def log_mood(user_id: str, mood_score: int, emotions: List[str], notes: str = "") -> str:
+def log_mood(mood_score: int, emotions: List[str], notes: str = "", user_id: str = "default_user") -> str:
     """
     Logs the user's mood score, emotions, and notes into the database.
     
     Args:
-        user_id: The ID of the user.
         mood_score: An integer from 1 to 10 representing the mood (1=worst, 10=best).
         emotions: A list of strings describing the emotions felt (e.g., ["happy", "anxious"]).
         notes: Optional notes or context about the mood.
+        user_id: The ID of the user. Defaults to "default_user".
         
     Returns:
         A confirmation message indicating success or failure.
