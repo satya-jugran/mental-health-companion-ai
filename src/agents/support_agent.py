@@ -1,10 +1,10 @@
-from google.adk import Agent
-from google.adk.models import Model
-from ..tools.rag_tools import retrieve_strategy_tool
+from google.adk.agents import LlmAgent
+from tools.rag_tools import retrieve_strategy_tool
 
 # Define the Support Agent
-support_agent = Agent(
-    model=Model(model_name="gemini-2.0-flash"),
+support_agent = LlmAgent(
+    name="SupportAgent",
+    model="gemini-2.0-flash",
     tools=[retrieve_strategy_tool],
     instruction="""
     You are a supportive mental health companion. Your role is to listen to the user's concerns, 

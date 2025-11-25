@@ -1,53 +1,115 @@
 import os
 import sys
+import asyncio
 from dotenv import load_dotenv
 
 # Add src to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
+from google.adk.runners import InMemoryRunner
+from google.genai import types
 from agents.orchestrator import orchestrator_agent
 from agents.mood_agent import mood_tracker_agent
 from agents.support_agent import support_agent
 from utils.database import DatabaseManager
 
-def main():
+APP_NAME = "MentalHealthCompanion"
+USER_ID = "test_user_001"
+
+async def run_agent_async():
+    """Async function to handle agent runs with proper session management"""
     load_dotenv()
     
     # Initialize DB
     db = DatabaseManager()
     
     # Create a default user for testing
-    user_id = "test_user_001"
-    if not db.get_user(user_id):
-        db.create_user(user_id, "Test User")
-        print(f"Created test user: {user_id}")
+    if not db.get_user(USER_ID):
+        db.create_user(USER_ID, "Test User")
+        print(f"Created test user: {USER_ID}")
     
     print("Mental Health Support Companion (ADK Powered)")
     print("Type 'exit' to quit.")
     print("-" * 50)
+    
+    # Create InMemoryRunners for each agent (includes session service)
+    orchestrator_runner = InMemoryRunner(agent=orchestrator_agent, app_name=APP_NAME)
+    mood_runner = InMemoryRunner(agent=mood_tracker_agent, app_name=APP_NAME)
+    support_runner = InMemoryRunner(agent=support_agent, app_name=APP_NAME)
+    
+    # Create sessions for each runner (await async calls)
+    orchestrator_session = await orchestrator_runner.session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID
+    )
+    mood_session = await mood_runner.session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID
+    )
+    support_session = await support_runner.session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID
+    )
     
     while True:
         user_input = input("\nYou: ")
         if user_input.lower() in ['exit', 'quit']:
             break
             
-        # 1. Orchestrator decides which agent to use
-        # Note: In a real ADK app, this might be a single run() call on a RouterAgent.
-        # Here we simulate the routing for clarity and control.
-        routing_decision = orchestrator_agent.query(user_input)
-        target_agent_name = routing_decision.strip().replace('"', '').replace("'", "")
+        # Create Content object for the message
+        content = types.Content(role="user", parts=[types.Part(text=user_input)])
         
+        # 1. Use orchestrator to decide which agent to route to
+        events = orchestrator_runner.run(
+            user_id=USER_ID,
+            session_id=orchestrator_session.id,
+            new_message=content
+        )
+        
+        # Collect response from events
+        routing_decision = ""
+        for event in events:
+            if hasattr(event, 'content') and event.content:
+                for part in event.content.parts:
+                    if hasattr(part, 'text'):
+                        if part.text != None:
+                            routing_decision += part.text
+        
+        target_agent_name = routing_decision.strip().replace('"', '').replace("'", "")
         print(f"[System] Routing to: {target_agent_name}")
         
+        # 2. Route to the appropriate agent based on the decision
+        response = ""
         if "MoodTrackerAgent" in target_agent_name:
-            response = mood_tracker_agent.query(user_input)
+            events = mood_runner.run(
+                user_id=USER_ID,
+                session_id=mood_session.id,
+                new_message=content
+            )
+            for event in events:
+                if hasattr(event, 'content') and event.content:
+                    for part in event.content.parts:
+                        if hasattr(part, 'text'):
+                            if part.text != None:
+                                response += part.text
         elif "SupportAgent" in target_agent_name:
-            response = support_agent.query(user_input)
+            events = support_runner.run(
+                user_id=USER_ID,
+                session_id=support_session.id,
+                new_message=content
+            )
+            for event in events:
+                if hasattr(event, 'content') and event.content:
+                    for part in event.content.parts:
+                        if hasattr(part, 'text'):
+                            if part.text != None:
+                                response += part.text
         else:
-            # Fallback or direct response from orchestrator
+            # Fallback - use the orchestrator's response directly
             response = routing_decision
             
         print(f"Companion: {response}")
+
+def main():
+    """Main entry point that runs the async function"""
+    asyncio.run(run_agent_async())
 
 if __name__ == "__main__":
     main()
