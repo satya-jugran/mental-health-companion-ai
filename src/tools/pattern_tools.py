@@ -16,15 +16,10 @@ def analyze_mood_patterns(user_id: str = "default_user", days: int = 7) -> str:
     """
     db = DatabaseManager()
     
-    # Calculate date range
-    end_date = datetime.now()
-    start_date = end_date - timedelta(days=days)
-    
     # Get mood entries for the period
-    entries = db.get_mood_entries(
+    entries = db.get_mood_history(
         user_id=user_id,
-        start_date=start_date.isoformat(),
-        end_date=end_date.isoformat()
+        days=days
     )
     
     if not entries:
@@ -48,7 +43,7 @@ def analyze_mood_patterns(user_id: str = "default_user", days: int = 7) -> str:
     top_emotions = sorted(emotion_counts.items(), key=lambda x: x[1], reverse=True)[:3]
     
     # Identify trend
-    if len(mood_scores) >= 3:
+    if len(mood_scores) >= 4:
         recent_avg = sum(mood_scores[-3:]) / 3
         older_avg = sum(mood_scores[:3]) / 3
         if recent_avg > older_avg + 1:
