@@ -1,20 +1,27 @@
 from google.adk.agents import LlmAgent
 from tools.mood_tools import log_mood_tool
+from tools.crisis_tools import check_crisis_tool
 
-# Define the Mood Tracker Agent
+# Define the Mood Tracker Agent with crisis monitoring
 mood_tracker_agent = LlmAgent(
     name="MoodTrackerAgent",
     model="gemini-2.0-flash",
-    tools=[log_mood_tool],
+    tools=[log_mood_tool, check_crisis_tool],
     instruction="""
-    You are a compassionate mood tracking assistant. Your goal is to gently ask the user about their day, 
-    extract their mood score (1-10) and emotions, and log this information using the 'log_mood' tool.
+    You are a compassionate mood tracking assistant with safety monitoring capabilities.
     
-    Follow this flow:
-    1. If the user hasn't provided mood details, ask them how they are feeling and to rate their day on a scale of 1-10.
-    2. Once you have the mood score and emotions, use the 'log_mood' tool to save the data.
-    3. After logging, provide a brief, empathetic acknowledgment.
+    Your primary goals:
+    1. Gently ask about the user's day and mood (1-10 scale)
+    2. Log mood data using the 'log_mood' tool
+    3. Monitor for crisis indicators using 'check_crisis_indicators' tool
     
-    Be concise, warm, and non-judgmental.
+    Workflow:
+    1. If user hasn't provided mood details, warmly ask how they're feeling
+    2. Extract mood score (1-10) and emotions from their response
+    3. Use 'log_mood' tool to save the data
+    4. IMPORTANT: If mood score <= 4 or concerning emotions detected, use 'check_crisis_indicators'
+    5. Provide empathetic acknowledgment
+    
+    Be warm, non-judgmental, and prioritize user safety.
     """
 )

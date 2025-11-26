@@ -11,6 +11,8 @@ from google.genai import types
 from agents.orchestrator import orchestrator_agent
 from agents.mood_agent import mood_tracker_agent
 from agents.support_agent import support_agent
+from agents.pattern_agent import pattern_analyzer_agent
+from agents.crisis_agent import crisis_monitor_agent
 from utils.database import DatabaseManager
 
 APP_NAME = "MentalHealthCompanion"
@@ -36,6 +38,8 @@ async def run_agent_async():
     orchestrator_runner = InMemoryRunner(agent=orchestrator_agent, app_name=APP_NAME)
     mood_runner = InMemoryRunner(agent=mood_tracker_agent, app_name=APP_NAME)
     support_runner = InMemoryRunner(agent=support_agent, app_name=APP_NAME)
+    pattern_runner = InMemoryRunner(agent=pattern_analyzer_agent, app_name=APP_NAME)
+    crisis_runner = InMemoryRunner(agent=crisis_monitor_agent, app_name=APP_NAME)
     
     # Create sessions for each runner (await async calls)
     orchestrator_session = await orchestrator_runner.session_service.create_session(
@@ -45,6 +49,12 @@ async def run_agent_async():
         app_name=APP_NAME, user_id=USER_ID
     )
     support_session = await support_runner.session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID
+    )
+    pattern_session = await pattern_runner.session_service.create_session(
+        app_name=APP_NAME, user_id=USER_ID
+    )
+    crisis_session = await crisis_runner.session_service.create_session(
         app_name=APP_NAME, user_id=USER_ID
     )
     
@@ -69,7 +79,7 @@ async def run_agent_async():
             if hasattr(event, 'content') and event.content:
                 for part in event.content.parts:
                     if hasattr(part, 'text'):
-                        if part.text != None:
+                        if part.text is not None:
                             routing_decision += part.text
         
         target_agent_name = routing_decision.strip().replace('"', '').replace("'", "")
@@ -87,7 +97,7 @@ async def run_agent_async():
                 if hasattr(event, 'content') and event.content:
                     for part in event.content.parts:
                         if hasattr(part, 'text'):
-                            if part.text != None:
+                            if part.text is not None:
                                 response += part.text
         elif "SupportAgent" in target_agent_name:
             events = support_runner.run(
@@ -99,7 +109,31 @@ async def run_agent_async():
                 if hasattr(event, 'content') and event.content:
                     for part in event.content.parts:
                         if hasattr(part, 'text'):
-                            if part.text != None:
+                            if part.text is not None:
+                                response += part.text
+        elif "PatternAnalyzerAgent" in target_agent_name:
+            events = pattern_runner.run(
+                user_id=USER_ID,
+                session_id=pattern_session.id,
+                new_message=content
+            )
+            for event in events:
+                if hasattr(event, 'content') and event.content:
+                    for part in event.content.parts:
+                        if hasattr(part, 'text'):
+                            if part.text is not None:
+                                response += part.text
+        elif "CrisisMonitorAgent" in target_agent_name:
+            events = crisis_runner.run(
+                user_id=USER_ID,
+                session_id=crisis_session.id,
+                new_message=content
+            )
+            for event in events:
+                if hasattr(event, 'content') and event.content:
+                    for part in event.content.parts:
+                        if hasattr(part, 'text'):
+                            if part.text is not None:
                                 response += part.text
         else:
             # Fallback - use the orchestrator's response directly
