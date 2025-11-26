@@ -79,7 +79,7 @@ async def run_agent_async():
             if hasattr(event, 'content') and event.content:
                 for part in event.content.parts:
                     if hasattr(part, 'text'):
-                        if part.text != None:
+                        if part.text is not None:
                             routing_decision += part.text
         
         target_agent_name = routing_decision.strip().replace('"', '').replace("'", "")
@@ -97,7 +97,7 @@ async def run_agent_async():
                 if hasattr(event, 'content') and event.content:
                     for part in event.content.parts:
                         if hasattr(part, 'text'):
-                            if part.text != None:
+                            if part.text is not None:
                                 response += part.text
         elif "SupportAgent" in target_agent_name:
             events = support_runner.run(
@@ -109,7 +109,7 @@ async def run_agent_async():
                 if hasattr(event, 'content') and event.content:
                     for part in event.content.parts:
                         if hasattr(part, 'text'):
-                            if part.text != None:
+                            if part.text is not None:
                                 response += part.text
         elif "PatternAnalyzerAgent" in target_agent_name:
             events = pattern_runner.run(
@@ -121,7 +121,7 @@ async def run_agent_async():
                 if hasattr(event, 'content') and event.content:
                     for part in event.content.parts:
                         if hasattr(part, 'text'):
-                            if part.text != None:
+                            if part.text is not None:
                                 response += part.text
         elif "CrisisMonitorAgent" in target_agent_name:
             events = crisis_runner.run(
@@ -133,7 +133,7 @@ async def run_agent_async():
                 if hasattr(event, 'content') and event.content:
                     for part in event.content.parts:
                         if hasattr(part, 'text'):
-                            if part.text != None:
+                            if part.text is not None:
                                 response += part.text
         else:
             # Fallback - use the orchestrator's response directly

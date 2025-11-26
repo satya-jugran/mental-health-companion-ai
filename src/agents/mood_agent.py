@@ -19,7 +19,7 @@ mood_tracker_agent = LlmAgent(
     1. If user hasn't provided mood details, warmly ask how they're feeling
     2. Extract mood score (1-10) and emotions from their response
     3. Use 'log_mood' tool to save the data
-    4. IMPORTANT: If mood score ≤4 or concerning emotions detected, use 'check_crisis_indicators'
+    4. IMPORTANT: If mood score <= 4 or concerning emotions detected, use 'check_crisis_indicators'
     5. Provide empathetic acknowledgment
     
     Be warm, non-judgmental, and prioritize user safety.

@@ -1,5 +1,6 @@
 from typing import List
 from google.adk.tools import FunctionTool
+import re
 
 def check_crisis_indicators(mood_score: int, emotions: List[str], notes: str = "") -> str:
     """
@@ -43,7 +44,7 @@ def check_crisis_indicators(mood_score: int, emotions: List[str], notes: str = "
     # Check notes for crisis keywords
     notes_lower = notes.lower()
     for keyword in crisis_keywords:
-        if keyword in notes_lower:
+        if re.search(r'\b' + re.escape(keyword) + r'\b', notes_lower):
             is_crisis = True
             crisis_level = "high"
             break
