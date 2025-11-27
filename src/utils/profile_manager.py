@@ -70,7 +70,7 @@ class ProfileManager:
             with open(profile_path, 'r') as f:
                 return json.load(f)
         except Exception as e:
-            print(f"Error loading profile: {e}")
+            print(f"Error loading profile for user {user_id} from {profile_path}: {e}")
             return None
     
     def update_profile(self, user_id: str, updates: Dict) -> bool:
