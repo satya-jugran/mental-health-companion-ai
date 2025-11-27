@@ -1,7 +1,7 @@
 import uuid
 from typing import List
 from google.adk.tools import FunctionTool
-from utils.database import DatabaseManager
+from src.utils.database import DatabaseManager
 
 def log_mood(mood_score: int, emotions: List[str], notes: str = "", user_id: str = "default_user") -> str:
     """

@@ -1,65 +1,169 @@
 """
 Tests for tool functions
 """
-import pytest
 from pathlib import Path
 import tempfile
 import os
+from src.utils.database import DatabaseManager
 
 
 class TestMoodTools:
     """Test suite for mood tracking tools"""
     
-    def test_mood_score_validation(self):
-        """Test mood score validation logic"""
-        # Valid scores
-        assert 1 <= 5 <= 10
-        assert 1 <= 10 <= 10
-        assert 1 <= 1 <= 10
+    def test_log_mood_valid_score(self):
+        """Test logging mood with valid score"""
+        from src.tools.mood_tools import log_mood
         
-        # Invalid scores
-        assert not (1 <= 0 <= 10)
-        assert not (1 <= 11 <= 10)
-        assert not (1 <= -5 <= 10)
+        # Create temporary database
+        temp_dir = tempfile.mkdtemp()
+        db_path = Path(temp_dir) / "test.db"
+        db = DatabaseManager(db_path=db_path)
+        
+        # Create user first
+        db.create_user("test_user", "Test User")
+        
+        # Test valid mood scores
+        result = log_mood(mood_score=5, emotions=["happy"], notes="Good day", user_id="test_user")
+        assert "Successfully logged" in result
+        
+        result = log_mood(mood_score=1, emotions=["sad"], notes="Bad day", user_id="test_user")
+        assert "Successfully logged" in result
+        
+        result = log_mood(mood_score=10, emotions=["excited"], notes="Great day", user_id="test_user")
+        assert "Successfully logged" in result
+        
+        # Cleanup
+        if db_path.exists():
+            os.remove(db_path)
+        os.rmdir(temp_dir)
+    
+    def test_log_mood_invalid_score(self):
+        """Test logging mood with invalid score (should fail due to database constraint)"""
+        from src.tools.mood_tools import log_mood
+        
+        # Create temporary database
+        temp_dir = tempfile.mkdtemp()
+        db_path = Path(temp_dir) / "test.db"
+        db = DatabaseManager(db_path=db_path)
+        
+        # Create user first
+        db.create_user("test_user", "Test User")
+        
+        # Test invalid mood scores (should fail)
+        result = log_mood(mood_score=0, emotions=["sad"], notes="Invalid", user_id="test_user")
+        assert "Failed" in result or "error" in result.lower()
+        
+        result = log_mood(mood_score=11, emotions=["happy"], notes="Invalid", user_id="test_user")
+        assert "Failed" in result or "error" in result.lower()
+        
+        result = log_mood(mood_score=-5, emotions=["angry"], notes="Invalid", user_id="test_user")
+        assert "Failed" in result or "error" in result.lower()
+        
+        # Cleanup
+        if db_path.exists():
+            os.remove(db_path)
+        os.rmdir(temp_dir)
     
     def test_emotions_list_handling(self):
-        """Test emotions list handling"""
+        """Test emotions list handling in log_mood"""
+        from src.tools.mood_tools import log_mood
+        
+        # Create temporary database
+        temp_dir = tempfile.mkdtemp()
+        db_path = Path(temp_dir) / "test.db"
+        db = DatabaseManager(db_path=db_path)
+        
+        # Create user first
+        db.create_user("test_user", "Test User")
+        
+        # Test with multiple emotions
         emotions = ["happy", "calm", "excited"]
+        result = log_mood(mood_score=8, emotions=emotions, notes="Multiple emotions", user_id="test_user")
+        assert "Successfully logged" in result
+        
+        # Verify the function accepted the emotions list
+        # (The actual storage verification would require mocking or dependency injection)
         assert isinstance(emotions, list)
         assert len(emotions) == 3
         assert all(isinstance(e, str) for e in emotions)
+        
+        # Cleanup
+        if db_path.exists():
+            os.remove(db_path)
+        os.rmdir(temp_dir)
 
 
 class TestCrisisTools:
     """Test suite for crisis detection tools"""
     
-    def test_crisis_keywords_detection(self):
-        """Test crisis keyword detection logic"""
-        high_risk_keywords = ["suicide", "hopeless", "end it all", "no point"]
-        medium_risk_keywords = ["anxious", "overwhelmed", "stressed", "panic"]
+    def test_crisis_detection_high_risk(self):
+        """Test crisis detection with high-risk indicators"""
+        from src.tools.crisis_tools import check_crisis_indicators
         
-        # High risk text
-        high_risk_text = "I feel hopeless and want to end it all"
-        assert any(keyword in high_risk_text.lower() for keyword in high_risk_keywords)
+        # Test with very low mood score
+        result = check_crisis_indicators(
+            mood_score=1,
+            emotions=["hopeless", "desperate"],
+            notes="I feel like there's no point anymore"
+        )
         
-        # Medium risk text
-        medium_risk_text = "I'm feeling very anxious and overwhelmed"
-        assert any(keyword in medium_risk_text.lower() for keyword in medium_risk_keywords)
-        
-        # Low risk text
-        low_risk_text = "I had a good day today"
-        assert not any(keyword in low_risk_text.lower() for keyword in high_risk_keywords)
+        assert "IMMEDIATE SUPPORT NEEDED" in result
+        assert "988" in result
+        assert "Crisis Text Line" in result
     
-    def test_crisis_resources_availability(self):
-        """Test that crisis resources are available"""
-        resources = [
-            "National Suicide Prevention Lifeline: 988",
-            "Crisis Text Line: Text HOME to 741741",
-            "International Association for Suicide Prevention: https://www.iasp.info/resources/Crisis_Centres/"
-        ]
+    def test_crisis_detection_moderate_risk(self):
+        """Test crisis detection with moderate-risk indicators"""
+        from src.tools.crisis_tools import check_crisis_indicators
         
-        assert len(resources) > 0
-        assert all(isinstance(r, str) for r in resources)
+        # Test with low mood score
+        result = check_crisis_indicators(
+            mood_score=3,
+            emotions=["sad", "worried"],
+            notes="Having a really tough time"
+        )
+        
+        assert "Support Resources Available" in result
+        assert "988" in result
+    
+    def test_crisis_detection_no_risk(self):
+        """Test crisis detection with no risk indicators"""
+        from src.tools.crisis_tools import check_crisis_indicators
+        
+        # Test with good mood score
+        result = check_crisis_indicators(
+            mood_score=7,
+            emotions=["happy", "calm"],
+            notes="Had a good day today"
+        )
+        
+        assert "No immediate crisis indicators detected" in result
+    
+    def test_crisis_detection_with_keywords(self):
+        """Test crisis detection with crisis keywords in notes"""
+        from src.tools.crisis_tools import check_crisis_indicators
+        
+        # Test with crisis keywords
+        result = check_crisis_indicators(
+            mood_score=5,
+            emotions=["sad"],
+            notes="I've been thinking about suicide lately"
+        )
+        
+        assert "IMMEDIATE SUPPORT NEEDED" in result
+        assert "988" in result
+    
+    def test_crisis_detection_with_emotions(self):
+        """Test crisis detection with crisis emotions"""
+        from src.tools.crisis_tools import check_crisis_indicators
+        
+        # Test with crisis emotions
+        result = check_crisis_indicators(
+            mood_score=6,
+            emotions=["hopeless", "trapped"],
+            notes="Just feeling down"
+        )
+        
+        assert "Support Resources" in result or "IMMEDIATE SUPPORT" in result
 
 
 class TestPatternTools:
