@@ -9,6 +9,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
+from google.adk.sessions.sqlite_session_service import SqliteSessionService
 from google.genai import types
 from agents.orchestrator import orchestrator_agent
 from agents.mood_agent import mood_tracker_agent
@@ -19,6 +20,7 @@ from utils.database import DatabaseManager
 from utils.profile_manager import ProfileManager
 from utils.data_export import DataExporter
 from ui.cli import CLI
+from utils.config import DATABASE_PATH
 
 APP_NAME = "MentalHealthCompanion"
 USER_ID = "test_user_001"
@@ -51,10 +53,11 @@ async def run_agent_async():
     CLI.show_quick_tips()
     CLI.print_divider()
 
-    session_service = InMemorySessionService()
+    session_service_orchestrator = InMemorySessionService()
+    session_service = SqliteSessionService(db_path=DATABASE_PATH) 
     
     # Create InMemoryRunners for each agent (includes session service)
-    orchestrator_runner = Runner(agent=orchestrator_agent, app_name=APP_NAME, session_service=session_service)
+    orchestrator_runner = Runner(agent=orchestrator_agent, app_name=APP_NAME, session_service=session_service_orchestrator)
     mood_runner = Runner(agent=mood_tracker_agent, app_name=APP_NAME, session_service=session_service)
     support_runner = Runner(agent=support_agent, app_name=APP_NAME, session_service=session_service)
     pattern_runner = Runner(agent=pattern_analyzer_agent, app_name=APP_NAME, session_service=session_service)
