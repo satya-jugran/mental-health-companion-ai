@@ -5,7 +5,7 @@ Exports user data in various formats for backup and analysis
 import json
 import csv
 from datetime import datetime
-from typing import List, Dict
+from typing import Dict
 from .database import DatabaseManager
 
 class DataExporter:

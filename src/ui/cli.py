@@ -3,7 +3,6 @@ Enhanced CLI Interface for Mental Health Support Companion
 Provides a clean, user-friendly command-line experience
 """
 import os
-from typing import Optional
 from datetime import datetime
 
 class CLI:
