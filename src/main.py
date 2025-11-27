@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 # Add src to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from google.adk.runners import InMemoryRunner
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
 from google.genai import types
 from agents.orchestrator import orchestrator_agent
 from agents.mood_agent import mood_tracker_agent
@@ -49,13 +50,15 @@ async def run_agent_async():
     CLI.print_menu()
     CLI.show_quick_tips()
     CLI.print_divider()
+
+    session_service = InMemorySessionService()
     
     # Create InMemoryRunners for each agent (includes session service)
-    orchestrator_runner = InMemoryRunner(agent=orchestrator_agent, app_name=APP_NAME)
-    mood_runner = InMemoryRunner(agent=mood_tracker_agent, app_name=APP_NAME)
-    support_runner = InMemoryRunner(agent=support_agent, app_name=APP_NAME)
-    pattern_runner = InMemoryRunner(agent=pattern_analyzer_agent, app_name=APP_NAME)
-    crisis_runner = InMemoryRunner(agent=crisis_monitor_agent, app_name=APP_NAME)
+    orchestrator_runner = Runner(agent=orchestrator_agent, app_name=APP_NAME, session_service=session_service)
+    mood_runner = Runner(agent=mood_tracker_agent, app_name=APP_NAME, session_service=session_service)
+    support_runner = Runner(agent=support_agent, app_name=APP_NAME, session_service=session_service)
+    pattern_runner = Runner(agent=pattern_analyzer_agent, app_name=APP_NAME, session_service=session_service)
+    crisis_runner = Runner(agent=crisis_monitor_agent, app_name=APP_NAME, session_service=session_service)
     
     # Create sessions for each runner (await async calls)
     orchestrator_session = await orchestrator_runner.session_service.create_session(
