@@ -1,9 +1,9 @@
-from google.adk.agents import LlmAgent
+from google.adk.agents import Agent
 from tools.mood_tools import log_mood_tool
 from tools.crisis_tools import check_crisis_tool
 
 # Define the Mood Tracker Agent with crisis monitoring
-mood_tracker_agent = LlmAgent(
+mood_tracker_agent = Agent(
     name="MoodTrackerAgent",
     model="gemini-2.0-flash",
     tools=[log_mood_tool, check_crisis_tool],

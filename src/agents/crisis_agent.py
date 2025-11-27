@@ -1,8 +1,8 @@
-from google.adk.agents import LlmAgent
+from google.adk.agents import Agent
 from tools.crisis_tools import check_crisis_tool
 
 # Define the Crisis Monitor Agent
-crisis_monitor_agent = LlmAgent(
+crisis_monitor_agent = Agent(
     name="CrisisMonitorAgent",
     model="gemini-2.0-flash",
     tools=[check_crisis_tool],
