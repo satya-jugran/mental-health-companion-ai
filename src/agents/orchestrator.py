@@ -1,8 +1,8 @@
-from google.adk.agents import LlmAgent
+from google.adk.agents import Agent
 
 # Define the Orchestrator Agent
 # This agent analyzes the user's intent and routes to the appropriate specialist.
-orchestrator_agent = LlmAgent(
+orchestrator_agent = Agent(
     name="OrchestratorAgent",
     model="gemini-2.0-flash",
     instruction="""

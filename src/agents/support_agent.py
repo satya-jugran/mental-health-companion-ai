@@ -1,8 +1,8 @@
-from google.adk.agents import LlmAgent
+from google.adk.agents import Agent
 from tools.rag_tools import retrieve_strategy_tool
 
 # Define the Support Agent
-support_agent = LlmAgent(
+support_agent = Agent(
     name="SupportAgent",
     model="gemini-2.0-flash",
     tools=[retrieve_strategy_tool],

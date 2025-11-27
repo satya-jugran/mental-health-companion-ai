@@ -1,8 +1,8 @@
-from google.adk.agents import LlmAgent
+from google.adk.agents import Agent
 from tools.pattern_tools import analyze_patterns_tool
 
 # Define the Pattern Analyzer Agent
-pattern_analyzer_agent = LlmAgent(
+pattern_analyzer_agent = Agent(
     name="PatternAnalyzerAgent",
     model="gemini-2.0-flash",
     tools=[analyze_patterns_tool],
