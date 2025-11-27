@@ -93,9 +93,32 @@ class DataExporter:
             user_id: User identifier
             
         Returns:
-            Dictionary containing summary statistics
+            dict: If data is available, returns a dictionary containing summary statistics:
+                {
+                    "user_id": str,
+                    "report_generated": str (ISO datetime),
+                   "statistics": {
+                       "total_entries": int,
+                       "average_mood": float,
+                       "highest_mood": int,
+                       "lowest_mood": int,
+                       "unique_emotions": int,
+                       "total_emotions_logged": int
+                   },
+                   "top_emotions": List[Dict[str, int]],
+                   "date_range": {
+                       "first_entry": str,
+                       "last_entry": str
+                   }
+               }
+                If no data is available, returns:
+                {
+                    "error": "No data available",
+                    "total_entries": 0
+                }
+            
         """
-        entries = self.db.get_mood_entries(user_id=user_id)
+        entries = self.db.get_mood_history(user_id=user_id)
         
         if not entries:
             return {
