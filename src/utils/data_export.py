@@ -56,7 +56,7 @@ class DataExporter:
             True if successful, False otherwise
         """
         try:
-            entries = self.db.get_mood_entries(user_id=user_id)
+            entries = self.db.get_mood_history(user_id=user_id)
             
             if not entries:
                 return False
