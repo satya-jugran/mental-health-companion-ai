@@ -27,7 +27,7 @@ class DataExporter:
         """
         try:
             # Get all mood entries
-            entries = self.db.get_mood_entries(user_id=user_id)
+            entries = self.db.get_mood_history(user_id=user_id)
             
             export_data = {
                 "user_id": user_id,
