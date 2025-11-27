@@ -82,7 +82,7 @@ class DataExporter:
             
             return True
         except Exception as e:
-            print(f"Error exporting CSV: {e}")
+            print(f"Error exporting CSV for user {user_id} to {output_file}: {e}")
             return False
     
     def generate_summary_report(self, user_id: str) -> Dict:
