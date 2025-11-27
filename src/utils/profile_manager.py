@@ -156,5 +156,5 @@ class ProfileManager:
                 os.remove(profile_path)
             return True
         except Exception as e:
-            print(f"Error deleting profile: {e}")
+            print(f"Error deleting profile for user {user_id} at {profile_path}: {e}")
             return False

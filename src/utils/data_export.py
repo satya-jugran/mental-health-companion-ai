@@ -36,7 +36,7 @@ class DataExporter:
                 "mood_entries": entries
             }
             
-            with open(output_file, 'w') as f:
+            with open(output_file, 'w', newline='', encoding='utf-8') as f:
                 json.dump(export_data, f, indent=2)
             
             return True
@@ -177,7 +177,7 @@ class DataExporter:
         try:
             summary = self.generate_summary_report(user_id)
             
-            with open(output_file, 'w') as f:
+            with open(output_file, 'w', newline='', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
             
             return True
